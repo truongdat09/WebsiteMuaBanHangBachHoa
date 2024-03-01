@@ -1,0 +1,178 @@
+﻿@model IEnumerable<MiniF4Store.Models.View_DH>
+@{
+    ViewBag.Title = "XemChiTiet";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+    var u = Session["use"] as MiniF4Store.Models.KHACHHANG;
+    var n = 0;
+}
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+<div class="row featured__filter">
+    <div class="col-lg-12">
+        <!-- Dổi trả -->
+        @if (ViewBag.TinhTrang == "Chờ đổi trả")
+        {
+            <h3 style="color:red; text-align: center">Yêu cầu đổi trả của bạn đang được xác nhận</h3>
+        }
+        @if (ViewBag.TinhTrang == "Không chấp nhận yêu cầu đổi trả")
+        {
+            <h3 style="color:red; text-align: center">Yêu cầu đổi trả của bạn không được chấp nhận</h3>
+        }
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th scope="col">TÊN SẢN PHẨM</th>
+                    <th scope="col">SỐ LƯỢNG</th>
+                    <th scope="col">ĐƠN GIÁ</th>
+                </tr>
+            </thead>
+            <tbody class="col-lg-12 mix choxn">
+
+                @foreach (var item in Model)
+                {
+                    n = int.Parse(@item.hoadon.MAHD);
+                    <tr>
+                        <td class="shoping__cart__item">
+                            <img width="80px" src="../Asset/img/product/@item.sanpham.MASP/02.jpg" />
+                            <h5>@item.sanpham.TENSP</h5>
+                        </td>
+                        <td class="shoping__cart__price">
+                            <h5>@item.chitiet_hd.SL</h5>
+                        </td>
+
+                        <td class="shoping__cart__total">
+                            <h5>@item.chitiet_hd.GIABAN đ</h5>
+                        </td>
+
+
+                    </tr>
+                }
+
+            </tbody>
+
+        </table>
+
+        <div class="col-lg-6" style="float: right; margin-bottom: 20px">
+            <div class="shoping__checkout">
+                <h5>Thông tin</h5>
+                <ul>
+                    <li>Mã đơn hàng <span>@n</span></li>
+                </ul>
+                <ul>
+                    <li>Ngày đặt <span>@ViewBag.NgayLap</span></li>
+                </ul>
+                <ul>
+                    <li>Tổng tiền <span> @ViewBag.TongTien VND</span></li>
+                </ul>
+                <div style="float:right; margin-top:-20px">
+                    <!-- Hủy đơn hàng -->
+                    @if (ViewBag.TinhTrang == "Chờ xác nhận")
+                    {
+        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <i style="color:white" class="fa fa-trash">Hủy đơn hàng</i>
+                        </button>
+
+        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">HỦY ĐƠN HÀNG</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Bạn có chắc chắn muốn hủy đơn hàng này?
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"><p style="color:white">Thoát</p></button>
+
+                                        <button type="button" class="btn btn-danger"> <a href="@Url.Action("HuyDonHang", "Home", new {@ma =n, @sdt = u.SDT_KH })"><p style="color:white">Hủy đơn hàng</p></a></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+
+                    <!-- Đã giao hàng -->
+                    @if (ViewBag.TinhTrang == "Đã xác nhận")
+                    {
+        <!-- Button trigger modal -->
+                        
+                        <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <i style="color:white" class="fa fa-check">Đã nhận hàng</i>
+                        </button>
+
+        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">ĐÃ NHẬN HÀNG</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Bạn có chắc chắn muốn xác nhận? nếu đã xác nhận đã nhận hàng thì không thể đổi trả.
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"><p style="color:white">Thoát</p></button>
+
+                                        <button type="button" class="btn btn-success"> <a href="@Url.Action("DaGiao", "Home", new {@ma =n, @sdt = u.SDT_KH })"><p style="color:white">Đã nhận hàng</p></a></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                         <!-- Button trigger modal -->
+                        
+                        <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                            <i style="color:white" class="fa fa-reply">Yêu cầu đổi trả</i>
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">XÁC NHẬN ĐỔI TRẢ</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Bạn có chắc chắn muốn đổi trả?. <br />
+                                        Rất xin lỗi bạn về trải nghiệm không tốt khi mua hàng. Mời bạn ghi rõ lí do, sản phẩm và số lượng muốn đổi trả.
+
+                                    </div>
+                                    @using (Html.BeginForm("DoiTra", "Home", new { @ma = n, @sdt = u.SDT_KH }))
+                                    {
+                                    <div class="input-group flex-nowrap">
+                                        <span class="input-group-text" id="addon-wrapping">Lí do:
+                                       </span>
+                                        <input type="text" class="form-control" name="lido" placeholder="..." aria-describedby="addon-wrapping">
+                                       
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"><p style="color:white">Thoát</p></button>
+
+                                        <button type="submit" class="btn btn-warning"> @*<a href="@Url.Action("DoiTra", "Home", new { @ma = n, @sdt = u.SDT_KH, @lido = lidodoitra })">*@<p style="color:white">Yêu cầu đổi trả</p>@*</a>*@</button>
+                                    </div>
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                    }
+                   
+
+
+                </div>
+
+
+            </div>
+        </div>
+
+
+    </div>
+
+</div>
+
+
+

@@ -1,0 +1,383 @@
+﻿@using PagedList.Mvc;
+@using PagedList;
+@model IPagedList<MiniF4Store.Models.HOADON>
+
+@{
+    ViewBag.Title = "Don_hang";
+    Layout = "~/Views/Shared/_Layout_admin.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.title </title>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="~/assets/js/plugin/webfont/webfont.min.js"></script>
+
+    <script src="~/assets/js/admin_js/popup_details.js"></script>
+    <script>
+        WebFont.load({
+            google: { "families": ["Lato:300,400,700,900"] },
+            custom: { "families": ["Flaticon", "Font Awesome 5 Solid", "Font Awesome 5 Regular", "Font Awesome 5 Brands", "simple-line-icons"], urls: ['assets/css/fonts.min.css'] },
+            active: function () {
+                sessionStorage.fonts = true;
+            }
+        });
+    </script>
+    <style>
+        .pagination a {
+            float: left;
+            padding: 8px 16px;
+            text-decoration: none;
+            transition: background-color .3s;
+        }
+
+            .pagination a.active {
+                font-weight: bold;
+                color: crimson;
+                border-radius: 5px;
+            }
+
+            .pagination a:hover:not(.active) {
+                background-color: #ddd;
+                border-radius: 5px;
+            }
+    </style>
+
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="~/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/assets/css/atlantis.min.css">
+
+    <!-- CSS Just for demo purpose, don't include it in your project -->
+    <link rel="stylesheet" href="~/assets/css/demo.css">
+
+
+</head>
+<body>
+    <div>
+        <div class="placeHolderHere"></div>
+        <div class="page-inner">
+            <div class="page-header">
+                <h4 class="page-title">Quản lý đơn hàng</h4>
+                <ul class="breadcrumbs">
+                    <li class="separator">
+                        <i class="flaticon-right-arrow"></i>
+                    </li>
+                </ul>
+            </div>
+            <!--  -->
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header">
+                        
+                    </div>
+                </div>
+                <!-- Thong bao -->
+                <script type="text/javascript">
+                    setTimeout(function () {
+                        var msg = document.getElementById("words")
+                        msg.parentNode.removeChild(msg)
+                    }, 2500)
+                </script>
+
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <div class="editfontth">
+                        </div><div id="basic-datatables_wrapper" class="dataTables_wrapper container-fluid dt-bootstrap4 no-footer">
+                            <div class="row"><div class="col-sm-12 col-md-6"><div class="dataTables_length" id="basic-datatables_length"><label>Show <select name="basic-datatables_length" aria-controls="basic-datatables" class="form-control form-control-sm"><option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select> entries</label></div></div><div class="col-sm-12 col-md-6"><div id="basic-datatables_filter" class="dataTables_filter"><label>Search:<input type="search" class="form-control form-control-sm" placeholder="" aria-controls="basic-datatables"></label></div></div></div><div class="row">
+                                <div class="col-sm-12">
+                                    <table id="basic-datatables" class="display table-striped table-hover dataTable no-footer" role="grid" aria-describedby="basic-datatables_info">
+                                        <thead>
+                                            <tr class="record" role="row">
+                                                <th class="sorting_asc" tabindex="0" aria-controls="basic-datatables" rowspan="1" colspan="1" aria-sort="ascending" style="width: 50px;">Mã hóa đơn</th>
+                                                <th class="sorting" tabindex="0" aria-controls="basic-datatables" rowspan="1" colspan="1" style="width: 50px;">Khách hàng</th>
+                                                <th class="sorting" tabindex="0" aria-controls="basic-datatables" rowspan="1" colspan="1" style="width: 200px;">Nhân viên</th>
+                                                <th class="sorting" tabindex="0" aria-controls="basic-datatables" rowspan="1" colspan="1" style="width: 200px;">Ngày lập</th>
+                                                <th class="sorting" tabindex="0" aria-controls="basic-datatables" rowspan="1" colspan="1" style="width: 200px;">Tổng tiền</th>
+                                                <th class="sorting" tabindex="0" aria-controls="basic-datatables" rowspan="1" colspan="1" style="width: 200px;">Trạng thái đơn hàng</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            @{
+                                                foreach (var item in Model)
+                                                {
+
+                                                    <tr role="row" class="odd" id="@item.MAHD">
+                                                        <td class="sorting_1">@item.MAHD</td>
+                                                        <td>@item.SDT_KH</td>
+                                                        <td>@item.MANV</td>
+                                                        <td>@item.NGAYLAP</td>
+                                                        <td>@item.TONGTIEN</td>
+                                                        @*<td >@item.hoadon.TRANGTHAI_DH</td>*@
+                                                        @{
+
+
+                                                    if (string.Compare(@item.TRANGTHAI_DH, "Đã giao", true) == 0)
+                                                    {
+
+                                                        <td>
+                                                            <div class="d-grid gap-2 d-md-flex justify-content-md ml-auto">
+                                                                <a href="#" style="color:#FFF; text-align:center" name="view" class="btn btn-info" onclick="displayDagiao()">@item.TRANGTHAI_DH</a>
+                                                            </div>
+
+
+                                                        </td>
+                                                    }
+                                                    else if (string.Compare(@item.TRANGTHAI_DH, "Đã xác nhận", true) == 0)
+                                                    {
+
+                                                        <td>
+                                                            <div class="d-grid gap-2 d-md-flex justify-content-md ml-auto">
+                                                                <a href="#" style="color:#FFF; text-align:center" name="view" class="btn btn-success onclick=" displaydagiao()">@item.TRANGTHAI_DH</a>
+                                                            </div>
+
+
+                                                        </td>
+                                                    }
+                                                      else if (string.Compare(@item.TRANGTHAI_DH, "Đã hủy", true) == 0)
+                                                {
+
+                                                    <td>
+                                                        <div class="d-grid gap-2 d-md-flex justify-content-md ml-auto">
+                                                            <a href="#" style="color:#FFF; text-align:center" name="view" class="btn btn-danger" onclick="displayDagiao()">Đã hủy</a>
+                                                        </div>
+
+
+                                                    </td>
+                                                }
+                                                    else if (string.Compare(@item.TRANGTHAI_DH, "Chờ xác nhận", true) == 0)
+                                                    {
+                                                        <td>
+                                                            <div class="row">
+                                                                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                                                                    <div class="col-6">
+
+                                                                        @Html.ActionLink("Chờ xác nhận", "Update_TTDH", new { @ma = @item.MAHD }, new { @class = "btn btn-warning update-link", id = "update-link" })
+
+                                                                    </div>
+                                                                    <div class="col-6">
+                                                                        @Html.ActionLink("Xem chi tiết", "ChiTiet", new { @ma = @item.MAHD }, new { @class = "btn btn-primary" })
+                                                                    </div>
+
+                                                                </div>
+
+                                                            </div>
+
+
+                                                        </td>
+
+
+
+
+                                                    }
+                                                    else
+                                                    {
+                                                        <td>
+                                                            <button class="btn btn-danger  w-10">
+                                                                <a href="#" style="color:#FFF;">Hủy đơn hàng</a>
+                                                            </button>
+                                                        </td>
+                                                    }
+                                                        }
+
+
+                                                    </tr>
+
+                                                }
+                                            }
+
+
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+          
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <center>
+        <div class="row">
+
+            <a>
+                @Html.PagedListPager(Model, page => Url.Action("Don_hang",
+        new { page, pageSize = 10 }))
+
+            </a>
+
+
+
+
+
+            <li class="paginate_button page-item next" id="basic-datatables_next"></li>
+            </ul>
+        </div>
+
+
+
+
+
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        ...
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal Xem chi tiet -->
+        <div class="modal fade" id="EditModal" tabindex="-1" role="dialog" aria-labelledby="XemChiTietModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+
+                <div class="modal-content">
+                    <form action="update" id="Editform" method="post">
+
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="XemChiTietModalLabel">Xem chi tiet don hang</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="form-group">
+                                <input class="updateId" type="text" id="aaa" />
+                                <label class="control-label" id="aaa"></label>
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" type="text" id="empName" />
+                                <label class="control-label"></label>
+                            </div>
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </center>
+    <script>
+        var SweetAlert2Demo = function () {
+
+            var initDemos = function () {
+                //== Sweetalert Demo 1
+                $('#alert_demo_1').click(function (e) {
+                    swal('Good job!', {
+                        buttons: {
+                            confirm: {
+                                className: 'btn btn-success'
+                            }
+                        },
+                    });
+                });
+
+
+
+
+
+
+            }
+        }
+
+        //== Class Initialization
+        jQuery(document).ready(function () {
+            SweetAlert2Demo.init();
+        });
+
+    </script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    @section scripts{
+
+
+        <script>
+
+
+
+            $(function () {
+
+                $("#update-link").click(function (e) {
+                    //whenever our button is clicked
+
+                    e.preventDefault();
+                    // stop the default behavior(navigation)
+                    var _form = $(this).closest("form");
+                    //get a reference to the container form
+
+                    Swal.fire({
+                        title: 'Bạn có chắc xác nhận đơn hàng?',
+                        text: ".....",
+                        icon: 'warning',
+                        showCancelButton: true,
+                        confirmButtonColor: '#3085d6',
+                        cancelButtonColor: '#d33',
+                        confirmButtonText: 'Xác nhận',
+                    }).then((result) => {
+                        if (result.isConfirmed) {
+
+                            Swal.fire(
+                                'Thành công',
+                                'Bạn đã xác nhận đơn hàng thành công',
+                                'success',
+
+                            )
+                    window.location.href = $(this).attr('href');
+
+
+                }
+                })
+            });
+
+            })
+
+
+            function displayDagiao() {
+                Swal.fire({
+                    title: 'Sweet!',
+                    text: 'Modal with a custom image.',
+                    imageUrl: 'https://unsplash.it/400/200',
+                    imageWidth: 400,
+                    imageHeight: 200,
+                    imageAlt: 'Custom image',
+                })
+            }
+        </script>
+
+
+
+
+
+
+    }
+
+</body>
+
+</html>
+

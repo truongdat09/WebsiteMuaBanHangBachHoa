@@ -1,0 +1,331 @@
+﻿
+@model IEnumerable<MiniF4Store.Models.SANPHAM>
+@{
+    ViewBag.Title = "Trang_chu";
+    Layout = "~/Views/Shared/_Layout_admin.cshtml";
+
+}
+
+<div class="panel-header bg-primary-gradient">
+    <div class="page-inner py-5">
+        <div class="d-flex align-items-left align-items-md-center flex-column flex-md-row">
+            <div>
+                <h2 class="text-white pb-2 fw-bold">Quản Lý Bách Hóa MINIF4</h2>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="page-inner mt--5">
+    <div class="row mt--2">
+        <div class="col-md-6">
+            <div class="card full-height">
+                <div class="card-body">
+                    <div class="card-title">Thống kê số liệu</div>
+
+                    <div class="d-flex flex-wrap justify-content-around pb-2 pt-4">
+                        <div class="px-2 pb-2 pb-md-0 text-center">
+                            <div id="circles-1"><div class="circles-wrp" style="position: relative; display: inline-block;"><svg xmlns="http://www.w3.org/2000/svg" width="90" height="90"><path fill="transparent" stroke="#f1f1f1" stroke-width="7" d="M 44.99154756204665 3.500000860767564 A 41.5 41.5 0 1 1 44.942357332570026 3.500040032273624 Z" class="circles-maxValueStroke"></path><path fill="transparent" stroke="#FF9E27" stroke-width="7" d="M 44.99154756204665 3.500000860767564 A 41.5 41.5 0 1 1 20.570986515448517 11.451925537050535 " class="circles-valueStroke"></path></svg><div class="circles-text" style="position: absolute; top: 0px; left: 0px; text-align: center; width: 100%; font-size: 31.5px; height: 90px; line-height: 90px;">@ViewBag.TongSP</div></div></div>
+                            <h6 class="fw-bold mt-3 mb-0">Sản phẩm</h6>
+                        </div>
+                        <div class="px-2 pb-2 pb-md-0 text-center">
+                            <div id="circles-2">
+                                <div class="circles-wrp" style="position: relative; display: inline-block;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="90" height="90">
+                                        <path fill="transparent" stroke="#f1f1f1" stroke-width="7" d="M 44.99154756204665 3.500000860767564 A 41.5 41.5 0 1 1 44.942357332570026 3.500040032273624 Z" class="circles-maxValueStroke"></path>
+                                        <path fill="transparent" stroke="#2BB930" stroke-width="7" d="M 44.99154756204665 3.500000860767564 A 41.5 41.5 0 0 1 69.44267714510887 78.53812060894248 " class="circles-valueStroke"></path>
+                                    </svg>
+                                    <div class="circles-text" style="position: absolute; top: 0px; left: 0px; text-align: center; width: 100%; font-size: 31.5px; height: 90px; line-height: 90px;">@ViewBag.TongNH</div>
+                                </div>
+                            </div>
+                            <h6 class="fw-bold mt-3 mb-0">Nhập hàng</h6>
+                        </div>
+                        <div class="px-2 pb-2 pb-md-0 text-center">
+                            <div id="circles-3"><div class="circles-wrp" style="position: relative; display: inline-block;"><svg xmlns="http://www.w3.org/2000/svg" width="90" height="90"><path fill="transparent" stroke="#f1f1f1" stroke-width="7" d="M 44.99154756204665 3.500000860767564 A 41.5 41.5 0 1 1 44.942357332570026 3.500040032273624 Z" class="circles-maxValueStroke"></path><path fill="transparent" stroke="#F25961" stroke-width="7" d="M 44.99154756204665 3.500000860767564 A 41.5 41.5 0 1 1 45.03304755849543 86.49998684167113 " class="circles-valueStroke"></path></svg><div class="circles-text" style="position: absolute; top: 0px; left: 0px; text-align: center; width: 100%; font-size: 31.5px; height: 90px; line-height: 90px;">@ViewBag.TongDH</div></div></div>
+                            <h6 class="fw-bold mt-3 mb-0">Đơn hàng</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card full-height">
+                <div class="card-body">
+                    <div class="card-title">Thống kê tổng thu nhập</div>
+                    <div class="row py-3">
+                        <div class="col-md-4 d-flex flex-column justify-content-around">
+                            <div>
+                                <h6 class="fw-bold text-uppercase text-success op-8">Tổng thu nhập</h6>
+                                <h3 class="fw-bold">$@ViewBag.TongDT</h3>
+                            </div>
+
+                        </div>
+                        <div class="col-md-8">
+                            <div id="chart-container">
+                                <div class="chartjs-size-monitor" style="position: absolute; inset: 0px; overflow: hidden; pointer-events: none; visibility: hidden; z-index: -1;"><div class="chartjs-size-monitor-expand" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:1000000px;height:1000000px;left:0;top:0"></div></div><div class="chartjs-size-monitor-shrink" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:200%;height:200%;left:0; top:0"></div></div></div>
+                                <canvas id="totalIncomeChart" width="443" height="187" style="display: block; height: 150px; width: 355px;" class="chartjs-render-monitor"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-header">
+                    <div class="card-title">Sản Phẩm Bán Chạy</div>
+                </div>
+                <div class="card-body pb-0">
+
+                    @{
+                        int tmp = 0;
+
+                        foreach (var item in Model)
+                        {
+                            if (tmp < 5)
+                            {
+                                tmp++;
+                                <div class="d-flex">
+                                    <div class="avatar" style="width:50px; height:70px;">
+                                        <img src="../Asset/img/product/@item.MASP/02.jpg" alt="..." class="avatar-img">
+                                    </div>
+                                    <div class="flex-1 pt-1 ml-2">
+                                        <h6 class="fw-bold mb-1">@item.TENSP</h6>
+                                        <small class="text-muted"> Khối lượng: @item.KHOILUONG</small>
+                                    </div>
+                                    <div class="d-flex ml-auto align-items-center">
+                                        <h3 class="text-info fw-bold">$@item.GIABAN</h3>
+                                    </div>
+                                </div>
+                                <div class="separator-dashed"></div>
+
+                            }
+                        }
+                    }
+
+
+
+
+
+
+
+
+
+
+                    <div class="pull-in">
+                        <div class="chartjs-size-monitor" style="position: absolute; inset: 0px; overflow: hidden; pointer-events: none; visibility: hidden; z-index: -1;"><div class="chartjs-size-monitor-expand" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:1000000px;height:1000000px;left:0;top:0"></div></div><div class="chartjs-size-monitor-shrink" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:200%;height:200%;left:0; top:0"></div></div></div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <div class="card-title fw-mediumbold">Khách Hàng</div>
+                    <div class="card-list">
+                        <div class="item-list">
+                            <div class="avatar">
+                                <img src="/assets/img/account.png" alt="..." class="avatar-img rounded-circle">
+                            </div>
+                            <div class="info-user ml-3">
+                                <div class="username">Nguyễn Hữu Trung</div>
+                                <div class="status">huutrung368@gmail.com</div>
+                            </div>
+                            <button class="btn btn-icon btn-primary btn-round btn-xs">
+                                <i class="fa fa-plus"></i>
+                            </button>
+                        </div>
+                        <div class="item-list">
+                            <div class="avatar">
+                                <img src="/assets/img/account.png" alt="..." class="avatar-img rounded-circle">
+                            </div>
+                            <div class="info-user ml-3">
+                                <div class="username">Biện Thanh Nhựt</div>
+                                <div class="status">thanhnhut1717@gmail.com</div>
+                            </div>
+                            <button class="btn btn-icon btn-primary btn-round btn-xs">
+                                <i class="fa fa-plus"></i>
+                            </button>
+                        </div>
+                        <div class="item-list">
+                            <div class="avatar">
+                                <img src="/assets/img/account.png" alt="..." class="avatar-img rounded-circle">
+                            </div>
+                            <div class="info-user ml-3">
+                                <div class="username">Phan Thị Ánh Linh</div>
+                                <div class="status">anhlinh999@gmail.com</div>
+                            </div>
+                            <button class="btn btn-icon btn-primary btn-round btn-xs">
+                                <i class="fa fa-plus"></i>
+                            </button>
+                        </div>
+                        <div class="item-list">
+                            <div class="avatar">
+                                <img src="/assets/img/account.png" alt="..." class="avatar-img rounded-circle">
+                            </div>
+                            <div class="info-user ml-3">
+                                <div class="username">Lê Minh Kha</div>
+                                <div class="status">leminhkha3123@gmail.com</div>
+                            </div>
+                            <button class="btn btn-icon btn-primary btn-round btn-xs">
+                                <i class="fa fa-plus"></i>
+                            </button>
+                        </div>
+                        <div class="item-list">
+                            <div class="avatar">
+                                <img src="/assets/img/account.png" alt="..." class="avatar-img rounded-circle">
+                            </div>
+                            <div class="info-user ml-3">
+                                <div class="username">Tống Duy Trường Đạt</div>
+                                <div class="status">truongdat@368@gmail.com</div>
+                            </div>
+                            <button class="btn btn-icon btn-primary btn-round btn-xs">
+                                <i class="fa fa-plus"></i>
+                            </button>
+                        </div>
+                        <div class="item-list">
+                            <div class="avatar">
+                                <img src="/assets/img/account.png" alt="..." class="avatar-img rounded-circle">
+                            </div>
+                            <div class="info-user ml-3">
+                                <div class="username">Nguyễn Văn Mương</div>
+                                <div class="status">muongne368@gmail.com</div>
+                            </div>
+                            <button class="btn btn-icon btn-primary btn-round btn-xs">
+                                <i class="fa fa-plus"></i>
+                            </button>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card card-primary bg-primary-gradient" style="height:500px;">
+                <div class="card-body">
+                    <h4 class="mt-3 b-b1 pb-2 mb-4 fw-bold"></h4>
+                    <h1 class="mb-4 fw-bold"></h1>
+                    <h4 class="mt-3 b-b1 pb-2 mb-5 fw-bold"></h4>
+                    <div id="activeUsersChart"><canvas width="294" height="100" style="display: inline-block; width: 294px; height: 100px; vertical-align: top;"></canvas></div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+@section scripts{
+
+    <script>
+        Circles.create({
+            id: 'circles-1',
+            radius: 45,
+            value: 90,
+            maxValue: 100,
+            width: 7,    
+            colors: ['#f1f1f1', '#FF9E27'],
+            duration: 400,
+            wrpClass: 'circles-wrp',
+            textClass: 'circles-text',
+            styleWrapper: true,
+            styleText: true
+        })
+
+        Circles.create({
+            id: 'circles-2',
+            radius: 45,
+            value: 45,
+            maxValue: 100,
+            width: 7,
+            text: "",
+            colors: ['#f1f1f1', '#2BB930'],
+            duration: 400,
+            wrpClass: 'circles-wrp',
+            textClass: 'circles-text',
+            styleWrapper: true,
+            styleText: true
+        })
+
+        Circles.create({
+            id: 'circles-3',
+            radius: 45,
+            value: 20,
+            maxValue: 100,
+            width: 7,
+            text: "",
+            colors: ['#f1f1f1', '#F25961'],
+            duration: 400,
+            wrpClass: 'circles-wrp',
+            textClass: 'circles-text',
+            styleWrapper: true,
+            styleText: true
+        })
+
+        var totalIncomeChart = document.getElementById('totalIncomeChart').getContext('2d');
+
+        var mytotalIncomeChart = new Chart(totalIncomeChart, {
+            type: 'bar',
+            data: {
+                labels: ["", "", "", "", "", "", "", "", "", ""],
+                datasets: [{
+                    label: "Total Income",
+                    backgroundColor: '#ff9e27',
+                    borderColor: 'rgb(23, 125, 255)',
+                    data: [6, 4, 9, 5, 4, 6, 4, 3, 8, 10],
+                }],
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                legend: {
+                    display: false,
+                },
+                scales: {
+                    yAxes: [{
+                        ticks: {
+                            display: false //this will remove only the label
+                        },
+                        gridLines: {
+                            drawBorder: false,
+                            display: false
+                        }
+                    }],
+                    xAxes: [{
+                        gridLines: {
+                            drawBorder: false,
+                            display: false
+                        }
+                    }]
+                },
+            }
+        });
+
+        $('#lineChart').sparkline([105, 103, 123, 100, 95, 105, 115], {
+            type: 'line',
+            height: '70',
+            width: '100%',
+            lineWidth: '2',
+            lineColor: '#ffa534',
+            fillColor: 'rgba(255, 165, 52, .14)'
+        });
+
+        @Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~bundles/bootstrap")
+        @*@RenderSection("scripts", required: false)*@
+    </script>
+}
+
+
+
+
+

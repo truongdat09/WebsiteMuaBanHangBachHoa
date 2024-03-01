@@ -1,0 +1,45 @@
+﻿@model MiniF4Store.Models.OTP
+
+@{
+    ViewBag.Title = "maOTP";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+<h2 style="text-align:center;">Xác nhận OTP</h2>
+@if (ViewBag.kt != null)
+{
+    if (ViewBag.kt == true)
+    {
+        <div class="alert alert-success">@ViewBag.guiOTP</div>
+    }
+}
+<section class="container">
+    @using (Html.BeginForm("maOTP", "TaiKhoan", FormMethod.Post))
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-horizontal">
+            <hr />
+            @if (ViewBag.ktra == true)
+            {
+                <a href="/TaiKhoan/DangNhap">Dang nhap ngay</a>
+            }
+            @Html.ValidationSummary(true)
+            <div class="form-group">
+                <h4>Nhập mã OTP đã gửi vào hộp thư Email của bạn!</h4>
+                <div class="col-md-12">
+                    <p style="color:red;">@ViewData["Fail"]</p>
+                    @Html.TextBoxFor(model => model.maOTP, new { placeholder = "Nhập OTP....", @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.maOTP)
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Xác nhận OTP" class="site-btn" />
+                </div>
+            </div>
+        </div>
+    }
+</section>
+

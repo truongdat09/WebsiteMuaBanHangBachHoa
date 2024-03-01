@@ -1,0 +1,52 @@
+﻿@model MiniF4Store.Models.KHACHHANG
+
+@{
+    ViewBag.Title = "Profile";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+<h2 style="text-align: center;">Thông tin khách hàng</h2>
+<section class="container">
+    <hr />
+    <dl class="form-horizontal">
+        <dt>
+            Họ và tên
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.TENKH)
+        </dd>
+
+        <dt>
+            Địa chỉ
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.DIACHI)
+        </dd>
+
+        <dt>
+            Email
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.EMAIL)
+        </dd>
+
+        <dt>
+            Mật khẩu
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.MATKHAU)
+        </dd>
+
+        <dt>
+            Số điện thoại
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.SDT_KH)
+        </dd>
+    </dl>
+    <a style="color: #80ac3c;" href="@Url.Action("EditProfile", "TaiKhoan", new { id_kh = Model.SDT_KH })">Chỉnh sửa thông tin tài khoản</a>
+    <br />
+    <hr />
+    <br />
+</section>
+

@@ -1,0 +1,274 @@
+﻿@{
+    var giohang = Session["GioHang"] as MiniF4Store.Models.GioHang;
+    //Session["session_sdt"] = "0341112116";
+    //var session_sdt = Session["session_sdt"];
+    var u = Session["use"] as MiniF4Store.Models.KHACHHANG;
+}
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Ogani Template">
+    <meta name="keywords" content="Ogani, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>@ViewBag.Title - MiniF4 | Store</title>
+    @Scripts.Render("~/bundles/modernizr")
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&display=swap" rel="stylesheet">
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="../Asset/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="../Asset/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="../Asset/css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="../Asset/css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="../Asset/css/jquery-ui.min.css" type="text/css">
+    <link rel="stylesheet" href="../Asset/css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="../Asset/css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="../Asset/css/style.css" type="text/css">
+    @using MiniF4Store.Models
+</head>
+<style>
+    body {
+        font-family:  Tahoma;
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: Tahoma;
+    }
+    p {
+        font-family: Tahoma;
+    }
+</style>
+<script type="text/javascript">
+    var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+    (function () {
+        var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+        s1.async = true;
+        s1.src = 'https://embed.tawk.to/6526d12d6fcfe87d54b8deaa/1hcfq26ug';
+        s1.charset = 'UTF-8';
+        s1.setAttribute('crossorigin', '*');
+        s0.parentNode.insertBefore(s1, s0);
+    })();
+</script>
+<body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <header class="header">
+        <div class="header__top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="header__top__left">
+                            <ul>
+                                <li><i class="fa fa-envelope"></i> hello@colorlib.com</li>
+                                <li>Free Shipping cho đơn hàng từ 299K</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="header__top__right">
+                            <div class="header__top__right__social">
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                                <a href="#"><i class="fa fa-pinterest-p"></i></a>
+                            </div>
+                            @*<div class="header__top__right__language">
+                                    <img src="../Asset/img/language.png" alt="">
+                                    <div>English</div>
+                                    <span class="arrow_carrot-down"></span>
+                                    <ul>
+                                        <li><a href="#">Spanis</a></li>
+                                        <li><a href="#">English</a></li>
+                                    </ul>
+                                </div>*@
+                            <div class="header__top__right__social">
+                                @{if (u != null)
+                                    {
+                                        <a style="font-weight:bold;" href="@Url.Action("Profile", "TaiKhoan", new { id_kh =  u.SDT_KH} )">Xin chào: @u.TENKH</a>
+                                        <a>@Html.ActionLink("Đăng xuất", "DangXuat", "TaiKhoan")</a>
+                                    }
+                                    else
+                                    {
+                                        <a href="/TaiKhoan/DangNhap"><i class="fa fa-user"></i> Tài Khoản</a>
+                                    }
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="header__logo">
+                        <a href="./index.html"><img height="100px" src="../Asset/img/hero/logo.png" alt=""></a>
+
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <nav class="header__menu">
+                        <ul>
+                            <li><a>@Html.ActionLink("TRANG CHỦ", "Index", "Home")</a></li>
+                            <li>@Html.ActionLink("SẢN PHẨM", "shop", "Home")</li>
+                            @*<li>@Html.ActionLink("THEO DÕI ĐƠN HÀNG", "Contact", "Home")</li>*@
+                            <li>
+                                @if (u != null)
+                                {
+                                    <a href="@Url.Action("Contact", "Home", new { SDT_KH = u.SDT_KH })">THEO DÕI ĐƠN HÀNG</a>
+                                }
+                                else
+                                {
+                                    ViewBag.thongbao = "Vui long dang nhap de theo doi don hang cua ban!";
+                                    <a href="@Url.Action("Index", "Home")">THEO DÕI ĐƠN HÀNG</a>
+                                }                            
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-lg-3">
+                    <div class="header__cart">
+                        <ul>
+                            <li><a href="@Url.Action("yeuthich","Home")"><i class="fa fa-heart"></i> <span>@ViewBag.TongSoLuongYT</span></a></li>
+                            <li><a href="@Url.Action("cart","Home")"><i class="fa fa-shopping-bag"></i> <span>@ViewBag.TongSoLuongLoaiMatHang</span></a></li>
+                        </ul>
+                        <div class="header__cart__price">@ViewBag.TongThanhTien</div>
+                    </div>
+                </div>
+            </div>
+            <div class="humberger__open">
+                <i class="fa fa-bars"></i>
+            </div>
+        </div>
+    </header>
+    <!-- Header Section End -->
+    <!-- Hero Section Begin -->
+    <section class="hero hero-normal">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="hero__categories">
+                        <div class="hero__categories__all">
+                            <i class="fa fa-bars"></i>
+                            <span>Nhóm hàng</span>
+                        </div>
+                        <ul>
+                            <li><a href="@Url.Action("LoaiSP", "Home", new { @masp = 1 })">Bánh kẹo</a></li>
+                            <li><a href="@Url.Action("LoaiSP", "Home", new { @masp = 2 })">Sữa</a></li>
+                            <li><a href="@Url.Action("LoaiSP", "Home", new { @masp = 3 })">Gia vị</a></li>
+                            <li><a href="@Url.Action("LoaiSP", "Home", new { @masp = 4 })">Vệ sinh nhà cửa</a></li>
+                            <li><a href="@Url.Action("LoaiSP", "Home", new { @masp = 5 })">Nước giải khát</a></li>
+                            <li><a href="@Url.Action("LoaiSP", "Home", new { @masp = 6 })">Dầu gội</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-9">
+                    <div class="hero__search">
+
+                        <div class="hero__search__form">
+                            @using (Html.BeginForm("search", "Home"))
+                            {
+
+                                <input type="text" name="search" placeholder="Bạn muốn mua gì?">
+                                <button type="submit" class="site-btn">SEARCH</button>
+                            }
+                        </div>
+
+                        <div class="hero__search__phone">
+                            <div class="hero__search__phone__icon">
+                                <i class="fa fa-phone"></i>
+                            </div>
+                            <div class="hero__search__phone__text">
+                                <h5>+1900.1908</h5>
+                                <span>support 24/7 time</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero Section End -->
+    @RenderBody()
+    <!-- Footer Section Begin -->
+    <footer class="footer spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="footer__about">
+                        <div class="footer__about__logo">
+                            <a href="./index.html"><img height="100px" src="../Asset/img/hero/logo.png" alt=""></a>
+                        </div>
+                        <ul>
+                            <li>Address:39a Sơn Kỳ, Tân Phú, Thành phố Hồ Chí Minh</li>
+                            <li>Phone: +1900.1908</li>
+                            <li>Email: hello@colorlib.com</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 offset-lg-1">
+                    <div class="footer__widget">
+
+                        <ul>
+                            <li><a href="#">Bánh kẹo</a></li>
+                            <li><a href="#">Sữa</a></li>
+                            <li><a href="#">Gia vị</a></li>
+                            <li><a href="#">Vệ sinh nhà cửa</a></li>
+                            <li><a href="#">Nước giải khát</a></li>
+                            <li><a href="#">Dầu gội</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">Chính sách giao hàng</a></li>
+                            <li><a href="#">Chính sách khách hàng</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="footer__widget">
+                        <form action="#">
+                            <input type="text" placeholder="Enter your mail">
+                            <button type="submit" class="site-btn">Subscribe</button>
+                        </form>
+                        <div class="footer__widget__social">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-pinterest"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="footer__copyright">
+                        <div class="footer__copyright__text">
+
+                        </div>
+                        <div class="footer__copyright__payment"><img src="../Asset/img/payment-item.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+    <!-- Js Plugins -->
+    <script src="../Asset/js/jquery-3.3.1.min.js"></script>
+    <script src="../Asset/js/bootstrap.min.js"></script>
+    <script src="../Asset/js/jquery.nice-select.min.js"></script>
+    <script src="../Asset/js/jquery-ui.min.js"></script>
+    <script src="../Asset/js/jquery.slicknav.js"></script>
+    <script src="../Asset/js/mixitup.min.js"></script>
+    <script src="../Asset/js/owl.carousel.min.js"></script>
+    <script src="../Asset/js/main.js"></script>
+    
+
+</body>
+</html>

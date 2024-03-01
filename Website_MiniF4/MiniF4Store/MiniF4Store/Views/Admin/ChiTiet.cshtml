@@ -1,0 +1,111 @@
+﻿@model IEnumerable<MiniF4Store.Models.View_ChiTietDH>
+@{
+    ViewBag.Title = "ChiTiet";
+    Layout = "~/Views/Shared/_Layout_admin.cshtml";
+}
+
+<div class="container w-75" style="justify-content:center; align-items:center">
+    <div class="card">
+        <h5 class="card-header fw-bold">CHI TIẾT ĐƠN HÀNG</h5>
+        <div class="card-body">
+            <div class="row">
+                @foreach (var item in Model)
+                {
+                    <div class="col-6 fw-extrabold text-uppercase">Đơn Hàng</div>
+                    <div class="col-3">@item.hoadon.MAHD</div>
+                    <div class="col-3">@item.hoadon.NGAYLAP</div>
+                    break;
+                }
+
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <table id="basic-datatables" class="display table table-striped table-hover dataTable" role="grid" aria-describedby="basic-datatables_info">
+                        <thead>
+                            <tr role="row">
+                                <th>Sản phẩm</th>
+                                <th>Hình</th>
+                                <th>Số lượng</th>
+                                <th>Giá bán</th>
+                                <th>Thành tiền</th>
+                            </tr>
+
+                        </thead>
+                        <tbody>
+                            @{
+                                int? tongtien = 0;
+                                string tt = "";
+                                string ngaylap = "";
+                                foreach (var item in Model)
+                                {
+                                    tt = @item.hoadon.TRANGTHAI_DH;
+                                    ngaylap = @item.hoadon.NGAYLAP.Value.ToString();
+                                    int? thanhtien = @item.sanpham.GIABAN * item.chitiet.SL;
+                                    tongtien += thanhtien;
+                                    <tr role="row" class="odd">
+                                        <td>@item.sanpham.TENSP</td>
+                                        <td width="20%"><img src="../Asset/img/product/@item.sanpham.MASP/02.jpg" width="100%">
+                                        <td>@item.chitiet.SL</td>
+                                        <td>@item.chitiet.GIABAN</td>
+                                        <td>@thanhtien</td>
+
+                                    </tr>
+
+                                }
+
+
+
+                            }
+
+                        </tbody>
+
+                    </table>
+                    <div class="row">
+                        <div class="col-6 fs-2 fw-bold">Tổng tiền:</div>
+                        <div class="col-6 text-right fw-bold">@tongtien</div>
+                    </div>
+                    <p></p>
+                    <div class="row">
+                        <div class="col-6 fs-2 fw-bold">Trạng thái đơn hàng</div>
+                        <div class="col-6 text-right">
+
+                            @if (string.Compare(@tt, "Đã xác nhận", true) == 0)
+                            {
+
+                                <button class="btn btn-success btn-sm  w-10">
+                                    <a href="#" style="color:#FFF; text-align:center" name="view">@tt</a>
+                                </button>
+
+                            }
+                            else if (string.Compare(@tt, "Chờ xác nhận", true) == 0)
+                            {
+                                <button class="btn btn-warning  w-10">
+                                    <a href="#" style="color:#FFF; text-align:center" name="view">@tt</a>
+                                </button>
+                            }
+                            else
+                            {
+                                <button class="btn btn-warning  w-10">
+                                    <a href="#" style="color:#FFF; text-align:center" name="view">@tt</a>
+                                </button>
+                            }
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+        <div class="text-right">
+
+            <div class="card-footer">
+
+                @Html.ActionLink(" ", "Don_hang", new { }, new { @class = "btn btn-primary fa fa-reply" })
+            </div>
+        </div>
+
+    </div>
+
+</div>
+

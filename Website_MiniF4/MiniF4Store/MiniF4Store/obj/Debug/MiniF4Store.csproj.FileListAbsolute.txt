@@ -1,0 +1,1240 @@
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\MiniF4\MiniF4Store\MiniF4Store\bin\MiniF4Store.dll.config
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\MiniF4\MiniF4Store\MiniF4Store\bin\MiniF4Store.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\MiniF4\MiniF4Store\MiniF4Store\bin\MiniF4Store.pdb
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\MiniF4\MiniF4Store\MiniF4Store\bin\Antlr3.Runtime.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\MiniF4\MiniF4Store\MiniF4Store\bin\EntityFramework.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\MiniF4\MiniF4Store\MiniF4Store\bin\EntityFramework.SqlServer.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Core.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Cookies.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Facebook.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Google.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.OAuth.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Twitter.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Web.Infrastructure.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\MiniF4\MiniF4Store\MiniF4Store\bin\Newtonsoft.Json.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\MiniF4\MiniF4Store\MiniF4Store\bin\Owin.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.Helpers.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.Mvc.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.Optimization.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.Razor.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Deployment.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Razor.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\MiniF4\MiniF4Store\MiniF4Store\bin\WebGrease.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.Helpers.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.Mvc.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.Optimization.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.Razor.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Deployment.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Razor.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\MiniF4\MiniF4Store\MiniF4Store\bin\Newtonsoft.Json.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\MiniF4\MiniF4Store\MiniF4Store\bin\Antlr3.Runtime.pdb
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\MiniF4\MiniF4Store\MiniF4Store\bin\EntityFramework.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\MiniF4\MiniF4Store\MiniF4Store\bin\EntityFramework.SqlServer.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Core.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Facebook.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Cookies.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.OAuth.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Google.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Twitter.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\MiniF4\MiniF4Store\MiniF4Store\obj\Debug\MiniF4Store.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\MiniF4\MiniF4Store\MiniF4Store\obj\Debug\MiniF4Store.pdb
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\MiniF4\MiniF4Store\MiniF4Store\obj\Debug\MiniF4Store.csprojResolveAssemblyReference.cache
+C:\Users\ASUS\Desktop\CNPM_ST2\MiniF4\MiniF4Store\MiniF4Store\bin\MiniF4Store.dll.config
+C:\Users\ASUS\Desktop\CNPM_ST2\MiniF4\MiniF4Store\MiniF4Store\bin\MiniF4Store.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\MiniF4\MiniF4Store\MiniF4Store\bin\MiniF4Store.pdb
+C:\Users\ASUS\Desktop\CNPM_ST2\MiniF4\MiniF4Store\MiniF4Store\bin\Antlr3.Runtime.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\MiniF4\MiniF4Store\MiniF4Store\bin\EntityFramework.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\MiniF4\MiniF4Store\MiniF4Store\bin\EntityFramework.SqlServer.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\MiniF4\MiniF4Store\MiniF4Store\bin\Newtonsoft.Json.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\MiniF4\MiniF4Store\MiniF4Store\bin\Owin.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.Helpers.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.Mvc.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.Optimization.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.Razor.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Razor.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\MiniF4\MiniF4Store\MiniF4Store\bin\WebGrease.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.Helpers.xml
+C:\Users\ASUS\Desktop\CNPM_ST2\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.Mvc.xml
+C:\Users\ASUS\Desktop\CNPM_ST2\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.Optimization.xml
+C:\Users\ASUS\Desktop\CNPM_ST2\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.Razor.xml
+C:\Users\ASUS\Desktop\CNPM_ST2\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.xml
+C:\Users\ASUS\Desktop\CNPM_ST2\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ASUS\Desktop\CNPM_ST2\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Razor.xml
+C:\Users\ASUS\Desktop\CNPM_ST2\MiniF4\MiniF4Store\MiniF4Store\bin\Newtonsoft.Json.xml
+C:\Users\ASUS\Desktop\CNPM_ST2\MiniF4\MiniF4Store\MiniF4Store\bin\Antlr3.Runtime.pdb
+C:\Users\ASUS\Desktop\CNPM_ST2\MiniF4\MiniF4Store\MiniF4Store\bin\EntityFramework.xml
+C:\Users\ASUS\Desktop\CNPM_ST2\MiniF4\MiniF4Store\MiniF4Store\bin\EntityFramework.SqlServer.xml
+C:\Users\ASUS\Desktop\CNPM_ST2\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\ASUS\Desktop\CNPM_ST2\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\ASUS\Desktop\CNPM_ST2\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\ASUS\Desktop\CNPM_ST2\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.xml
+C:\Users\ASUS\Desktop\CNPM_ST2\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\ASUS\Desktop\CNPM_ST2\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.xml
+C:\Users\ASUS\Desktop\CNPM_ST2\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\ASUS\Desktop\CNPM_ST2\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\ASUS\Desktop\CNPM_ST2\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\ASUS\Desktop\CNPM_ST2\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\ASUS\Desktop\CNPM_ST2\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\ASUS\Desktop\CNPM_ST2\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\ASUS\Desktop\CNPM_ST2\MiniF4\MiniF4Store\MiniF4Store\obj\Debug\MiniF4Store.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\MiniF4\MiniF4Store\MiniF4Store\obj\Debug\MiniF4Store.pdb
+C:\Users\ASUS\Desktop\CNPM_ST2\New folder\MiniF4\MiniF4Store\MiniF4Store\bin\MiniF4Store.dll.config
+C:\Users\ASUS\Desktop\CNPM_ST2\New folder\MiniF4\MiniF4Store\MiniF4Store\bin\MiniF4Store.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\New folder\MiniF4\MiniF4Store\MiniF4Store\bin\MiniF4Store.pdb
+C:\Users\ASUS\Desktop\CNPM_ST2\New folder\MiniF4\MiniF4Store\MiniF4Store\bin\Antlr3.Runtime.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\New folder\MiniF4\MiniF4Store\MiniF4Store\bin\EntityFramework.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\New folder\MiniF4\MiniF4Store\MiniF4Store\bin\EntityFramework.SqlServer.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\New folder\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\New folder\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\New folder\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\New folder\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\New folder\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\New folder\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\New folder\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\New folder\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\New folder\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\New folder\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\New folder\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\New folder\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\New folder\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\New folder\MiniF4\MiniF4Store\MiniF4Store\bin\Newtonsoft.Json.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\New folder\MiniF4\MiniF4Store\MiniF4Store\bin\Owin.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\New folder\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.Helpers.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\New folder\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.Mvc.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\New folder\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.Optimization.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\New folder\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.Razor.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\New folder\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\New folder\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\New folder\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Razor.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\New folder\MiniF4\MiniF4Store\MiniF4Store\bin\WebGrease.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\New folder\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.Helpers.xml
+C:\Users\ASUS\Desktop\CNPM_ST2\New folder\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.Mvc.xml
+C:\Users\ASUS\Desktop\CNPM_ST2\New folder\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.Optimization.xml
+C:\Users\ASUS\Desktop\CNPM_ST2\New folder\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.Razor.xml
+C:\Users\ASUS\Desktop\CNPM_ST2\New folder\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.xml
+C:\Users\ASUS\Desktop\CNPM_ST2\New folder\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ASUS\Desktop\CNPM_ST2\New folder\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Razor.xml
+C:\Users\ASUS\Desktop\CNPM_ST2\New folder\MiniF4\MiniF4Store\MiniF4Store\bin\Newtonsoft.Json.xml
+C:\Users\ASUS\Desktop\CNPM_ST2\New folder\MiniF4\MiniF4Store\MiniF4Store\bin\Antlr3.Runtime.pdb
+C:\Users\ASUS\Desktop\CNPM_ST2\New folder\MiniF4\MiniF4Store\MiniF4Store\bin\EntityFramework.xml
+C:\Users\ASUS\Desktop\CNPM_ST2\New folder\MiniF4\MiniF4Store\MiniF4Store\bin\EntityFramework.SqlServer.xml
+C:\Users\ASUS\Desktop\CNPM_ST2\New folder\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\ASUS\Desktop\CNPM_ST2\New folder\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\ASUS\Desktop\CNPM_ST2\New folder\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\ASUS\Desktop\CNPM_ST2\New folder\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.xml
+C:\Users\ASUS\Desktop\CNPM_ST2\New folder\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\ASUS\Desktop\CNPM_ST2\New folder\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.xml
+C:\Users\ASUS\Desktop\CNPM_ST2\New folder\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\ASUS\Desktop\CNPM_ST2\New folder\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\ASUS\Desktop\CNPM_ST2\New folder\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\ASUS\Desktop\CNPM_ST2\New folder\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\ASUS\Desktop\CNPM_ST2\New folder\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\ASUS\Desktop\CNPM_ST2\New folder\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\ASUS\Desktop\CNPM_ST2\New folder\MiniF4\MiniF4Store\MiniF4Store\obj\Debug\MiniF4Store.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\New folder\MiniF4\MiniF4Store\MiniF4Store\obj\Debug\MiniF4Store.pdb
+C:\Users\ASUS\Desktop\CNPM_ST2\New folder\MiniF4\MiniF4Store\MiniF4Store\obj\Debug\MiniF4Store.csprojResolveAssemblyReference.cache
+D:\HK7\CNPM_NC\DOAN\MiniF4\MiniF4Store\MiniF4Store\bin\MiniF4Store.dll.config
+D:\HK7\CNPM_NC\DOAN\MiniF4\MiniF4Store\MiniF4Store\bin\MiniF4Store.dll
+D:\HK7\CNPM_NC\DOAN\MiniF4\MiniF4Store\MiniF4Store\bin\MiniF4Store.pdb
+D:\HK7\CNPM_NC\DOAN\MiniF4\MiniF4Store\MiniF4Store\bin\Antlr3.Runtime.dll
+D:\HK7\CNPM_NC\DOAN\MiniF4\MiniF4Store\MiniF4Store\bin\EntityFramework.dll
+D:\HK7\CNPM_NC\DOAN\MiniF4\MiniF4Store\MiniF4Store\bin\EntityFramework.SqlServer.dll
+D:\HK7\CNPM_NC\DOAN\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Core.dll
+D:\HK7\CNPM_NC\DOAN\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\HK7\CNPM_NC\DOAN\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\HK7\CNPM_NC\DOAN\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.dll
+D:\HK7\CNPM_NC\DOAN\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\HK7\CNPM_NC\DOAN\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Cookies.dll
+D:\HK7\CNPM_NC\DOAN\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.dll
+D:\HK7\CNPM_NC\DOAN\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Facebook.dll
+D:\HK7\CNPM_NC\DOAN\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Google.dll
+D:\HK7\CNPM_NC\DOAN\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\HK7\CNPM_NC\DOAN\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.OAuth.dll
+D:\HK7\CNPM_NC\DOAN\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Twitter.dll
+D:\HK7\CNPM_NC\DOAN\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Web.Infrastructure.dll
+D:\HK7\CNPM_NC\DOAN\MiniF4\MiniF4Store\MiniF4Store\bin\Newtonsoft.Json.dll
+D:\HK7\CNPM_NC\DOAN\MiniF4\MiniF4Store\MiniF4Store\bin\Owin.dll
+D:\HK7\CNPM_NC\DOAN\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.Helpers.dll
+D:\HK7\CNPM_NC\DOAN\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.Mvc.dll
+D:\HK7\CNPM_NC\DOAN\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.Optimization.dll
+D:\HK7\CNPM_NC\DOAN\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.Razor.dll
+D:\HK7\CNPM_NC\DOAN\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Deployment.dll
+D:\HK7\CNPM_NC\DOAN\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.dll
+D:\HK7\CNPM_NC\DOAN\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Razor.dll
+D:\HK7\CNPM_NC\DOAN\MiniF4\MiniF4Store\MiniF4Store\bin\WebGrease.dll
+D:\HK7\CNPM_NC\DOAN\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.Helpers.xml
+D:\HK7\CNPM_NC\DOAN\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.Mvc.xml
+D:\HK7\CNPM_NC\DOAN\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.Optimization.xml
+D:\HK7\CNPM_NC\DOAN\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.Razor.xml
+D:\HK7\CNPM_NC\DOAN\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.xml
+D:\HK7\CNPM_NC\DOAN\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Deployment.xml
+D:\HK7\CNPM_NC\DOAN\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Razor.xml
+D:\HK7\CNPM_NC\DOAN\MiniF4\MiniF4Store\MiniF4Store\bin\Newtonsoft.Json.xml
+D:\HK7\CNPM_NC\DOAN\MiniF4\MiniF4Store\MiniF4Store\bin\Antlr3.Runtime.pdb
+D:\HK7\CNPM_NC\DOAN\MiniF4\MiniF4Store\MiniF4Store\bin\EntityFramework.xml
+D:\HK7\CNPM_NC\DOAN\MiniF4\MiniF4Store\MiniF4Store\bin\EntityFramework.SqlServer.xml
+D:\HK7\CNPM_NC\DOAN\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Core.xml
+D:\HK7\CNPM_NC\DOAN\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\HK7\CNPM_NC\DOAN\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\HK7\CNPM_NC\DOAN\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.xml
+D:\HK7\CNPM_NC\DOAN\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\HK7\CNPM_NC\DOAN\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.xml
+D:\HK7\CNPM_NC\DOAN\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Facebook.xml
+D:\HK7\CNPM_NC\DOAN\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Cookies.xml
+D:\HK7\CNPM_NC\DOAN\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.OAuth.xml
+D:\HK7\CNPM_NC\DOAN\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Google.xml
+D:\HK7\CNPM_NC\DOAN\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Twitter.xml
+D:\HK7\CNPM_NC\DOAN\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\HK7\CNPM_NC\DOAN\MiniF4\MiniF4Store\MiniF4Store\obj\Debug\MiniF4Store.dll
+D:\HK7\CNPM_NC\DOAN\MiniF4\MiniF4Store\MiniF4Store\obj\Debug\MiniF4Store.pdb
+D:\HK7\CNPM_NC\DOAN\MiniF4\MiniF4Store\MiniF4Store\bin\PagedList.dll
+D:\HK7\CNPM_NC\DOAN\MiniF4\MiniF4Store\MiniF4Store\bin\PagedList.Mvc.dll
+D:\HK7\CNPM_NC\DOAN\MiniF4\MiniF4Store\MiniF4Store\bin\PagedList.xml
+D:\HK7\CNPM_NC\DOAN\MiniF4\MiniF4Store\MiniF4Store\bin\PagedList.Mvc.xml
+D:\HK7\CNPM_NC\DOAN\MiniF4\MiniF4Store\MiniF4Store\obj\Debug\MiniF4Store.csprojResolveAssemblyReference.cache
+C:\Users\ASUS\Desktop\CNPM_ST2\MiniF4\MiniF4Store\MiniF4Store\bin\PagedList.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\MiniF4\MiniF4Store\MiniF4Store\bin\PagedList.Mvc.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\MiniF4\MiniF4Store\MiniF4Store\bin\PagedList.xml
+C:\Users\ASUS\Desktop\CNPM_ST2\MiniF4\MiniF4Store\MiniF4Store\bin\PagedList.Mvc.xml
+C:\Users\ASUS\Desktop\CNPM_ST2\MiniF4\MiniF4Store\MiniF4Store\obj\Debug\MiniF4Store.csprojResolveAssemblyReference.cache
+D:\HK7\CNPMNC\DoAn_CNPMNC\Mai\MiniF4\MiniF4Store\MiniF4Store\bin\MiniF4Store.dll.config
+D:\HK7\CNPMNC\DoAn_CNPMNC\Mai\MiniF4\MiniF4Store\MiniF4Store\bin\MiniF4Store.dll
+D:\HK7\CNPMNC\DoAn_CNPMNC\Mai\MiniF4\MiniF4Store\MiniF4Store\bin\MiniF4Store.pdb
+D:\HK7\CNPMNC\DoAn_CNPMNC\Mai\MiniF4\MiniF4Store\MiniF4Store\bin\Antlr3.Runtime.dll
+D:\HK7\CNPMNC\DoAn_CNPMNC\Mai\MiniF4\MiniF4Store\MiniF4Store\bin\EntityFramework.dll
+D:\HK7\CNPMNC\DoAn_CNPMNC\Mai\MiniF4\MiniF4Store\MiniF4Store\bin\EntityFramework.SqlServer.dll
+D:\HK7\CNPMNC\DoAn_CNPMNC\Mai\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Core.dll
+D:\HK7\CNPMNC\DoAn_CNPMNC\Mai\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\HK7\CNPMNC\DoAn_CNPMNC\Mai\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\HK7\CNPMNC\DoAn_CNPMNC\Mai\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.dll
+D:\HK7\CNPMNC\DoAn_CNPMNC\Mai\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\HK7\CNPMNC\DoAn_CNPMNC\Mai\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Cookies.dll
+D:\HK7\CNPMNC\DoAn_CNPMNC\Mai\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.dll
+D:\HK7\CNPMNC\DoAn_CNPMNC\Mai\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Facebook.dll
+D:\HK7\CNPMNC\DoAn_CNPMNC\Mai\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Google.dll
+D:\HK7\CNPMNC\DoAn_CNPMNC\Mai\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\HK7\CNPMNC\DoAn_CNPMNC\Mai\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.OAuth.dll
+D:\HK7\CNPMNC\DoAn_CNPMNC\Mai\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Twitter.dll
+D:\HK7\CNPMNC\DoAn_CNPMNC\Mai\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Web.Infrastructure.dll
+D:\HK7\CNPMNC\DoAn_CNPMNC\Mai\MiniF4\MiniF4Store\MiniF4Store\bin\Newtonsoft.Json.dll
+D:\HK7\CNPMNC\DoAn_CNPMNC\Mai\MiniF4\MiniF4Store\MiniF4Store\bin\Owin.dll
+D:\HK7\CNPMNC\DoAn_CNPMNC\Mai\MiniF4\MiniF4Store\MiniF4Store\bin\PagedList.dll
+D:\HK7\CNPMNC\DoAn_CNPMNC\Mai\MiniF4\MiniF4Store\MiniF4Store\bin\PagedList.Mvc.dll
+D:\HK7\CNPMNC\DoAn_CNPMNC\Mai\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.Helpers.dll
+D:\HK7\CNPMNC\DoAn_CNPMNC\Mai\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.Mvc.dll
+D:\HK7\CNPMNC\DoAn_CNPMNC\Mai\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.Optimization.dll
+D:\HK7\CNPMNC\DoAn_CNPMNC\Mai\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.Razor.dll
+D:\HK7\CNPMNC\DoAn_CNPMNC\Mai\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Deployment.dll
+D:\HK7\CNPMNC\DoAn_CNPMNC\Mai\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.dll
+D:\HK7\CNPMNC\DoAn_CNPMNC\Mai\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Razor.dll
+D:\HK7\CNPMNC\DoAn_CNPMNC\Mai\MiniF4\MiniF4Store\MiniF4Store\bin\WebGrease.dll
+D:\HK7\CNPMNC\DoAn_CNPMNC\Mai\MiniF4\MiniF4Store\MiniF4Store\bin\PagedList.xml
+D:\HK7\CNPMNC\DoAn_CNPMNC\Mai\MiniF4\MiniF4Store\MiniF4Store\bin\PagedList.Mvc.xml
+D:\HK7\CNPMNC\DoAn_CNPMNC\Mai\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.Helpers.xml
+D:\HK7\CNPMNC\DoAn_CNPMNC\Mai\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.Mvc.xml
+D:\HK7\CNPMNC\DoAn_CNPMNC\Mai\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.Optimization.xml
+D:\HK7\CNPMNC\DoAn_CNPMNC\Mai\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.Razor.xml
+D:\HK7\CNPMNC\DoAn_CNPMNC\Mai\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.xml
+D:\HK7\CNPMNC\DoAn_CNPMNC\Mai\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Deployment.xml
+D:\HK7\CNPMNC\DoAn_CNPMNC\Mai\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Razor.xml
+D:\HK7\CNPMNC\DoAn_CNPMNC\Mai\MiniF4\MiniF4Store\MiniF4Store\bin\Newtonsoft.Json.xml
+D:\HK7\CNPMNC\DoAn_CNPMNC\Mai\MiniF4\MiniF4Store\MiniF4Store\bin\Antlr3.Runtime.pdb
+D:\HK7\CNPMNC\DoAn_CNPMNC\Mai\MiniF4\MiniF4Store\MiniF4Store\bin\EntityFramework.xml
+D:\HK7\CNPMNC\DoAn_CNPMNC\Mai\MiniF4\MiniF4Store\MiniF4Store\bin\EntityFramework.SqlServer.xml
+D:\HK7\CNPMNC\DoAn_CNPMNC\Mai\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Core.xml
+D:\HK7\CNPMNC\DoAn_CNPMNC\Mai\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\HK7\CNPMNC\DoAn_CNPMNC\Mai\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\HK7\CNPMNC\DoAn_CNPMNC\Mai\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.xml
+D:\HK7\CNPMNC\DoAn_CNPMNC\Mai\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\HK7\CNPMNC\DoAn_CNPMNC\Mai\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.xml
+D:\HK7\CNPMNC\DoAn_CNPMNC\Mai\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Facebook.xml
+D:\HK7\CNPMNC\DoAn_CNPMNC\Mai\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Cookies.xml
+D:\HK7\CNPMNC\DoAn_CNPMNC\Mai\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.OAuth.xml
+D:\HK7\CNPMNC\DoAn_CNPMNC\Mai\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Google.xml
+D:\HK7\CNPMNC\DoAn_CNPMNC\Mai\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Twitter.xml
+D:\HK7\CNPMNC\DoAn_CNPMNC\Mai\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\HK7\CNPMNC\DoAn_CNPMNC\Mai\MiniF4\MiniF4Store\MiniF4Store\obj\Debug\MiniF4Store.csprojResolveAssemblyReference.cache
+D:\HK7\CNPMNC\DoAn_CNPMNC\Mai\MiniF4\MiniF4Store\MiniF4Store\obj\Debug\MiniF4Store.dll
+D:\HK7\CNPMNC\DoAn_CNPMNC\Mai\MiniF4\MiniF4Store\MiniF4Store\obj\Debug\MiniF4Store.pdb
+D:\HK7\CNPMNC\DoAn_CNPMNC\TRUNG_DAT_MAI_LINH_CMPMNC\MiniF4\MiniF4Store\MiniF4Store\bin\MiniF4Store.dll.config
+D:\HK7\CNPMNC\DoAn_CNPMNC\TRUNG_DAT_MAI_LINH_CMPMNC\MiniF4\MiniF4Store\MiniF4Store\bin\MiniF4Store.dll
+D:\HK7\CNPMNC\DoAn_CNPMNC\TRUNG_DAT_MAI_LINH_CMPMNC\MiniF4\MiniF4Store\MiniF4Store\bin\MiniF4Store.pdb
+D:\HK7\CNPMNC\DoAn_CNPMNC\TRUNG_DAT_MAI_LINH_CMPMNC\MiniF4\MiniF4Store\MiniF4Store\bin\Antlr3.Runtime.dll
+D:\HK7\CNPMNC\DoAn_CNPMNC\TRUNG_DAT_MAI_LINH_CMPMNC\MiniF4\MiniF4Store\MiniF4Store\bin\EntityFramework.dll
+D:\HK7\CNPMNC\DoAn_CNPMNC\TRUNG_DAT_MAI_LINH_CMPMNC\MiniF4\MiniF4Store\MiniF4Store\bin\EntityFramework.SqlServer.dll
+D:\HK7\CNPMNC\DoAn_CNPMNC\TRUNG_DAT_MAI_LINH_CMPMNC\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Core.dll
+D:\HK7\CNPMNC\DoAn_CNPMNC\TRUNG_DAT_MAI_LINH_CMPMNC\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\HK7\CNPMNC\DoAn_CNPMNC\TRUNG_DAT_MAI_LINH_CMPMNC\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\HK7\CNPMNC\DoAn_CNPMNC\TRUNG_DAT_MAI_LINH_CMPMNC\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.dll
+D:\HK7\CNPMNC\DoAn_CNPMNC\TRUNG_DAT_MAI_LINH_CMPMNC\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\HK7\CNPMNC\DoAn_CNPMNC\TRUNG_DAT_MAI_LINH_CMPMNC\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Cookies.dll
+D:\HK7\CNPMNC\DoAn_CNPMNC\TRUNG_DAT_MAI_LINH_CMPMNC\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.dll
+D:\HK7\CNPMNC\DoAn_CNPMNC\TRUNG_DAT_MAI_LINH_CMPMNC\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Facebook.dll
+D:\HK7\CNPMNC\DoAn_CNPMNC\TRUNG_DAT_MAI_LINH_CMPMNC\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Google.dll
+D:\HK7\CNPMNC\DoAn_CNPMNC\TRUNG_DAT_MAI_LINH_CMPMNC\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\HK7\CNPMNC\DoAn_CNPMNC\TRUNG_DAT_MAI_LINH_CMPMNC\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.OAuth.dll
+D:\HK7\CNPMNC\DoAn_CNPMNC\TRUNG_DAT_MAI_LINH_CMPMNC\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Twitter.dll
+D:\HK7\CNPMNC\DoAn_CNPMNC\TRUNG_DAT_MAI_LINH_CMPMNC\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Web.Infrastructure.dll
+D:\HK7\CNPMNC\DoAn_CNPMNC\TRUNG_DAT_MAI_LINH_CMPMNC\MiniF4\MiniF4Store\MiniF4Store\bin\Newtonsoft.Json.dll
+D:\HK7\CNPMNC\DoAn_CNPMNC\TRUNG_DAT_MAI_LINH_CMPMNC\MiniF4\MiniF4Store\MiniF4Store\bin\Owin.dll
+D:\HK7\CNPMNC\DoAn_CNPMNC\TRUNG_DAT_MAI_LINH_CMPMNC\MiniF4\MiniF4Store\MiniF4Store\bin\PagedList.dll
+D:\HK7\CNPMNC\DoAn_CNPMNC\TRUNG_DAT_MAI_LINH_CMPMNC\MiniF4\MiniF4Store\MiniF4Store\bin\PagedList.Mvc.dll
+D:\HK7\CNPMNC\DoAn_CNPMNC\TRUNG_DAT_MAI_LINH_CMPMNC\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.Helpers.dll
+D:\HK7\CNPMNC\DoAn_CNPMNC\TRUNG_DAT_MAI_LINH_CMPMNC\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.Mvc.dll
+D:\HK7\CNPMNC\DoAn_CNPMNC\TRUNG_DAT_MAI_LINH_CMPMNC\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.Optimization.dll
+D:\HK7\CNPMNC\DoAn_CNPMNC\TRUNG_DAT_MAI_LINH_CMPMNC\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.Razor.dll
+D:\HK7\CNPMNC\DoAn_CNPMNC\TRUNG_DAT_MAI_LINH_CMPMNC\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Deployment.dll
+D:\HK7\CNPMNC\DoAn_CNPMNC\TRUNG_DAT_MAI_LINH_CMPMNC\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.dll
+D:\HK7\CNPMNC\DoAn_CNPMNC\TRUNG_DAT_MAI_LINH_CMPMNC\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Razor.dll
+D:\HK7\CNPMNC\DoAn_CNPMNC\TRUNG_DAT_MAI_LINH_CMPMNC\MiniF4\MiniF4Store\MiniF4Store\bin\WebGrease.dll
+D:\HK7\CNPMNC\DoAn_CNPMNC\TRUNG_DAT_MAI_LINH_CMPMNC\MiniF4\MiniF4Store\MiniF4Store\bin\PagedList.xml
+D:\HK7\CNPMNC\DoAn_CNPMNC\TRUNG_DAT_MAI_LINH_CMPMNC\MiniF4\MiniF4Store\MiniF4Store\bin\PagedList.Mvc.xml
+D:\HK7\CNPMNC\DoAn_CNPMNC\TRUNG_DAT_MAI_LINH_CMPMNC\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.Helpers.xml
+D:\HK7\CNPMNC\DoAn_CNPMNC\TRUNG_DAT_MAI_LINH_CMPMNC\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.Mvc.xml
+D:\HK7\CNPMNC\DoAn_CNPMNC\TRUNG_DAT_MAI_LINH_CMPMNC\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.Optimization.xml
+D:\HK7\CNPMNC\DoAn_CNPMNC\TRUNG_DAT_MAI_LINH_CMPMNC\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.Razor.xml
+D:\HK7\CNPMNC\DoAn_CNPMNC\TRUNG_DAT_MAI_LINH_CMPMNC\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.xml
+D:\HK7\CNPMNC\DoAn_CNPMNC\TRUNG_DAT_MAI_LINH_CMPMNC\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Deployment.xml
+D:\HK7\CNPMNC\DoAn_CNPMNC\TRUNG_DAT_MAI_LINH_CMPMNC\MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Razor.xml
+D:\HK7\CNPMNC\DoAn_CNPMNC\TRUNG_DAT_MAI_LINH_CMPMNC\MiniF4\MiniF4Store\MiniF4Store\bin\Newtonsoft.Json.xml
+D:\HK7\CNPMNC\DoAn_CNPMNC\TRUNG_DAT_MAI_LINH_CMPMNC\MiniF4\MiniF4Store\MiniF4Store\bin\Antlr3.Runtime.pdb
+D:\HK7\CNPMNC\DoAn_CNPMNC\TRUNG_DAT_MAI_LINH_CMPMNC\MiniF4\MiniF4Store\MiniF4Store\bin\EntityFramework.xml
+D:\HK7\CNPMNC\DoAn_CNPMNC\TRUNG_DAT_MAI_LINH_CMPMNC\MiniF4\MiniF4Store\MiniF4Store\bin\EntityFramework.SqlServer.xml
+D:\HK7\CNPMNC\DoAn_CNPMNC\TRUNG_DAT_MAI_LINH_CMPMNC\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Core.xml
+D:\HK7\CNPMNC\DoAn_CNPMNC\TRUNG_DAT_MAI_LINH_CMPMNC\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\HK7\CNPMNC\DoAn_CNPMNC\TRUNG_DAT_MAI_LINH_CMPMNC\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\HK7\CNPMNC\DoAn_CNPMNC\TRUNG_DAT_MAI_LINH_CMPMNC\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.xml
+D:\HK7\CNPMNC\DoAn_CNPMNC\TRUNG_DAT_MAI_LINH_CMPMNC\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\HK7\CNPMNC\DoAn_CNPMNC\TRUNG_DAT_MAI_LINH_CMPMNC\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.xml
+D:\HK7\CNPMNC\DoAn_CNPMNC\TRUNG_DAT_MAI_LINH_CMPMNC\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Facebook.xml
+D:\HK7\CNPMNC\DoAn_CNPMNC\TRUNG_DAT_MAI_LINH_CMPMNC\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Cookies.xml
+D:\HK7\CNPMNC\DoAn_CNPMNC\TRUNG_DAT_MAI_LINH_CMPMNC\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.OAuth.xml
+D:\HK7\CNPMNC\DoAn_CNPMNC\TRUNG_DAT_MAI_LINH_CMPMNC\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Google.xml
+D:\HK7\CNPMNC\DoAn_CNPMNC\TRUNG_DAT_MAI_LINH_CMPMNC\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Twitter.xml
+D:\HK7\CNPMNC\DoAn_CNPMNC\TRUNG_DAT_MAI_LINH_CMPMNC\MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\HK7\CNPMNC\DoAn_CNPMNC\TRUNG_DAT_MAI_LINH_CMPMNC\MiniF4\MiniF4Store\MiniF4Store\obj\Debug\MiniF4Store.csprojResolveAssemblyReference.cache
+D:\HK7\CNPMNC\DoAn_CNPMNC\TRUNG_DAT_MAI_LINH_CMPMNC\MiniF4\MiniF4Store\MiniF4Store\obj\Debug\MiniF4Store.dll
+D:\HK7\CNPMNC\DoAn_CNPMNC\TRUNG_DAT_MAI_LINH_CMPMNC\MiniF4\MiniF4Store\MiniF4Store\obj\Debug\MiniF4Store.pdb
+D:\HK7\CNPM_NC\DOAN\Trung\MiniF4Store\MiniF4Store\bin\MiniF4Store.dll.config
+D:\HK7\CNPM_NC\DOAN\Trung\MiniF4Store\MiniF4Store\bin\MiniF4Store.dll
+D:\HK7\CNPM_NC\DOAN\Trung\MiniF4Store\MiniF4Store\bin\MiniF4Store.pdb
+D:\HK7\CNPM_NC\DOAN\Trung\MiniF4Store\MiniF4Store\bin\Antlr3.Runtime.dll
+D:\HK7\CNPM_NC\DOAN\Trung\MiniF4Store\MiniF4Store\bin\EntityFramework.dll
+D:\HK7\CNPM_NC\DOAN\Trung\MiniF4Store\MiniF4Store\bin\EntityFramework.SqlServer.dll
+D:\HK7\CNPM_NC\DOAN\Trung\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Core.dll
+D:\HK7\CNPM_NC\DOAN\Trung\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\HK7\CNPM_NC\DOAN\Trung\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\HK7\CNPM_NC\DOAN\Trung\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.dll
+D:\HK7\CNPM_NC\DOAN\Trung\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\HK7\CNPM_NC\DOAN\Trung\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Cookies.dll
+D:\HK7\CNPM_NC\DOAN\Trung\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.dll
+D:\HK7\CNPM_NC\DOAN\Trung\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Facebook.dll
+D:\HK7\CNPM_NC\DOAN\Trung\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Google.dll
+D:\HK7\CNPM_NC\DOAN\Trung\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\HK7\CNPM_NC\DOAN\Trung\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.OAuth.dll
+D:\HK7\CNPM_NC\DOAN\Trung\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Twitter.dll
+D:\HK7\CNPM_NC\DOAN\Trung\MiniF4Store\MiniF4Store\bin\Microsoft.Web.Infrastructure.dll
+D:\HK7\CNPM_NC\DOAN\Trung\MiniF4Store\MiniF4Store\bin\Newtonsoft.Json.dll
+D:\HK7\CNPM_NC\DOAN\Trung\MiniF4Store\MiniF4Store\bin\Owin.dll
+D:\HK7\CNPM_NC\DOAN\Trung\MiniF4Store\MiniF4Store\bin\PagedList.dll
+D:\HK7\CNPM_NC\DOAN\Trung\MiniF4Store\MiniF4Store\bin\PagedList.Mvc.dll
+D:\HK7\CNPM_NC\DOAN\Trung\MiniF4Store\MiniF4Store\bin\System.Web.Helpers.dll
+D:\HK7\CNPM_NC\DOAN\Trung\MiniF4Store\MiniF4Store\bin\System.Web.Mvc.dll
+D:\HK7\CNPM_NC\DOAN\Trung\MiniF4Store\MiniF4Store\bin\System.Web.Optimization.dll
+D:\HK7\CNPM_NC\DOAN\Trung\MiniF4Store\MiniF4Store\bin\System.Web.Razor.dll
+D:\HK7\CNPM_NC\DOAN\Trung\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Deployment.dll
+D:\HK7\CNPM_NC\DOAN\Trung\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.dll
+D:\HK7\CNPM_NC\DOAN\Trung\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Razor.dll
+D:\HK7\CNPM_NC\DOAN\Trung\MiniF4Store\MiniF4Store\bin\WebGrease.dll
+D:\HK7\CNPM_NC\DOAN\Trung\MiniF4Store\MiniF4Store\bin\PagedList.xml
+D:\HK7\CNPM_NC\DOAN\Trung\MiniF4Store\MiniF4Store\bin\PagedList.Mvc.xml
+D:\HK7\CNPM_NC\DOAN\Trung\MiniF4Store\MiniF4Store\bin\System.Web.Helpers.xml
+D:\HK7\CNPM_NC\DOAN\Trung\MiniF4Store\MiniF4Store\bin\System.Web.Mvc.xml
+D:\HK7\CNPM_NC\DOAN\Trung\MiniF4Store\MiniF4Store\bin\System.Web.Optimization.xml
+D:\HK7\CNPM_NC\DOAN\Trung\MiniF4Store\MiniF4Store\bin\System.Web.Razor.xml
+D:\HK7\CNPM_NC\DOAN\Trung\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.xml
+D:\HK7\CNPM_NC\DOAN\Trung\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Deployment.xml
+D:\HK7\CNPM_NC\DOAN\Trung\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Razor.xml
+D:\HK7\CNPM_NC\DOAN\Trung\MiniF4Store\MiniF4Store\bin\Newtonsoft.Json.xml
+D:\HK7\CNPM_NC\DOAN\Trung\MiniF4Store\MiniF4Store\bin\Antlr3.Runtime.pdb
+D:\HK7\CNPM_NC\DOAN\Trung\MiniF4Store\MiniF4Store\bin\EntityFramework.xml
+D:\HK7\CNPM_NC\DOAN\Trung\MiniF4Store\MiniF4Store\bin\EntityFramework.SqlServer.xml
+D:\HK7\CNPM_NC\DOAN\Trung\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Core.xml
+D:\HK7\CNPM_NC\DOAN\Trung\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\HK7\CNPM_NC\DOAN\Trung\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\HK7\CNPM_NC\DOAN\Trung\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.xml
+D:\HK7\CNPM_NC\DOAN\Trung\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\HK7\CNPM_NC\DOAN\Trung\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.xml
+D:\HK7\CNPM_NC\DOAN\Trung\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Facebook.xml
+D:\HK7\CNPM_NC\DOAN\Trung\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Cookies.xml
+D:\HK7\CNPM_NC\DOAN\Trung\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.OAuth.xml
+D:\HK7\CNPM_NC\DOAN\Trung\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Google.xml
+D:\HK7\CNPM_NC\DOAN\Trung\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Twitter.xml
+D:\HK7\CNPM_NC\DOAN\Trung\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\HK7\CNPM_NC\DOAN\Trung\MiniF4Store\MiniF4Store\obj\Debug\MiniF4Store.dll
+D:\HK7\CNPM_NC\DOAN\Trung\MiniF4Store\MiniF4Store\obj\Debug\MiniF4Store.pdb
+D:\HK7\CNPM_NC\DOAN\Trung\MiniF4Store\MiniF4Store\obj\Debug\MiniF4Store.csproj.AssemblyReference.cache
+D:\HK7\CNPM_NC\DOAN\Trung\MiniF4Store\MiniF4Store\obj\Debug\MiniF4Store.csproj.CoreCompileInputs.cache
+D:\HK7\CNPM_NC\DOAN\Trung\MiniF4Store\MiniF4Store\obj\Debug\MiniF4Store.csproj.CopyComplete
+D:\HK7\CNPM_NC\DOAN\Trung\Linh\MiniF4Store\MiniF4Store\obj\Debug\MiniF4Store.csproj.AssemblyReference.cache
+D:\HK7\CNPM_NC\DOAN\Trung\Linh\MiniF4Store\MiniF4Store\obj\Debug\MiniF4Store.csproj.CoreCompileInputs.cache
+D:\HK7\CNPM_NC\DOAN\Trung\Linh\MiniF4Store\MiniF4Store\obj\Debug\MiniF4Store.dll
+D:\HK7\CNPM_NC\DOAN\Trung\Linh\MiniF4Store\MiniF4Store\obj\Debug\MiniF4Store.pdb
+D:\HK7\CNPM_NC\DOAN\Trung\Linh\MiniF4Store\MiniF4Store\bin\MiniF4Store.dll.config
+D:\HK7\CNPM_NC\DOAN\Trung\Linh\MiniF4Store\MiniF4Store\bin\MiniF4Store.dll
+D:\HK7\CNPM_NC\DOAN\Trung\Linh\MiniF4Store\MiniF4Store\bin\MiniF4Store.pdb
+D:\HK7\CNPM_NC\DOAN\Trung\Linh\MiniF4Store\MiniF4Store\bin\Antlr3.Runtime.dll
+D:\HK7\CNPM_NC\DOAN\Trung\Linh\MiniF4Store\MiniF4Store\bin\EntityFramework.dll
+D:\HK7\CNPM_NC\DOAN\Trung\Linh\MiniF4Store\MiniF4Store\bin\EntityFramework.SqlServer.dll
+D:\HK7\CNPM_NC\DOAN\Trung\Linh\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Core.dll
+D:\HK7\CNPM_NC\DOAN\Trung\Linh\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\HK7\CNPM_NC\DOAN\Trung\Linh\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\HK7\CNPM_NC\DOAN\Trung\Linh\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.dll
+D:\HK7\CNPM_NC\DOAN\Trung\Linh\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\HK7\CNPM_NC\DOAN\Trung\Linh\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Cookies.dll
+D:\HK7\CNPM_NC\DOAN\Trung\Linh\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.dll
+D:\HK7\CNPM_NC\DOAN\Trung\Linh\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Facebook.dll
+D:\HK7\CNPM_NC\DOAN\Trung\Linh\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Google.dll
+D:\HK7\CNPM_NC\DOAN\Trung\Linh\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\HK7\CNPM_NC\DOAN\Trung\Linh\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.OAuth.dll
+D:\HK7\CNPM_NC\DOAN\Trung\Linh\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Twitter.dll
+D:\HK7\CNPM_NC\DOAN\Trung\Linh\MiniF4Store\MiniF4Store\bin\Microsoft.Web.Infrastructure.dll
+D:\HK7\CNPM_NC\DOAN\Trung\Linh\MiniF4Store\MiniF4Store\bin\Newtonsoft.Json.dll
+D:\HK7\CNPM_NC\DOAN\Trung\Linh\MiniF4Store\MiniF4Store\bin\Owin.dll
+D:\HK7\CNPM_NC\DOAN\Trung\Linh\MiniF4Store\MiniF4Store\bin\PagedList.dll
+D:\HK7\CNPM_NC\DOAN\Trung\Linh\MiniF4Store\MiniF4Store\bin\PagedList.Mvc.dll
+D:\HK7\CNPM_NC\DOAN\Trung\Linh\MiniF4Store\MiniF4Store\bin\System.Web.Helpers.dll
+D:\HK7\CNPM_NC\DOAN\Trung\Linh\MiniF4Store\MiniF4Store\bin\System.Web.Mvc.dll
+D:\HK7\CNPM_NC\DOAN\Trung\Linh\MiniF4Store\MiniF4Store\bin\System.Web.Optimization.dll
+D:\HK7\CNPM_NC\DOAN\Trung\Linh\MiniF4Store\MiniF4Store\bin\System.Web.Razor.dll
+D:\HK7\CNPM_NC\DOAN\Trung\Linh\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Deployment.dll
+D:\HK7\CNPM_NC\DOAN\Trung\Linh\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.dll
+D:\HK7\CNPM_NC\DOAN\Trung\Linh\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Razor.dll
+D:\HK7\CNPM_NC\DOAN\Trung\Linh\MiniF4Store\MiniF4Store\bin\WebGrease.dll
+D:\HK7\CNPM_NC\DOAN\Trung\Linh\MiniF4Store\MiniF4Store\bin\PagedList.xml
+D:\HK7\CNPM_NC\DOAN\Trung\Linh\MiniF4Store\MiniF4Store\bin\PagedList.Mvc.xml
+D:\HK7\CNPM_NC\DOAN\Trung\Linh\MiniF4Store\MiniF4Store\bin\System.Web.Helpers.xml
+D:\HK7\CNPM_NC\DOAN\Trung\Linh\MiniF4Store\MiniF4Store\bin\System.Web.Mvc.xml
+D:\HK7\CNPM_NC\DOAN\Trung\Linh\MiniF4Store\MiniF4Store\bin\System.Web.Optimization.xml
+D:\HK7\CNPM_NC\DOAN\Trung\Linh\MiniF4Store\MiniF4Store\bin\System.Web.Razor.xml
+D:\HK7\CNPM_NC\DOAN\Trung\Linh\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.xml
+D:\HK7\CNPM_NC\DOAN\Trung\Linh\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Deployment.xml
+D:\HK7\CNPM_NC\DOAN\Trung\Linh\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Razor.xml
+D:\HK7\CNPM_NC\DOAN\Trung\Linh\MiniF4Store\MiniF4Store\bin\Newtonsoft.Json.xml
+D:\HK7\CNPM_NC\DOAN\Trung\Linh\MiniF4Store\MiniF4Store\bin\Antlr3.Runtime.pdb
+D:\HK7\CNPM_NC\DOAN\Trung\Linh\MiniF4Store\MiniF4Store\bin\EntityFramework.xml
+D:\HK7\CNPM_NC\DOAN\Trung\Linh\MiniF4Store\MiniF4Store\bin\EntityFramework.SqlServer.xml
+D:\HK7\CNPM_NC\DOAN\Trung\Linh\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Core.xml
+D:\HK7\CNPM_NC\DOAN\Trung\Linh\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\HK7\CNPM_NC\DOAN\Trung\Linh\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\HK7\CNPM_NC\DOAN\Trung\Linh\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.xml
+D:\HK7\CNPM_NC\DOAN\Trung\Linh\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\HK7\CNPM_NC\DOAN\Trung\Linh\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.xml
+D:\HK7\CNPM_NC\DOAN\Trung\Linh\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Facebook.xml
+D:\HK7\CNPM_NC\DOAN\Trung\Linh\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Cookies.xml
+D:\HK7\CNPM_NC\DOAN\Trung\Linh\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.OAuth.xml
+D:\HK7\CNPM_NC\DOAN\Trung\Linh\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Google.xml
+D:\HK7\CNPM_NC\DOAN\Trung\Linh\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Twitter.xml
+D:\HK7\CNPM_NC\DOAN\Trung\Linh\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\HK7\CNPM_NC\DOAN\Trung\Linh\MiniF4Store\MiniF4Store\obj\Debug\MiniF4Store.csproj.CopyComplete
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Gop bai 2\MiniF4Store\MiniF4Store\bin\MiniF4Store.dll.config
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Gop bai 2\MiniF4Store\MiniF4Store\bin\MiniF4Store.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Gop bai 2\MiniF4Store\MiniF4Store\bin\MiniF4Store.pdb
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Gop bai 2\MiniF4Store\MiniF4Store\bin\Antlr3.Runtime.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Gop bai 2\MiniF4Store\MiniF4Store\bin\EntityFramework.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Gop bai 2\MiniF4Store\MiniF4Store\bin\EntityFramework.SqlServer.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Gop bai 2\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Core.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Gop bai 2\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Gop bai 2\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Gop bai 2\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Gop bai 2\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Gop bai 2\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Cookies.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Gop bai 2\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Gop bai 2\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Facebook.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Gop bai 2\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Google.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Gop bai 2\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Gop bai 2\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.OAuth.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Gop bai 2\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Twitter.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Gop bai 2\MiniF4Store\MiniF4Store\bin\Microsoft.Web.Infrastructure.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Gop bai 2\MiniF4Store\MiniF4Store\bin\Newtonsoft.Json.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Gop bai 2\MiniF4Store\MiniF4Store\bin\Owin.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Gop bai 2\MiniF4Store\MiniF4Store\bin\PagedList.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Gop bai 2\MiniF4Store\MiniF4Store\bin\PagedList.Mvc.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Gop bai 2\MiniF4Store\MiniF4Store\bin\System.Web.Helpers.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Gop bai 2\MiniF4Store\MiniF4Store\bin\System.Web.Mvc.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Gop bai 2\MiniF4Store\MiniF4Store\bin\System.Web.Optimization.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Gop bai 2\MiniF4Store\MiniF4Store\bin\System.Web.Razor.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Gop bai 2\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Deployment.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Gop bai 2\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Gop bai 2\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Razor.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Gop bai 2\MiniF4Store\MiniF4Store\bin\WebGrease.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Gop bai 2\MiniF4Store\MiniF4Store\bin\PagedList.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Gop bai 2\MiniF4Store\MiniF4Store\bin\PagedList.Mvc.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Gop bai 2\MiniF4Store\MiniF4Store\bin\System.Web.Helpers.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Gop bai 2\MiniF4Store\MiniF4Store\bin\System.Web.Mvc.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Gop bai 2\MiniF4Store\MiniF4Store\bin\System.Web.Optimization.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Gop bai 2\MiniF4Store\MiniF4Store\bin\System.Web.Razor.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Gop bai 2\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Gop bai 2\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Deployment.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Gop bai 2\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Razor.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Gop bai 2\MiniF4Store\MiniF4Store\bin\Newtonsoft.Json.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Gop bai 2\MiniF4Store\MiniF4Store\bin\Antlr3.Runtime.pdb
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Gop bai 2\MiniF4Store\MiniF4Store\bin\EntityFramework.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Gop bai 2\MiniF4Store\MiniF4Store\bin\EntityFramework.SqlServer.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Gop bai 2\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Core.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Gop bai 2\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Gop bai 2\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Gop bai 2\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Gop bai 2\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Gop bai 2\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Gop bai 2\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Facebook.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Gop bai 2\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Cookies.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Gop bai 2\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.OAuth.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Gop bai 2\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Google.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Gop bai 2\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Twitter.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Gop bai 2\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Gop bai 2\MiniF4Store\MiniF4Store\obj\Debug\MiniF4Store.csproj.CoreCompileInputs.cache
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Gop bai 2\MiniF4Store\MiniF4Store\obj\Debug\MiniF4Store.csproj.CopyComplete
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Gop bai 2\MiniF4Store\MiniF4Store\obj\Debug\MiniF4Store.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Gop bai 2\MiniF4Store\MiniF4Store\obj\Debug\MiniF4Store.pdb
+C:\Users\ASUS\Desktop\CNPM_ST2\L2\MiniF4Store\MiniF4Store\bin\MiniF4Store.dll.config
+C:\Users\ASUS\Desktop\CNPM_ST2\L2\MiniF4Store\MiniF4Store\bin\MiniF4Store.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\L2\MiniF4Store\MiniF4Store\bin\MiniF4Store.pdb
+C:\Users\ASUS\Desktop\CNPM_ST2\L2\MiniF4Store\MiniF4Store\bin\Antlr3.Runtime.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\L2\MiniF4Store\MiniF4Store\bin\EntityFramework.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\L2\MiniF4Store\MiniF4Store\bin\EntityFramework.SqlServer.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\L2\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\L2\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\L2\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\L2\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\L2\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\L2\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\L2\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\L2\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\L2\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\L2\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\L2\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\L2\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\L2\MiniF4Store\MiniF4Store\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\L2\MiniF4Store\MiniF4Store\bin\Newtonsoft.Json.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\L2\MiniF4Store\MiniF4Store\bin\Owin.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\L2\MiniF4Store\MiniF4Store\bin\PagedList.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\L2\MiniF4Store\MiniF4Store\bin\PagedList.Mvc.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\L2\MiniF4Store\MiniF4Store\bin\System.Web.Helpers.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\L2\MiniF4Store\MiniF4Store\bin\System.Web.Mvc.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\L2\MiniF4Store\MiniF4Store\bin\System.Web.Optimization.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\L2\MiniF4Store\MiniF4Store\bin\System.Web.Razor.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\L2\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\L2\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\L2\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Razor.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\L2\MiniF4Store\MiniF4Store\bin\WebGrease.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\L2\MiniF4Store\MiniF4Store\bin\PagedList.xml
+C:\Users\ASUS\Desktop\CNPM_ST2\L2\MiniF4Store\MiniF4Store\bin\PagedList.Mvc.xml
+C:\Users\ASUS\Desktop\CNPM_ST2\L2\MiniF4Store\MiniF4Store\bin\System.Web.Helpers.xml
+C:\Users\ASUS\Desktop\CNPM_ST2\L2\MiniF4Store\MiniF4Store\bin\System.Web.Mvc.xml
+C:\Users\ASUS\Desktop\CNPM_ST2\L2\MiniF4Store\MiniF4Store\bin\System.Web.Optimization.xml
+C:\Users\ASUS\Desktop\CNPM_ST2\L2\MiniF4Store\MiniF4Store\bin\System.Web.Razor.xml
+C:\Users\ASUS\Desktop\CNPM_ST2\L2\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.xml
+C:\Users\ASUS\Desktop\CNPM_ST2\L2\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ASUS\Desktop\CNPM_ST2\L2\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Razor.xml
+C:\Users\ASUS\Desktop\CNPM_ST2\L2\MiniF4Store\MiniF4Store\bin\Newtonsoft.Json.xml
+C:\Users\ASUS\Desktop\CNPM_ST2\L2\MiniF4Store\MiniF4Store\bin\Antlr3.Runtime.pdb
+C:\Users\ASUS\Desktop\CNPM_ST2\L2\MiniF4Store\MiniF4Store\bin\EntityFramework.xml
+C:\Users\ASUS\Desktop\CNPM_ST2\L2\MiniF4Store\MiniF4Store\bin\EntityFramework.SqlServer.xml
+C:\Users\ASUS\Desktop\CNPM_ST2\L2\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\ASUS\Desktop\CNPM_ST2\L2\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\ASUS\Desktop\CNPM_ST2\L2\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\ASUS\Desktop\CNPM_ST2\L2\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.xml
+C:\Users\ASUS\Desktop\CNPM_ST2\L2\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\ASUS\Desktop\CNPM_ST2\L2\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.xml
+C:\Users\ASUS\Desktop\CNPM_ST2\L2\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\ASUS\Desktop\CNPM_ST2\L2\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\ASUS\Desktop\CNPM_ST2\L2\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\ASUS\Desktop\CNPM_ST2\L2\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\ASUS\Desktop\CNPM_ST2\L2\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\ASUS\Desktop\CNPM_ST2\L2\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\ASUS\Desktop\CNPM_ST2\L2\MiniF4Store\MiniF4Store\obj\Debug\MiniF4Store.dll
+C:\Users\ASUS\Desktop\CNPM_ST2\L2\MiniF4Store\MiniF4Store\obj\Debug\MiniF4Store.pdb
+C:\Users\ASUS\Desktop\CNPM_ST2\L2\MiniF4Store\MiniF4Store\obj\Debug\MiniF4Store.csprojResolveAssemblyReference.cache
+C:\Users\admin\Desktop\MiniF4Store\MiniF4Store\bin\MiniF4Store.dll.config
+C:\Users\admin\Desktop\MiniF4Store\MiniF4Store\bin\MiniF4Store.dll
+C:\Users\admin\Desktop\MiniF4Store\MiniF4Store\bin\MiniF4Store.pdb
+C:\Users\admin\Desktop\MiniF4Store\MiniF4Store\bin\Antlr3.Runtime.dll
+C:\Users\admin\Desktop\MiniF4Store\MiniF4Store\bin\EntityFramework.dll
+C:\Users\admin\Desktop\MiniF4Store\MiniF4Store\bin\EntityFramework.SqlServer.dll
+C:\Users\admin\Desktop\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\admin\Desktop\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\admin\Desktop\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\admin\Desktop\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.dll
+C:\Users\admin\Desktop\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\admin\Desktop\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\admin\Desktop\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.dll
+C:\Users\admin\Desktop\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\admin\Desktop\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\admin\Desktop\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\admin\Desktop\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\admin\Desktop\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\admin\Desktop\MiniF4Store\MiniF4Store\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\admin\Desktop\MiniF4Store\MiniF4Store\bin\Newtonsoft.Json.dll
+C:\Users\admin\Desktop\MiniF4Store\MiniF4Store\bin\Owin.dll
+C:\Users\admin\Desktop\MiniF4Store\MiniF4Store\bin\PagedList.dll
+C:\Users\admin\Desktop\MiniF4Store\MiniF4Store\bin\PagedList.Mvc.dll
+C:\Users\admin\Desktop\MiniF4Store\MiniF4Store\bin\System.Web.Helpers.dll
+C:\Users\admin\Desktop\MiniF4Store\MiniF4Store\bin\System.Web.Mvc.dll
+C:\Users\admin\Desktop\MiniF4Store\MiniF4Store\bin\System.Web.Optimization.dll
+C:\Users\admin\Desktop\MiniF4Store\MiniF4Store\bin\System.Web.Razor.dll
+C:\Users\admin\Desktop\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Deployment.dll
+C:\Users\admin\Desktop\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.dll
+C:\Users\admin\Desktop\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Razor.dll
+C:\Users\admin\Desktop\MiniF4Store\MiniF4Store\bin\WebGrease.dll
+C:\Users\admin\Desktop\MiniF4Store\MiniF4Store\bin\PagedList.xml
+C:\Users\admin\Desktop\MiniF4Store\MiniF4Store\bin\PagedList.Mvc.xml
+C:\Users\admin\Desktop\MiniF4Store\MiniF4Store\bin\System.Web.Helpers.xml
+C:\Users\admin\Desktop\MiniF4Store\MiniF4Store\bin\System.Web.Mvc.xml
+C:\Users\admin\Desktop\MiniF4Store\MiniF4Store\bin\System.Web.Optimization.xml
+C:\Users\admin\Desktop\MiniF4Store\MiniF4Store\bin\System.Web.Razor.xml
+C:\Users\admin\Desktop\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.xml
+C:\Users\admin\Desktop\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Deployment.xml
+C:\Users\admin\Desktop\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Razor.xml
+C:\Users\admin\Desktop\MiniF4Store\MiniF4Store\bin\Newtonsoft.Json.xml
+C:\Users\admin\Desktop\MiniF4Store\MiniF4Store\bin\Antlr3.Runtime.pdb
+C:\Users\admin\Desktop\MiniF4Store\MiniF4Store\bin\EntityFramework.xml
+C:\Users\admin\Desktop\MiniF4Store\MiniF4Store\bin\EntityFramework.SqlServer.xml
+C:\Users\admin\Desktop\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\admin\Desktop\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\admin\Desktop\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\admin\Desktop\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.xml
+C:\Users\admin\Desktop\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\admin\Desktop\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.xml
+C:\Users\admin\Desktop\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\admin\Desktop\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\admin\Desktop\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\admin\Desktop\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\admin\Desktop\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\admin\Desktop\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\admin\Desktop\MiniF4Store\MiniF4Store\obj\Debug\MiniF4Store.csprojResolveAssemblyReference.cache
+C:\Users\admin\Desktop\MiniF4Store\MiniF4Store\obj\Debug\MiniF4Store.dll
+C:\Users\admin\Desktop\MiniF4Store\MiniF4Store\obj\Debug\MiniF4Store.pdb
+D:\CNPMNC\MiniF4Store\MiniF4Store\bin\MiniF4Store.dll.config
+D:\CNPMNC\MiniF4Store\MiniF4Store\bin\MiniF4Store.dll
+D:\CNPMNC\MiniF4Store\MiniF4Store\bin\MiniF4Store.pdb
+D:\CNPMNC\MiniF4Store\MiniF4Store\bin\Antlr3.Runtime.dll
+D:\CNPMNC\MiniF4Store\MiniF4Store\bin\EntityFramework.dll
+D:\CNPMNC\MiniF4Store\MiniF4Store\bin\EntityFramework.SqlServer.dll
+D:\CNPMNC\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Core.dll
+D:\CNPMNC\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\CNPMNC\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\CNPMNC\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.dll
+D:\CNPMNC\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\CNPMNC\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Cookies.dll
+D:\CNPMNC\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.dll
+D:\CNPMNC\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Facebook.dll
+D:\CNPMNC\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Google.dll
+D:\CNPMNC\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\CNPMNC\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.OAuth.dll
+D:\CNPMNC\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Twitter.dll
+D:\CNPMNC\MiniF4Store\MiniF4Store\bin\Microsoft.Web.Infrastructure.dll
+D:\CNPMNC\MiniF4Store\MiniF4Store\bin\Newtonsoft.Json.dll
+D:\CNPMNC\MiniF4Store\MiniF4Store\bin\Owin.dll
+D:\CNPMNC\MiniF4Store\MiniF4Store\bin\PagedList.dll
+D:\CNPMNC\MiniF4Store\MiniF4Store\bin\PagedList.Mvc.dll
+D:\CNPMNC\MiniF4Store\MiniF4Store\bin\System.Web.Helpers.dll
+D:\CNPMNC\MiniF4Store\MiniF4Store\bin\System.Web.Mvc.dll
+D:\CNPMNC\MiniF4Store\MiniF4Store\bin\System.Web.Optimization.dll
+D:\CNPMNC\MiniF4Store\MiniF4Store\bin\System.Web.Razor.dll
+D:\CNPMNC\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Deployment.dll
+D:\CNPMNC\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.dll
+D:\CNPMNC\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Razor.dll
+D:\CNPMNC\MiniF4Store\MiniF4Store\bin\WebGrease.dll
+D:\CNPMNC\MiniF4Store\MiniF4Store\bin\PagedList.xml
+D:\CNPMNC\MiniF4Store\MiniF4Store\bin\PagedList.Mvc.xml
+D:\CNPMNC\MiniF4Store\MiniF4Store\bin\System.Web.Helpers.xml
+D:\CNPMNC\MiniF4Store\MiniF4Store\bin\System.Web.Mvc.xml
+D:\CNPMNC\MiniF4Store\MiniF4Store\bin\System.Web.Optimization.xml
+D:\CNPMNC\MiniF4Store\MiniF4Store\bin\System.Web.Razor.xml
+D:\CNPMNC\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.xml
+D:\CNPMNC\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Deployment.xml
+D:\CNPMNC\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Razor.xml
+D:\CNPMNC\MiniF4Store\MiniF4Store\bin\Newtonsoft.Json.xml
+D:\CNPMNC\MiniF4Store\MiniF4Store\bin\Antlr3.Runtime.pdb
+D:\CNPMNC\MiniF4Store\MiniF4Store\bin\EntityFramework.xml
+D:\CNPMNC\MiniF4Store\MiniF4Store\bin\EntityFramework.SqlServer.xml
+D:\CNPMNC\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Core.xml
+D:\CNPMNC\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\CNPMNC\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\CNPMNC\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.xml
+D:\CNPMNC\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\CNPMNC\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.xml
+D:\CNPMNC\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Facebook.xml
+D:\CNPMNC\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Cookies.xml
+D:\CNPMNC\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.OAuth.xml
+D:\CNPMNC\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Google.xml
+D:\CNPMNC\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Twitter.xml
+D:\CNPMNC\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\CNPMNC\MiniF4Store\MiniF4Store\obj\Debug\MiniF4Store.csprojResolveAssemblyReference.cache
+D:\CNPMNC\MiniF4Store\MiniF4Store\obj\Debug\MiniF4Store.dll
+D:\CNPMNC\MiniF4Store\MiniF4Store\obj\Debug\MiniF4Store.pdb
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_2\MiniF4Store\MiniF4Store\bin\MiniF4Store.dll.config
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_2\MiniF4Store\MiniF4Store\bin\MiniF4Store.dll
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_2\MiniF4Store\MiniF4Store\bin\MiniF4Store.pdb
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_2\MiniF4Store\MiniF4Store\bin\Antlr3.Runtime.dll
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_2\MiniF4Store\MiniF4Store\bin\EntityFramework.dll
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_2\MiniF4Store\MiniF4Store\bin\EntityFramework.SqlServer.dll
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_2\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Core.dll
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_2\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_2\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_2\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.dll
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_2\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_2\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Cookies.dll
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_2\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.dll
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_2\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Facebook.dll
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_2\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Google.dll
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_2\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_2\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.OAuth.dll
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_2\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Twitter.dll
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_2\MiniF4Store\MiniF4Store\bin\Microsoft.Web.Infrastructure.dll
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_2\MiniF4Store\MiniF4Store\bin\Newtonsoft.Json.dll
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_2\MiniF4Store\MiniF4Store\bin\Owin.dll
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_2\MiniF4Store\MiniF4Store\bin\PagedList.dll
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_2\MiniF4Store\MiniF4Store\bin\PagedList.Mvc.dll
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_2\MiniF4Store\MiniF4Store\bin\System.Web.Helpers.dll
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_2\MiniF4Store\MiniF4Store\bin\System.Web.Mvc.dll
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_2\MiniF4Store\MiniF4Store\bin\System.Web.Optimization.dll
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_2\MiniF4Store\MiniF4Store\bin\System.Web.Razor.dll
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_2\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Deployment.dll
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_2\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.dll
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_2\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Razor.dll
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_2\MiniF4Store\MiniF4Store\bin\WebGrease.dll
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_2\MiniF4Store\MiniF4Store\bin\PagedList.xml
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_2\MiniF4Store\MiniF4Store\bin\PagedList.Mvc.xml
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_2\MiniF4Store\MiniF4Store\bin\System.Web.Helpers.xml
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_2\MiniF4Store\MiniF4Store\bin\System.Web.Mvc.xml
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_2\MiniF4Store\MiniF4Store\bin\System.Web.Optimization.xml
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_2\MiniF4Store\MiniF4Store\bin\System.Web.Razor.xml
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_2\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.xml
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_2\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Deployment.xml
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_2\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Razor.xml
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_2\MiniF4Store\MiniF4Store\bin\Newtonsoft.Json.xml
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_2\MiniF4Store\MiniF4Store\bin\Antlr3.Runtime.pdb
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_2\MiniF4Store\MiniF4Store\bin\EntityFramework.xml
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_2\MiniF4Store\MiniF4Store\bin\EntityFramework.SqlServer.xml
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_2\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Core.xml
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_2\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_2\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_2\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.xml
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_2\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_2\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.xml
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_2\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Facebook.xml
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_2\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Cookies.xml
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_2\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.OAuth.xml
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_2\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Google.xml
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_2\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Twitter.xml
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_2\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_2\MiniF4Store\MiniF4Store\obj\Debug\MiniF4Store.csprojResolveAssemblyReference.cache
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_2\MiniF4Store\MiniF4Store\obj\Debug\MiniF4Store.dll
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_2\MiniF4Store\MiniF4Store\obj\Debug\MiniF4Store.pdb
+D:\CNPMNC\v1\MiniF4Store\MiniF4Store\bin\MiniF4Store.dll.config
+D:\CNPMNC\v1\MiniF4Store\MiniF4Store\bin\MiniF4Store.dll
+D:\CNPMNC\v1\MiniF4Store\MiniF4Store\bin\MiniF4Store.pdb
+D:\CNPMNC\v1\MiniF4Store\MiniF4Store\bin\Antlr3.Runtime.dll
+D:\CNPMNC\v1\MiniF4Store\MiniF4Store\bin\EntityFramework.dll
+D:\CNPMNC\v1\MiniF4Store\MiniF4Store\bin\EntityFramework.SqlServer.dll
+D:\CNPMNC\v1\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Core.dll
+D:\CNPMNC\v1\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\CNPMNC\v1\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\CNPMNC\v1\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.dll
+D:\CNPMNC\v1\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\CNPMNC\v1\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Cookies.dll
+D:\CNPMNC\v1\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.dll
+D:\CNPMNC\v1\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Facebook.dll
+D:\CNPMNC\v1\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Google.dll
+D:\CNPMNC\v1\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\CNPMNC\v1\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.OAuth.dll
+D:\CNPMNC\v1\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Twitter.dll
+D:\CNPMNC\v1\MiniF4Store\MiniF4Store\bin\Microsoft.Web.Infrastructure.dll
+D:\CNPMNC\v1\MiniF4Store\MiniF4Store\bin\Newtonsoft.Json.dll
+D:\CNPMNC\v1\MiniF4Store\MiniF4Store\bin\Owin.dll
+D:\CNPMNC\v1\MiniF4Store\MiniF4Store\bin\PagedList.dll
+D:\CNPMNC\v1\MiniF4Store\MiniF4Store\bin\PagedList.Mvc.dll
+D:\CNPMNC\v1\MiniF4Store\MiniF4Store\bin\System.Web.Helpers.dll
+D:\CNPMNC\v1\MiniF4Store\MiniF4Store\bin\System.Web.Mvc.dll
+D:\CNPMNC\v1\MiniF4Store\MiniF4Store\bin\System.Web.Optimization.dll
+D:\CNPMNC\v1\MiniF4Store\MiniF4Store\bin\System.Web.Razor.dll
+D:\CNPMNC\v1\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Deployment.dll
+D:\CNPMNC\v1\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.dll
+D:\CNPMNC\v1\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Razor.dll
+D:\CNPMNC\v1\MiniF4Store\MiniF4Store\bin\WebGrease.dll
+D:\CNPMNC\v1\MiniF4Store\MiniF4Store\bin\PagedList.xml
+D:\CNPMNC\v1\MiniF4Store\MiniF4Store\bin\PagedList.Mvc.xml
+D:\CNPMNC\v1\MiniF4Store\MiniF4Store\bin\System.Web.Helpers.xml
+D:\CNPMNC\v1\MiniF4Store\MiniF4Store\bin\System.Web.Mvc.xml
+D:\CNPMNC\v1\MiniF4Store\MiniF4Store\bin\System.Web.Optimization.xml
+D:\CNPMNC\v1\MiniF4Store\MiniF4Store\bin\System.Web.Razor.xml
+D:\CNPMNC\v1\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.xml
+D:\CNPMNC\v1\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Deployment.xml
+D:\CNPMNC\v1\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Razor.xml
+D:\CNPMNC\v1\MiniF4Store\MiniF4Store\bin\Newtonsoft.Json.xml
+D:\CNPMNC\v1\MiniF4Store\MiniF4Store\bin\Antlr3.Runtime.pdb
+D:\CNPMNC\v1\MiniF4Store\MiniF4Store\bin\EntityFramework.xml
+D:\CNPMNC\v1\MiniF4Store\MiniF4Store\bin\EntityFramework.SqlServer.xml
+D:\CNPMNC\v1\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Core.xml
+D:\CNPMNC\v1\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\CNPMNC\v1\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\CNPMNC\v1\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.xml
+D:\CNPMNC\v1\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\CNPMNC\v1\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.xml
+D:\CNPMNC\v1\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Facebook.xml
+D:\CNPMNC\v1\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Cookies.xml
+D:\CNPMNC\v1\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.OAuth.xml
+D:\CNPMNC\v1\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Google.xml
+D:\CNPMNC\v1\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Twitter.xml
+D:\CNPMNC\v1\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\CNPMNC\v1\MiniF4Store\MiniF4Store\obj\Debug\MiniF4Store.csprojResolveAssemblyReference.cache
+D:\CNPMNC\v1\MiniF4Store\MiniF4Store\obj\Debug\MiniF4Store.dll
+D:\CNPMNC\v1\MiniF4Store\MiniF4Store\obj\Debug\MiniF4Store.pdb
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_3\MiniF4Store\MiniF4Store\bin\MiniF4Store.dll.config
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_3\MiniF4Store\MiniF4Store\bin\MiniF4Store.dll
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_3\MiniF4Store\MiniF4Store\bin\MiniF4Store.pdb
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_3\MiniF4Store\MiniF4Store\bin\Antlr3.Runtime.dll
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_3\MiniF4Store\MiniF4Store\bin\EntityFramework.dll
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_3\MiniF4Store\MiniF4Store\bin\EntityFramework.SqlServer.dll
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_3\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Core.dll
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_3\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_3\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_3\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.dll
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_3\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_3\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Cookies.dll
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_3\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.dll
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_3\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Facebook.dll
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_3\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Google.dll
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_3\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_3\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.OAuth.dll
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_3\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Twitter.dll
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_3\MiniF4Store\MiniF4Store\bin\Microsoft.Web.Infrastructure.dll
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_3\MiniF4Store\MiniF4Store\bin\Newtonsoft.Json.dll
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_3\MiniF4Store\MiniF4Store\bin\Owin.dll
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_3\MiniF4Store\MiniF4Store\bin\PagedList.dll
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_3\MiniF4Store\MiniF4Store\bin\PagedList.Mvc.dll
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_3\MiniF4Store\MiniF4Store\bin\System.Web.Helpers.dll
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_3\MiniF4Store\MiniF4Store\bin\System.Web.Mvc.dll
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_3\MiniF4Store\MiniF4Store\bin\System.Web.Optimization.dll
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_3\MiniF4Store\MiniF4Store\bin\System.Web.Razor.dll
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_3\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Deployment.dll
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_3\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.dll
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_3\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Razor.dll
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_3\MiniF4Store\MiniF4Store\bin\WebGrease.dll
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_3\MiniF4Store\MiniF4Store\bin\PagedList.xml
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_3\MiniF4Store\MiniF4Store\bin\PagedList.Mvc.xml
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_3\MiniF4Store\MiniF4Store\bin\System.Web.Helpers.xml
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_3\MiniF4Store\MiniF4Store\bin\System.Web.Mvc.xml
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_3\MiniF4Store\MiniF4Store\bin\System.Web.Optimization.xml
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_3\MiniF4Store\MiniF4Store\bin\System.Web.Razor.xml
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_3\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.xml
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_3\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Deployment.xml
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_3\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Razor.xml
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_3\MiniF4Store\MiniF4Store\bin\Newtonsoft.Json.xml
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_3\MiniF4Store\MiniF4Store\bin\Antlr3.Runtime.pdb
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_3\MiniF4Store\MiniF4Store\bin\EntityFramework.xml
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_3\MiniF4Store\MiniF4Store\bin\EntityFramework.SqlServer.xml
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_3\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Core.xml
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_3\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_3\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_3\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.xml
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_3\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_3\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.xml
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_3\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Facebook.xml
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_3\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Cookies.xml
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_3\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.OAuth.xml
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_3\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Google.xml
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_3\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Twitter.xml
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_3\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_3\MiniF4Store\MiniF4Store\obj\Debug\MiniF4Store.dll
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_3\MiniF4Store\MiniF4Store\obj\Debug\MiniF4Store.pdb
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_3\MiniF4Store\MiniF4Store\obj\Debug\MiniF4Store.csproj.AssemblyReference.cache
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_3\MiniF4Store\MiniF4Store\obj\Debug\MiniF4Store.csproj.CoreCompileInputs.cache
+D:\HK7\CNPM_NC\DOAN\BANCHINH\Banchinh_3\MiniF4Store\MiniF4Store\obj\Debug\MiniF4Store.csproj.CopyComplete
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuoi Cung\MiniF4Store\MiniF4Store\bin\MiniF4Store.dll.config
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuoi Cung\MiniF4Store\MiniF4Store\bin\MiniF4Store.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuoi Cung\MiniF4Store\MiniF4Store\bin\MiniF4Store.pdb
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuoi Cung\MiniF4Store\MiniF4Store\bin\Antlr3.Runtime.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuoi Cung\MiniF4Store\MiniF4Store\bin\EntityFramework.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuoi Cung\MiniF4Store\MiniF4Store\bin\EntityFramework.SqlServer.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuoi Cung\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Core.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuoi Cung\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuoi Cung\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuoi Cung\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuoi Cung\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuoi Cung\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Cookies.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuoi Cung\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuoi Cung\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Facebook.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuoi Cung\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Google.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuoi Cung\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuoi Cung\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.OAuth.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuoi Cung\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Twitter.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuoi Cung\MiniF4Store\MiniF4Store\bin\Microsoft.Web.Infrastructure.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuoi Cung\MiniF4Store\MiniF4Store\bin\Newtonsoft.Json.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuoi Cung\MiniF4Store\MiniF4Store\bin\Owin.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuoi Cung\MiniF4Store\MiniF4Store\bin\PagedList.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuoi Cung\MiniF4Store\MiniF4Store\bin\PagedList.Mvc.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuoi Cung\MiniF4Store\MiniF4Store\bin\System.Web.Helpers.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuoi Cung\MiniF4Store\MiniF4Store\bin\System.Web.Mvc.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuoi Cung\MiniF4Store\MiniF4Store\bin\System.Web.Optimization.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuoi Cung\MiniF4Store\MiniF4Store\bin\System.Web.Razor.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuoi Cung\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Deployment.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuoi Cung\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuoi Cung\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Razor.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuoi Cung\MiniF4Store\MiniF4Store\bin\WebGrease.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuoi Cung\MiniF4Store\MiniF4Store\bin\PagedList.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuoi Cung\MiniF4Store\MiniF4Store\bin\PagedList.Mvc.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuoi Cung\MiniF4Store\MiniF4Store\bin\System.Web.Helpers.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuoi Cung\MiniF4Store\MiniF4Store\bin\System.Web.Mvc.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuoi Cung\MiniF4Store\MiniF4Store\bin\System.Web.Optimization.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuoi Cung\MiniF4Store\MiniF4Store\bin\System.Web.Razor.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuoi Cung\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuoi Cung\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Deployment.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuoi Cung\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Razor.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuoi Cung\MiniF4Store\MiniF4Store\bin\Newtonsoft.Json.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuoi Cung\MiniF4Store\MiniF4Store\bin\Antlr3.Runtime.pdb
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuoi Cung\MiniF4Store\MiniF4Store\bin\EntityFramework.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuoi Cung\MiniF4Store\MiniF4Store\bin\EntityFramework.SqlServer.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuoi Cung\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Core.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuoi Cung\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuoi Cung\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuoi Cung\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuoi Cung\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuoi Cung\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuoi Cung\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Facebook.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuoi Cung\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Cookies.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuoi Cung\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.OAuth.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuoi Cung\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Google.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuoi Cung\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Twitter.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuoi Cung\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuoi Cung\MiniF4Store\MiniF4Store\obj\Debug\MiniF4Store.csprojResolveAssemblyReference.cache
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuoi Cung\MiniF4Store\MiniF4Store\obj\Debug\MiniF4Store.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuoi Cung\MiniF4Store\MiniF4Store\obj\Debug\MiniF4Store.pdb
+F:\CNPM_ST2\L4\MiniF4Store\MiniF4Store\obj\Debug\MiniF4Store.csprojResolveAssemblyReference.cache
+F:\CNPM_ST2\L4\MiniF4Store\MiniF4Store\obj\Debug\MiniF4Store.dll
+F:\CNPM_ST2\L4\MiniF4Store\MiniF4Store\bin\MiniF4Store.dll.config
+F:\CNPM_ST2\L4\MiniF4Store\MiniF4Store\bin\MiniF4Store.dll
+F:\CNPM_ST2\L4\MiniF4Store\MiniF4Store\bin\MiniF4Store.pdb
+F:\CNPM_ST2\L4\MiniF4Store\MiniF4Store\bin\Antlr3.Runtime.dll
+F:\CNPM_ST2\L4\MiniF4Store\MiniF4Store\bin\EntityFramework.dll
+F:\CNPM_ST2\L4\MiniF4Store\MiniF4Store\bin\EntityFramework.SqlServer.dll
+F:\CNPM_ST2\L4\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Core.dll
+F:\CNPM_ST2\L4\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\CNPM_ST2\L4\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\CNPM_ST2\L4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.dll
+F:\CNPM_ST2\L4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\CNPM_ST2\L4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Cookies.dll
+F:\CNPM_ST2\L4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.dll
+F:\CNPM_ST2\L4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Facebook.dll
+F:\CNPM_ST2\L4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Google.dll
+F:\CNPM_ST2\L4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\CNPM_ST2\L4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.OAuth.dll
+F:\CNPM_ST2\L4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Twitter.dll
+F:\CNPM_ST2\L4\MiniF4Store\MiniF4Store\bin\Microsoft.Web.Infrastructure.dll
+F:\CNPM_ST2\L4\MiniF4Store\MiniF4Store\bin\Newtonsoft.Json.dll
+F:\CNPM_ST2\L4\MiniF4Store\MiniF4Store\bin\Owin.dll
+F:\CNPM_ST2\L4\MiniF4Store\MiniF4Store\bin\PagedList.dll
+F:\CNPM_ST2\L4\MiniF4Store\MiniF4Store\bin\PagedList.Mvc.dll
+F:\CNPM_ST2\L4\MiniF4Store\MiniF4Store\bin\System.Web.Helpers.dll
+F:\CNPM_ST2\L4\MiniF4Store\MiniF4Store\bin\System.Web.Mvc.dll
+F:\CNPM_ST2\L4\MiniF4Store\MiniF4Store\bin\System.Web.Optimization.dll
+F:\CNPM_ST2\L4\MiniF4Store\MiniF4Store\bin\System.Web.Razor.dll
+F:\CNPM_ST2\L4\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Deployment.dll
+F:\CNPM_ST2\L4\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.dll
+F:\CNPM_ST2\L4\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Razor.dll
+F:\CNPM_ST2\L4\MiniF4Store\MiniF4Store\bin\WebGrease.dll
+F:\CNPM_ST2\L4\MiniF4Store\MiniF4Store\bin\PagedList.xml
+F:\CNPM_ST2\L4\MiniF4Store\MiniF4Store\bin\PagedList.Mvc.xml
+F:\CNPM_ST2\L4\MiniF4Store\MiniF4Store\bin\System.Web.Helpers.xml
+F:\CNPM_ST2\L4\MiniF4Store\MiniF4Store\bin\System.Web.Mvc.xml
+F:\CNPM_ST2\L4\MiniF4Store\MiniF4Store\bin\System.Web.Optimization.xml
+F:\CNPM_ST2\L4\MiniF4Store\MiniF4Store\bin\System.Web.Razor.xml
+F:\CNPM_ST2\L4\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.xml
+F:\CNPM_ST2\L4\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Deployment.xml
+F:\CNPM_ST2\L4\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Razor.xml
+F:\CNPM_ST2\L4\MiniF4Store\MiniF4Store\bin\Newtonsoft.Json.xml
+F:\CNPM_ST2\L4\MiniF4Store\MiniF4Store\bin\Antlr3.Runtime.pdb
+F:\CNPM_ST2\L4\MiniF4Store\MiniF4Store\bin\EntityFramework.xml
+F:\CNPM_ST2\L4\MiniF4Store\MiniF4Store\bin\EntityFramework.SqlServer.xml
+F:\CNPM_ST2\L4\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Core.xml
+F:\CNPM_ST2\L4\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\CNPM_ST2\L4\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\CNPM_ST2\L4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.xml
+F:\CNPM_ST2\L4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\CNPM_ST2\L4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.xml
+F:\CNPM_ST2\L4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Facebook.xml
+F:\CNPM_ST2\L4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Cookies.xml
+F:\CNPM_ST2\L4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.OAuth.xml
+F:\CNPM_ST2\L4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Google.xml
+F:\CNPM_ST2\L4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Twitter.xml
+F:\CNPM_ST2\L4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\CNPM_ST2\L4\MiniF4Store\MiniF4Store\obj\Debug\MiniF4Store.pdb
+D:\CNPMNC\v3\L4\MiniF4Store\MiniF4Store\bin\MiniF4Store.dll.config
+D:\CNPMNC\v3\L4\MiniF4Store\MiniF4Store\bin\MiniF4Store.dll
+D:\CNPMNC\v3\L4\MiniF4Store\MiniF4Store\bin\MiniF4Store.pdb
+D:\CNPMNC\v3\L4\MiniF4Store\MiniF4Store\bin\Antlr3.Runtime.dll
+D:\CNPMNC\v3\L4\MiniF4Store\MiniF4Store\bin\EntityFramework.dll
+D:\CNPMNC\v3\L4\MiniF4Store\MiniF4Store\bin\EntityFramework.SqlServer.dll
+D:\CNPMNC\v3\L4\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Core.dll
+D:\CNPMNC\v3\L4\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\CNPMNC\v3\L4\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\CNPMNC\v3\L4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.dll
+D:\CNPMNC\v3\L4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\CNPMNC\v3\L4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Cookies.dll
+D:\CNPMNC\v3\L4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.dll
+D:\CNPMNC\v3\L4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Facebook.dll
+D:\CNPMNC\v3\L4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Google.dll
+D:\CNPMNC\v3\L4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\CNPMNC\v3\L4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.OAuth.dll
+D:\CNPMNC\v3\L4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Twitter.dll
+D:\CNPMNC\v3\L4\MiniF4Store\MiniF4Store\bin\Microsoft.Web.Infrastructure.dll
+D:\CNPMNC\v3\L4\MiniF4Store\MiniF4Store\bin\Newtonsoft.Json.dll
+D:\CNPMNC\v3\L4\MiniF4Store\MiniF4Store\bin\Owin.dll
+D:\CNPMNC\v3\L4\MiniF4Store\MiniF4Store\bin\PagedList.dll
+D:\CNPMNC\v3\L4\MiniF4Store\MiniF4Store\bin\PagedList.Mvc.dll
+D:\CNPMNC\v3\L4\MiniF4Store\MiniF4Store\bin\System.Web.Helpers.dll
+D:\CNPMNC\v3\L4\MiniF4Store\MiniF4Store\bin\System.Web.Mvc.dll
+D:\CNPMNC\v3\L4\MiniF4Store\MiniF4Store\bin\System.Web.Optimization.dll
+D:\CNPMNC\v3\L4\MiniF4Store\MiniF4Store\bin\System.Web.Razor.dll
+D:\CNPMNC\v3\L4\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Deployment.dll
+D:\CNPMNC\v3\L4\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.dll
+D:\CNPMNC\v3\L4\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Razor.dll
+D:\CNPMNC\v3\L4\MiniF4Store\MiniF4Store\bin\WebGrease.dll
+D:\CNPMNC\v3\L4\MiniF4Store\MiniF4Store\bin\PagedList.xml
+D:\CNPMNC\v3\L4\MiniF4Store\MiniF4Store\bin\PagedList.Mvc.xml
+D:\CNPMNC\v3\L4\MiniF4Store\MiniF4Store\bin\System.Web.Helpers.xml
+D:\CNPMNC\v3\L4\MiniF4Store\MiniF4Store\bin\System.Web.Mvc.xml
+D:\CNPMNC\v3\L4\MiniF4Store\MiniF4Store\bin\System.Web.Optimization.xml
+D:\CNPMNC\v3\L4\MiniF4Store\MiniF4Store\bin\System.Web.Razor.xml
+D:\CNPMNC\v3\L4\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.xml
+D:\CNPMNC\v3\L4\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Deployment.xml
+D:\CNPMNC\v3\L4\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Razor.xml
+D:\CNPMNC\v3\L4\MiniF4Store\MiniF4Store\bin\Newtonsoft.Json.xml
+D:\CNPMNC\v3\L4\MiniF4Store\MiniF4Store\bin\Antlr3.Runtime.pdb
+D:\CNPMNC\v3\L4\MiniF4Store\MiniF4Store\bin\EntityFramework.xml
+D:\CNPMNC\v3\L4\MiniF4Store\MiniF4Store\bin\EntityFramework.SqlServer.xml
+D:\CNPMNC\v3\L4\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Core.xml
+D:\CNPMNC\v3\L4\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\CNPMNC\v3\L4\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\CNPMNC\v3\L4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.xml
+D:\CNPMNC\v3\L4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\CNPMNC\v3\L4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.xml
+D:\CNPMNC\v3\L4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Facebook.xml
+D:\CNPMNC\v3\L4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Cookies.xml
+D:\CNPMNC\v3\L4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.OAuth.xml
+D:\CNPMNC\v3\L4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Google.xml
+D:\CNPMNC\v3\L4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Twitter.xml
+D:\CNPMNC\v3\L4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\CNPMNC\v3\L4\MiniF4Store\MiniF4Store\obj\Debug\MiniF4Store.csprojResolveAssemblyReference.cache
+D:\CNPMNC\v3\L4\MiniF4Store\MiniF4Store\obj\Debug\MiniF4Store.dll
+D:\CNPMNC\v3\L4\MiniF4Store\MiniF4Store\obj\Debug\MiniF4Store.pdb
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuối Dữ Chưa\MiniF4Store\MiniF4Store\bin\MiniF4Store.dll.config
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuối Dữ Chưa\MiniF4Store\MiniF4Store\bin\MiniF4Store.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuối Dữ Chưa\MiniF4Store\MiniF4Store\bin\MiniF4Store.pdb
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuối Dữ Chưa\MiniF4Store\MiniF4Store\bin\Antlr3.Runtime.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuối Dữ Chưa\MiniF4Store\MiniF4Store\bin\EntityFramework.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuối Dữ Chưa\MiniF4Store\MiniF4Store\bin\EntityFramework.SqlServer.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuối Dữ Chưa\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Core.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuối Dữ Chưa\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuối Dữ Chưa\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuối Dữ Chưa\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuối Dữ Chưa\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuối Dữ Chưa\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Cookies.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuối Dữ Chưa\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuối Dữ Chưa\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Facebook.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuối Dữ Chưa\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Google.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuối Dữ Chưa\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuối Dữ Chưa\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.OAuth.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuối Dữ Chưa\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Twitter.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuối Dữ Chưa\MiniF4Store\MiniF4Store\bin\Microsoft.Web.Infrastructure.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuối Dữ Chưa\MiniF4Store\MiniF4Store\bin\Newtonsoft.Json.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuối Dữ Chưa\MiniF4Store\MiniF4Store\bin\Owin.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuối Dữ Chưa\MiniF4Store\MiniF4Store\bin\PagedList.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuối Dữ Chưa\MiniF4Store\MiniF4Store\bin\PagedList.Mvc.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuối Dữ Chưa\MiniF4Store\MiniF4Store\bin\System.Web.Helpers.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuối Dữ Chưa\MiniF4Store\MiniF4Store\bin\System.Web.Mvc.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuối Dữ Chưa\MiniF4Store\MiniF4Store\bin\System.Web.Optimization.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuối Dữ Chưa\MiniF4Store\MiniF4Store\bin\System.Web.Razor.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuối Dữ Chưa\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Deployment.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuối Dữ Chưa\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuối Dữ Chưa\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Razor.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuối Dữ Chưa\MiniF4Store\MiniF4Store\bin\WebGrease.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuối Dữ Chưa\MiniF4Store\MiniF4Store\bin\PagedList.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuối Dữ Chưa\MiniF4Store\MiniF4Store\bin\PagedList.Mvc.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuối Dữ Chưa\MiniF4Store\MiniF4Store\bin\System.Web.Helpers.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuối Dữ Chưa\MiniF4Store\MiniF4Store\bin\System.Web.Mvc.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuối Dữ Chưa\MiniF4Store\MiniF4Store\bin\System.Web.Optimization.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuối Dữ Chưa\MiniF4Store\MiniF4Store\bin\System.Web.Razor.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuối Dữ Chưa\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuối Dữ Chưa\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Deployment.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuối Dữ Chưa\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Razor.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuối Dữ Chưa\MiniF4Store\MiniF4Store\bin\Newtonsoft.Json.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuối Dữ Chưa\MiniF4Store\MiniF4Store\bin\Antlr3.Runtime.pdb
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuối Dữ Chưa\MiniF4Store\MiniF4Store\bin\EntityFramework.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuối Dữ Chưa\MiniF4Store\MiniF4Store\bin\EntityFramework.SqlServer.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuối Dữ Chưa\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Core.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuối Dữ Chưa\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuối Dữ Chưa\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuối Dữ Chưa\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuối Dữ Chưa\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuối Dữ Chưa\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuối Dữ Chưa\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Facebook.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuối Dữ Chưa\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Cookies.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuối Dữ Chưa\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.OAuth.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuối Dữ Chưa\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Google.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuối Dữ Chưa\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Twitter.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuối Dữ Chưa\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuối Dữ Chưa\MiniF4Store\MiniF4Store\obj\Debug\MiniF4Store.csproj.AssemblyReference.cache
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuối Dữ Chưa\MiniF4Store\MiniF4Store\obj\Debug\MiniF4Store.csproj.CoreCompileInputs.cache
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuối Dữ Chưa\MiniF4Store\MiniF4Store\obj\Debug\MiniF4Store.csproj.CopyComplete
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuối Dữ Chưa\MiniF4Store\MiniF4Store\obj\Debug\MiniF4Store.dll
+D:\CNTT_HK1_Năm 4\Công Nghệ Phần Mềm Nâng Cao\Đồ án kết môn\Cuối Dữ Chưa\MiniF4Store\MiniF4Store\obj\Debug\MiniF4Store.pdb
+F:\CNPM_ST2\L6\MiniF4Store\MiniF4Store\bin\MiniF4Store.dll.config
+F:\CNPM_ST2\L6\MiniF4Store\MiniF4Store\bin\MiniF4Store.dll
+F:\CNPM_ST2\L6\MiniF4Store\MiniF4Store\bin\MiniF4Store.pdb
+F:\CNPM_ST2\L6\MiniF4Store\MiniF4Store\bin\Antlr3.Runtime.dll
+F:\CNPM_ST2\L6\MiniF4Store\MiniF4Store\bin\EntityFramework.dll
+F:\CNPM_ST2\L6\MiniF4Store\MiniF4Store\bin\EntityFramework.SqlServer.dll
+F:\CNPM_ST2\L6\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Core.dll
+F:\CNPM_ST2\L6\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\CNPM_ST2\L6\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\CNPM_ST2\L6\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.dll
+F:\CNPM_ST2\L6\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\CNPM_ST2\L6\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Cookies.dll
+F:\CNPM_ST2\L6\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.dll
+F:\CNPM_ST2\L6\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Facebook.dll
+F:\CNPM_ST2\L6\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Google.dll
+F:\CNPM_ST2\L6\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\CNPM_ST2\L6\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.OAuth.dll
+F:\CNPM_ST2\L6\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Twitter.dll
+F:\CNPM_ST2\L6\MiniF4Store\MiniF4Store\bin\Microsoft.Web.Infrastructure.dll
+F:\CNPM_ST2\L6\MiniF4Store\MiniF4Store\bin\Newtonsoft.Json.dll
+F:\CNPM_ST2\L6\MiniF4Store\MiniF4Store\bin\Owin.dll
+F:\CNPM_ST2\L6\MiniF4Store\MiniF4Store\bin\PagedList.dll
+F:\CNPM_ST2\L6\MiniF4Store\MiniF4Store\bin\PagedList.Mvc.dll
+F:\CNPM_ST2\L6\MiniF4Store\MiniF4Store\bin\System.Web.Helpers.dll
+F:\CNPM_ST2\L6\MiniF4Store\MiniF4Store\bin\System.Web.Mvc.dll
+F:\CNPM_ST2\L6\MiniF4Store\MiniF4Store\bin\System.Web.Optimization.dll
+F:\CNPM_ST2\L6\MiniF4Store\MiniF4Store\bin\System.Web.Razor.dll
+F:\CNPM_ST2\L6\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Deployment.dll
+F:\CNPM_ST2\L6\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.dll
+F:\CNPM_ST2\L6\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Razor.dll
+F:\CNPM_ST2\L6\MiniF4Store\MiniF4Store\bin\WebGrease.dll
+F:\CNPM_ST2\L6\MiniF4Store\MiniF4Store\bin\PagedList.xml
+F:\CNPM_ST2\L6\MiniF4Store\MiniF4Store\bin\PagedList.Mvc.xml
+F:\CNPM_ST2\L6\MiniF4Store\MiniF4Store\bin\System.Web.Helpers.xml
+F:\CNPM_ST2\L6\MiniF4Store\MiniF4Store\bin\System.Web.Mvc.xml
+F:\CNPM_ST2\L6\MiniF4Store\MiniF4Store\bin\System.Web.Optimization.xml
+F:\CNPM_ST2\L6\MiniF4Store\MiniF4Store\bin\System.Web.Razor.xml
+F:\CNPM_ST2\L6\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.xml
+F:\CNPM_ST2\L6\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Deployment.xml
+F:\CNPM_ST2\L6\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Razor.xml
+F:\CNPM_ST2\L6\MiniF4Store\MiniF4Store\bin\Newtonsoft.Json.xml
+F:\CNPM_ST2\L6\MiniF4Store\MiniF4Store\bin\Antlr3.Runtime.pdb
+F:\CNPM_ST2\L6\MiniF4Store\MiniF4Store\bin\EntityFramework.xml
+F:\CNPM_ST2\L6\MiniF4Store\MiniF4Store\bin\EntityFramework.SqlServer.xml
+F:\CNPM_ST2\L6\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Core.xml
+F:\CNPM_ST2\L6\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\CNPM_ST2\L6\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\CNPM_ST2\L6\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.xml
+F:\CNPM_ST2\L6\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\CNPM_ST2\L6\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.xml
+F:\CNPM_ST2\L6\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Facebook.xml
+F:\CNPM_ST2\L6\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Cookies.xml
+F:\CNPM_ST2\L6\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.OAuth.xml
+F:\CNPM_ST2\L6\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Google.xml
+F:\CNPM_ST2\L6\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Twitter.xml
+F:\CNPM_ST2\L6\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\CNPM_ST2\L6\MiniF4Store\MiniF4Store\obj\Debug\MiniF4Store.csprojResolveAssemblyReference.cache
+F:\CNPM_ST2\L6\MiniF4Store\MiniF4Store\obj\Debug\MiniF4Store.dll
+F:\CNPM_ST2\L6\MiniF4Store\MiniF4Store\obj\Debug\MiniF4Store.pdb
+D:\PhanMemQuanLyBachHoaMini\Website_MiniF4\MiniF4Store\MiniF4Store\bin\MiniF4Store.dll.config
+D:\PhanMemQuanLyBachHoaMini\Website_MiniF4\MiniF4Store\MiniF4Store\bin\MiniF4Store.dll
+D:\PhanMemQuanLyBachHoaMini\Website_MiniF4\MiniF4Store\MiniF4Store\bin\MiniF4Store.pdb
+D:\PhanMemQuanLyBachHoaMini\Website_MiniF4\MiniF4Store\MiniF4Store\bin\Antlr3.Runtime.dll
+D:\PhanMemQuanLyBachHoaMini\Website_MiniF4\MiniF4Store\MiniF4Store\bin\EntityFramework.dll
+D:\PhanMemQuanLyBachHoaMini\Website_MiniF4\MiniF4Store\MiniF4Store\bin\EntityFramework.SqlServer.dll
+D:\PhanMemQuanLyBachHoaMini\Website_MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Core.dll
+D:\PhanMemQuanLyBachHoaMini\Website_MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\PhanMemQuanLyBachHoaMini\Website_MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\PhanMemQuanLyBachHoaMini\Website_MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.dll
+D:\PhanMemQuanLyBachHoaMini\Website_MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\PhanMemQuanLyBachHoaMini\Website_MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Cookies.dll
+D:\PhanMemQuanLyBachHoaMini\Website_MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.dll
+D:\PhanMemQuanLyBachHoaMini\Website_MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Facebook.dll
+D:\PhanMemQuanLyBachHoaMini\Website_MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Google.dll
+D:\PhanMemQuanLyBachHoaMini\Website_MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\PhanMemQuanLyBachHoaMini\Website_MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.OAuth.dll
+D:\PhanMemQuanLyBachHoaMini\Website_MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Twitter.dll
+D:\PhanMemQuanLyBachHoaMini\Website_MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Web.Infrastructure.dll
+D:\PhanMemQuanLyBachHoaMini\Website_MiniF4\MiniF4Store\MiniF4Store\bin\Newtonsoft.Json.dll
+D:\PhanMemQuanLyBachHoaMini\Website_MiniF4\MiniF4Store\MiniF4Store\bin\Owin.dll
+D:\PhanMemQuanLyBachHoaMini\Website_MiniF4\MiniF4Store\MiniF4Store\bin\PagedList.dll
+D:\PhanMemQuanLyBachHoaMini\Website_MiniF4\MiniF4Store\MiniF4Store\bin\PagedList.Mvc.dll
+D:\PhanMemQuanLyBachHoaMini\Website_MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.Helpers.dll
+D:\PhanMemQuanLyBachHoaMini\Website_MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.Mvc.dll
+D:\PhanMemQuanLyBachHoaMini\Website_MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.Optimization.dll
+D:\PhanMemQuanLyBachHoaMini\Website_MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.Razor.dll
+D:\PhanMemQuanLyBachHoaMini\Website_MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Deployment.dll
+D:\PhanMemQuanLyBachHoaMini\Website_MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.dll
+D:\PhanMemQuanLyBachHoaMini\Website_MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Razor.dll
+D:\PhanMemQuanLyBachHoaMini\Website_MiniF4\MiniF4Store\MiniF4Store\bin\WebGrease.dll
+D:\PhanMemQuanLyBachHoaMini\Website_MiniF4\MiniF4Store\MiniF4Store\bin\PagedList.xml
+D:\PhanMemQuanLyBachHoaMini\Website_MiniF4\MiniF4Store\MiniF4Store\bin\PagedList.Mvc.xml
+D:\PhanMemQuanLyBachHoaMini\Website_MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.Helpers.xml
+D:\PhanMemQuanLyBachHoaMini\Website_MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.Mvc.xml
+D:\PhanMemQuanLyBachHoaMini\Website_MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.Optimization.xml
+D:\PhanMemQuanLyBachHoaMini\Website_MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.Razor.xml
+D:\PhanMemQuanLyBachHoaMini\Website_MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.xml
+D:\PhanMemQuanLyBachHoaMini\Website_MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Deployment.xml
+D:\PhanMemQuanLyBachHoaMini\Website_MiniF4\MiniF4Store\MiniF4Store\bin\System.Web.WebPages.Razor.xml
+D:\PhanMemQuanLyBachHoaMini\Website_MiniF4\MiniF4Store\MiniF4Store\bin\Newtonsoft.Json.xml
+D:\PhanMemQuanLyBachHoaMini\Website_MiniF4\MiniF4Store\MiniF4Store\bin\Antlr3.Runtime.pdb
+D:\PhanMemQuanLyBachHoaMini\Website_MiniF4\MiniF4Store\MiniF4Store\bin\EntityFramework.xml
+D:\PhanMemQuanLyBachHoaMini\Website_MiniF4\MiniF4Store\MiniF4Store\bin\EntityFramework.SqlServer.xml
+D:\PhanMemQuanLyBachHoaMini\Website_MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Core.xml
+D:\PhanMemQuanLyBachHoaMini\Website_MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\PhanMemQuanLyBachHoaMini\Website_MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\PhanMemQuanLyBachHoaMini\Website_MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.xml
+D:\PhanMemQuanLyBachHoaMini\Website_MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\PhanMemQuanLyBachHoaMini\Website_MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.xml
+D:\PhanMemQuanLyBachHoaMini\Website_MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Facebook.xml
+D:\PhanMemQuanLyBachHoaMini\Website_MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Cookies.xml
+D:\PhanMemQuanLyBachHoaMini\Website_MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.OAuth.xml
+D:\PhanMemQuanLyBachHoaMini\Website_MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Google.xml
+D:\PhanMemQuanLyBachHoaMini\Website_MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.Twitter.xml
+D:\PhanMemQuanLyBachHoaMini\Website_MiniF4\MiniF4Store\MiniF4Store\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\PhanMemQuanLyBachHoaMini\Website_MiniF4\MiniF4Store\MiniF4Store\obj\Debug\MiniF4Store.csprojResolveAssemblyReference.cache
+D:\PhanMemQuanLyBachHoaMini\Website_MiniF4\MiniF4Store\MiniF4Store\obj\Debug\MiniF4Store.dll
+D:\PhanMemQuanLyBachHoaMini\Website_MiniF4\MiniF4Store\MiniF4Store\obj\Debug\MiniF4Store.pdb

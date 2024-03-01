@@ -1,0 +1,301 @@
+﻿@model IEnumerable<MiniF4Store.Models.HOADON>
+@{
+    ViewBag.Title = "Contact";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+    //var session_sdt = Session["session_sdt"];
+    var u = Session["use"] as MiniF4Store.Models.KHACHHANG;
+}
+
+<section class="breadcrumb-section set-bg" data-setbg="../Asset/img/hero/banner-1.png">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="breadcrumb__text">
+                    <h2>LIÊN HỆ</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Breadcrumb Section End -->
+<!-- Contact Section Begin -->
+<section class="contact spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-6 text-center">
+                <div class="contact__widget">
+                    <span class="icon_phone"></span>
+                    <h4>Phone</h4>
+                    <p>+1900.1908</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 text-center">
+                <div class="contact__widget">
+                    <span class="icon_pin_alt"></span>
+                    <h4>Address</h4>
+                    <p>39a Sơn Kỳ, Tân Phú, Thành phố Hồ Chí Minh</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 text-center">
+                <div class="contact__widget">
+                    <span class="icon_clock_alt"></span>
+                    <h4>Open time</h4>
+                    <p>10:00 am to 23:00 pm</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 text-center">
+                <div class="contact__widget">
+                    <span class="icon_mail_alt"></span>
+                    <h4>Email</h4>
+                    <p>hello@colorlib.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Contact Section End -->
+<!-- Map Begin -->
+<div class="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.0797480689175!2d106.62500637481858!3d10.805204058662692!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752be2c08f735d%3A0x11056ae8f4d1edac!2zMzlhIFPGoW4gS-G7sywgVMOibiBQaMO6LCBUaMOgbmggcGjhu5EgSOG7kyBDaMOtIE1pbmgsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1695204159635!5m2!1svi!2s"
+            height="500" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    <div class="map-inside">
+        <i class="icon_pin"></i>
+        <div class="inside-widget">
+            <h4>Bách hóa MINIF4</h4>
+            <ul>
+                <li>Phone: +1900.1908</li>
+                <li>39a Sơn Kỳ, Tân Phú, Thành phố Hồ Chí Minh</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- Map End -->
+<!-- Contact Form Begin -->
+<section class="featured spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-title">
+                    <h2>THEO DÕI ĐƠN HÀNG</h2>
+                </div>
+                <div class="featured__controls">
+                    <ul>
+                        <li class="active" data-filter="*">All</li>
+                        <li data-filter=".choxn">Chờ xác nhận</li>
+                        <li data-filter=".daxn">Đang giao</li>
+                        <li data-filter=".dagiao">Đã giao</li>
+                        <li data-filter=".dahuy">Đã hủy</li>
+                        <li data-filter=".doitra">Đổi trả</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row featured__filter">
+            <div class="col-lg-12">
+                <table class="table table-bordered">
+
+                    <thead>
+                        <tr>
+                            <th scope="col">MÃ ĐƠN HÀNG</th>
+                            <th scope="col">SỐ ĐIỆN THOẠI</th>
+                            <th scope="col">NGÀY ĐẶT</th>
+                            <th scope="col">TỔNG TIỀN</th>
+                            <th scope="col">TRẠNG THÁI</th>
+
+                            <th scope="col"></th>
+                        </tr>
+                    </thead>
+                    <!-- Chờ xác nhận -->
+                    <tbody class="col-lg-12 mix choxn">
+
+                        @foreach (var item in Model)
+                        {
+                            if (@item.TRANGTHAI_DH == "Chờ xác nhận")
+                            {
+
+                                <tr>
+                                    <th scope="row">@item.MAHD</th>
+                                    <td>@item.SDT_KH</td>
+                                    <td>@item.NGAYLAP</td>
+                                    <td>@item.TONGTIEN</td>
+                                    <td>@item.TRANGTHAI_DH</td>
+                                    <td>
+                                        <button type="button" class="btn btn-danger">
+                                            <a href="@Url.Action("XemChiTiet", "Home", new { @ma = item.MAHD, @tinhtrang = item.TRANGTHAI_DH, @tongtien = item.TONGTIEN, @ngaylap = item.NGAYLAP })">
+                                                <i style="color:white" class="fa fa-trash"></i>
+                                            </a>
+                                        </button>
+
+                                    </td>
+                                </tr>
+
+
+                            }
+                        }
+                    </tbody>
+                    <!-- Đã xác nhận -->
+                    <tbody class="col-lg-12 mix daxn">
+
+                        @foreach (var item in Model)
+                        {
+                            if (@item.TRANGTHAI_DH == "Đã xác nhận")
+                            {
+
+                                <tr>
+                                    <th scope="row">@item.MAHD</th>
+                                    <td>@item.SDT_KH</td>
+                                    <td>@item.NGAYLAP</td>
+                                    <td>@item.TONGTIEN</td>
+                                    <td>@item.TRANGTHAI_DH</td>
+                                    <td>
+                                        <button type="button" class="btn btn-success">
+                                            <a href="@Url.Action("XemChiTiet", "Home", new { @ma = item.MAHD, @tinhtrang = item.TRANGTHAI_DH, @tongtien = item.TONGTIEN, @ngaylap = item.NGAYLAP })">
+                                                <i style="color:white" class="fa fa-check"></i>
+                                            </a>
+                                        </button>
+                                        @*<button type="button" class="btn btn-warning">
+                                            <a href="@Url.Action("XemChiTiet", "Home", new { @ma = item.MAHD, @tinhtrang = item.TRANGTHAI_DH, @tongtien = item.TONGTIEN, @ngaylap = item.NGAYLAP })">
+                                                <i style="color:white" class="fa fa-reply"></i>
+                                            </a>
+                                        </button>*@
+
+                                    </td>
+                                </tr>
+
+                            }
+                        }
+                    </tbody>
+                    <!-- Đã giao -->
+                    <tbody class="col-lg-12 mix dagiao">
+
+                        @foreach (var item in Model)
+                        {
+                            if (@item.TRANGTHAI_DH == "Đã giao")
+                            {
+
+                                <tr>
+                                    <th scope="row">@item.MAHD</th>
+                                    <td>@item.SDT_KH</td>
+                                    <td>@item.NGAYLAP</td>
+                                    <td>@item.TONGTIEN</td>
+                                    <td>@item.TRANGTHAI_DH</td>
+                                    <td>
+                                        <button type="button" class="btn btn-primary">
+                                                <a href="@Url.Action("XemChiTiet", "Home", new { @ma = item.MAHD, @tinhtrang = item.TRANGTHAI_DH, @tongtien = item.TONGTIEN, @ngaylap = item.NGAYLAP })">
+                                                    <i style="color:white" class="fa fa-eye"></i>
+                                                </a>
+                                            </button>
+
+                                    </td>
+                                </tr>
+
+
+                            }
+                        }
+                    </tbody>
+                    <!-- Đã hủy -->
+                    <tbody class="col-lg-12 mix dahuy">
+
+                        @foreach (var item in Model)
+                        {
+                            if (@item.TRANGTHAI_DH == "Đã hủy")
+                            {
+
+                                <tr>
+                                    <th scope="row">@item.MAHD</th>
+                                    <td>@item.SDT_KH</td>
+                                    <td>@item.NGAYLAP</td>
+                                    <td>@item.TONGTIEN</td>
+                                    <td>@item.TRANGTHAI_DH</td>
+                                    <td>
+                                        <button type="button" class="btn btn-primary">
+                                                <a href="@Url.Action("XemChiTiet", "Home", new { @ma = item.MAHD, @tinhtrang = item.TRANGTHAI_DH, @tongtien = item.TONGTIEN, @ngaylap = item.NGAYLAP })">
+                                                    <i style="color:white" class="fa fa-eye"></i>
+                                                </a>
+                                            </button>
+
+                                    </td>
+                                </tr>
+
+
+                            }
+                        }
+                    </tbody>
+                    <!-- Đổi trả -->
+                    <tbody class="col-lg-12 mix doitra">
+
+                        @foreach (var item in Model)
+                        {
+                            if (@item.TRANGTHAI_DH == "Đã đổi trả")
+                            {
+                                <tr>
+                                    <th scope="row">@item.MAHD</th>
+                                    <td>@item.SDT_KH</td>
+                                    <td>@item.NGAYLAP</td>
+                                    <td>@item.TONGTIEN</td>
+                                    <td>@item.TRANGTHAI_DH</td>
+                                    <td>
+                                        <button type="button" class="btn btn-primary">
+                                            <a href="@Url.Action("XemChiTiet", "Home", new { @ma = item.MAHD, @tinhtrang = item.TRANGTHAI_DH, @tongtien = item.TONGTIEN, @ngaylap = item.NGAYLAP })">
+                                                <i style="color:white" class="fa fa-eye"></i>
+                                            </a>
+                                        </button>
+
+                                        <button type="button" class="btn btn-warning">
+                                            <a href="@Url.Action("XemChiTietDT", "Home", new { @ma = item.MAHD, @tinhtrang = item.TRANGTHAI_DH, @tongtien = item.TONGTIEN, @ngaylap = item.NGAYLAP })">
+                                                <i style="color:white" class="fa fa-eye"></i>
+                                            </a>
+                                        </button>
+
+                                    </td>
+                                </tr>
+
+
+                            }
+                            if(@item.TRANGTHAI_DH == "Chờ đổi trả" )
+                            {
+                                <tr>
+                                    <th scope="row">@item.MAHD</th>
+                                    <td>@item.SDT_KH</td>
+                                    <td>@item.NGAYLAP</td>
+                                    <td>@item.TONGTIEN</td>
+                                    <td>@item.TRANGTHAI_DH</td>
+                                    <td>
+                                        <button type="button" class="btn btn-warning">
+                                            <a href="@Url.Action("XemChiTiet", "Home", new { @ma = item.MAHD, @tinhtrang = item.TRANGTHAI_DH, @tongtien = item.TONGTIEN, @ngaylap = item.NGAYLAP })">
+                                                <i style="color:white" class="fa fa-reply"></i>
+                                            </a>
+                                        </button>
+
+                                    </td>
+                                </tr>
+                            }
+                             if(@item.TRANGTHAI_DH == "Không chấp nhận yêu cầu đổi trả")
+                            {
+                                <tr>
+                                    <th scope="row">@item.MAHD</th>
+                                    <td>@item.SDT_KH</td>
+                                    <td>@item.NGAYLAP</td>
+                                    <td>@item.TONGTIEN</td>
+                                    <td>@item.TRANGTHAI_DH</td>
+                                    <td>
+                                        <button type="button" class="btn btn-danger">
+                                            <a href="@Url.Action("XemChiTiet", "Home", new { @ma = item.MAHD, @tinhtrang = item.TRANGTHAI_DH, @tongtien = item.TONGTIEN, @ngaylap = item.NGAYLAP })">
+                                                <i style="color:white" class="fa fa-reply"></i>
+                                            </a>
+                                        </button>
+
+                                    </td>
+                                </tr>
+                            }
+                            
+                        }
+                    </tbody>
+                </table>
+
+
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Contact Form End -->

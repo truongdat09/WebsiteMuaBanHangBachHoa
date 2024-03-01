@@ -1,0 +1,1164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{344A2C68-EE48-4800-8AAC-FB12369D9A7C}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MiniF4Store</RootNamespace>
+    <AssemblyName>MiniF4Store</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <Use64BitIISExpress />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="PagedList, Version=1.17.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
+      <HintPath>..\packages\PagedList.1.17.0.0\lib\net40\PagedList.dll</HintPath>
+    </Reference>
+    <Reference Include="PagedList.Mvc, Version=4.5.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
+      <HintPath>..\packages\PagedList.Mvc.4.5.0.0\lib\net40\PagedList.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+    </Reference>
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.0.0\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.0.0\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.1\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.0.0\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.0.0\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.0.0\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.0.0\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <Private>True</Private>
+      <HintPath>..\packages\Newtonsoft.Json.5.0.6\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.5.2\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Core">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Core.1.0.0\lib\net45\Microsoft.AspNet.Identity.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Owin">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Owin.1.0.0\lib\net45\Microsoft.AspNet.Identity.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.EntityFramework">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.EntityFramework.1.0.0\lib\net45\Microsoft.AspNet.Identity.EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Owin">
+      <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin">
+      <HintPath>..\packages\Microsoft.Owin.2.0.0\lib\net45\Microsoft.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Host.SystemWeb">
+      <HintPath>..\packages\Microsoft.Owin.Host.SystemWeb.2.0.0\lib\net45\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security">
+      <HintPath>..\packages\Microsoft.Owin.Security.2.0.0\lib\net45\Microsoft.Owin.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Facebook">
+      <HintPath>..\packages\Microsoft.Owin.Security.Facebook.2.0.0\lib\net45\Microsoft.Owin.Security.Facebook.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Cookies">
+      <HintPath>..\packages\Microsoft.Owin.Security.Cookies.2.0.0\lib\net45\Microsoft.Owin.Security.Cookies.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.OAuth">
+      <HintPath>..\packages\Microsoft.Owin.Security.OAuth.2.0.0\lib\net45\Microsoft.Owin.Security.OAuth.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Google">
+      <HintPath>..\packages\Microsoft.Owin.Security.Google.2.0.0\lib\net45\Microsoft.Owin.Security.Google.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Twitter">
+      <HintPath>..\packages\Microsoft.Owin.Security.Twitter.2.0.0\lib\net45\Microsoft.Owin.Security.Twitter.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.MicrosoftAccount">
+      <HintPath>..\packages\Microsoft.Owin.Security.MicrosoftAccount.2.0.0\lib\net45\Microsoft.Owin.Security.MicrosoftAccount.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="Common\Common.cs" />
+    <Compile Include="Controllers\AdminController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\TaiKhoanController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\DangKyModel.cs" />
+    <Compile Include="Models\DangNhapModel.cs" />
+    <Compile Include="Models\GioHang.cs" />
+    <Compile Include="Models\gmail.cs" />
+    <Compile Include="Models\KhachHang.cs" />
+    <Compile Include="Models\OTP.cs" />
+    <Compile Include="Models\Payments\VnPayLibrary.cs" />
+    <Compile Include="Models\QL_BachHoa.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QL_BachHoa.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ThongKe.cs" />
+    <Compile Include="Models\ViewDoiTra.cs" />
+    <Compile Include="Models\View_ChiTietDH.cs" />
+    <Compile Include="Models\View_DH.cs" />
+    <Compile Include="Models\View_DH_Linh.cs" />
+    <Compile Include="Models\View_SP.cs" />
+    <Compile Include="Models\YeuThich.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Startup.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\css\atlantis.css" />
+    <Content Include="assets\css\atlantis.min.css" />
+    <Content Include="assets\css\bootstrap.min.css" />
+    <Content Include="assets\css\demo.css" />
+    <Content Include="assets\css\fonts.css" />
+    <Content Include="assets\css\fonts.min.css" />
+    <Content Include="assets\fonts\flaticon\flaticon.css" />
+    <Content Include="assets\fonts\flaticon\flaticon.html" />
+    <Content Include="assets\fonts\flaticon\Flaticon.svg" />
+    <Content Include="assets\fonts\fontawesome\fa-brands-400.svg" />
+    <Content Include="assets\fonts\fontawesome\fa-regular-400.svg" />
+    <Content Include="assets\fonts\fontawesome\fa-solid-900.svg" />
+    <Content Include="assets\fonts\simple-line-icons\Simple-Line-Icons.svg" />
+    <Content Include="assets\img\account.png" />
+    <Content Include="assets\img\arashmil.jpg" />
+    <Content Include="assets\img\bg-404.jpeg" />
+    <Content Include="assets\img\bg-abstract.png" />
+    <Content Include="assets\img\bg-abstract2.png" />
+    <Content Include="assets\img\blogpost.jpg" />
+    <Content Include="assets\img\chadengle.jpg" />
+    <Content Include="assets\img\examples\example1-300x300.jpg" />
+    <Content Include="assets\img\examples\example1.jpeg" />
+    <Content Include="assets\img\examples\example10-300x300.jpg" />
+    <Content Include="assets\img\examples\example10.jpeg" />
+    <Content Include="assets\img\examples\example11-300x300.jpg" />
+    <Content Include="assets\img\examples\example11.jpeg" />
+    <Content Include="assets\img\examples\example12-300x300.jpg" />
+    <Content Include="assets\img\examples\example12.jpeg" />
+    <Content Include="assets\img\examples\example2-300x300.jpg" />
+    <Content Include="assets\img\examples\example2.jpeg" />
+    <Content Include="assets\img\examples\example3-300x300.jpg" />
+    <Content Include="assets\img\examples\example3.jpeg" />
+    <Content Include="assets\img\examples\example4-300x300.jpg" />
+    <Content Include="assets\img\examples\example4.jpeg" />
+    <Content Include="assets\img\examples\example5-300x300.jpg" />
+    <Content Include="assets\img\examples\example5.jpeg" />
+    <Content Include="assets\img\examples\example6-300x300.jpg" />
+    <Content Include="assets\img\examples\example6.jpeg" />
+    <Content Include="assets\img\examples\example7-300x300.jpg" />
+    <Content Include="assets\img\examples\example7.jpeg" />
+    <Content Include="assets\img\examples\example8-300x300.jpg" />
+    <Content Include="assets\img\examples\example8.jpeg" />
+    <Content Include="assets\img\examples\example9-300x300.jpg" />
+    <Content Include="assets\img\examples\example9.jpeg" />
+    <Content Include="assets\img\examples\logoinvoice.svg" />
+    <Content Include="assets\img\examples\product1.jpg" />
+    <Content Include="assets\img\examples\product10.jpeg" />
+    <Content Include="assets\img\examples\product11.jpeg" />
+    <Content Include="assets\img\examples\product12.jpeg" />
+    <Content Include="assets\img\examples\product2.jpg" />
+    <Content Include="assets\img\examples\product3.jpg" />
+    <Content Include="assets\img\examples\product4.jpg" />
+    <Content Include="assets\img\examples\product5.jpg" />
+    <Content Include="assets\img\examples\product6.jpg" />
+    <Content Include="assets\img\examples\product7.jpg" />
+    <Content Include="assets\img\examples\product8.jpg" />
+    <Content Include="assets\img\flags\ad.png" />
+    <Content Include="assets\img\flags\ae.png" />
+    <Content Include="assets\img\flags\af.png" />
+    <Content Include="assets\img\flags\ag.png" />
+    <Content Include="assets\img\flags\ai.png" />
+    <Content Include="assets\img\flags\al.png" />
+    <Content Include="assets\img\flags\am.png" />
+    <Content Include="assets\img\flags\an.png" />
+    <Content Include="assets\img\flags\ao.png" />
+    <Content Include="assets\img\flags\ar.png" />
+    <Content Include="assets\img\flags\as.png" />
+    <Content Include="assets\img\flags\at.png" />
+    <Content Include="assets\img\flags\au.png" />
+    <Content Include="assets\img\flags\aw.png" />
+    <Content Include="assets\img\flags\ax.png" />
+    <Content Include="assets\img\flags\az.png" />
+    <Content Include="assets\img\flags\ba.png" />
+    <Content Include="assets\img\flags\bb.png" />
+    <Content Include="assets\img\flags\bd.png" />
+    <Content Include="assets\img\flags\be.png" />
+    <Content Include="assets\img\flags\bf.png" />
+    <Content Include="assets\img\flags\bg.png" />
+    <Content Include="assets\img\flags\bh.png" />
+    <Content Include="assets\img\flags\bi.png" />
+    <Content Include="assets\img\flags\bj.png" />
+    <Content Include="assets\img\flags\bm.png" />
+    <Content Include="assets\img\flags\bn.png" />
+    <Content Include="assets\img\flags\bo.png" />
+    <Content Include="assets\img\flags\br.png" />
+    <Content Include="assets\img\flags\bs.png" />
+    <Content Include="assets\img\flags\bt.png" />
+    <Content Include="assets\img\flags\bv.png" />
+    <Content Include="assets\img\flags\bw.png" />
+    <Content Include="assets\img\flags\by.png" />
+    <Content Include="assets\img\flags\bz.png" />
+    <Content Include="assets\img\flags\ca.png" />
+    <Content Include="assets\img\flags\catalonia.png" />
+    <Content Include="assets\img\flags\cc.png" />
+    <Content Include="assets\img\flags\cd.png" />
+    <Content Include="assets\img\flags\cf.png" />
+    <Content Include="assets\img\flags\cg.png" />
+    <Content Include="assets\img\flags\ch.png" />
+    <Content Include="assets\img\flags\ci.png" />
+    <Content Include="assets\img\flags\ck.png" />
+    <Content Include="assets\img\flags\cl.png" />
+    <Content Include="assets\img\flags\cm.png" />
+    <Content Include="assets\img\flags\cn.png" />
+    <Content Include="assets\img\flags\co.png" />
+    <Content Include="assets\img\flags\cr.png" />
+    <Content Include="assets\img\flags\cs.png" />
+    <Content Include="assets\img\flags\cu.png" />
+    <Content Include="assets\img\flags\cv.png" />
+    <Content Include="assets\img\flags\cx.png" />
+    <Content Include="assets\img\flags\cy.png" />
+    <Content Include="assets\img\flags\cz.png" />
+    <Content Include="assets\img\flags\de.png" />
+    <Content Include="assets\img\flags\dj.png" />
+    <Content Include="assets\img\flags\dk.png" />
+    <Content Include="assets\img\flags\dm.png" />
+    <Content Include="assets\img\flags\do.png" />
+    <Content Include="assets\img\flags\dz.png" />
+    <Content Include="assets\img\flags\ec.png" />
+    <Content Include="assets\img\flags\ee.png" />
+    <Content Include="assets\img\flags\eg.png" />
+    <Content Include="assets\img\flags\eh.png" />
+    <Content Include="assets\img\flags\england.png" />
+    <Content Include="assets\img\flags\er.png" />
+    <Content Include="assets\img\flags\es.png" />
+    <Content Include="assets\img\flags\et.png" />
+    <Content Include="assets\img\flags\europeanunion.png" />
+    <Content Include="assets\img\flags\fam.png" />
+    <Content Include="assets\img\flags\fi.png" />
+    <Content Include="assets\img\flags\fj.png" />
+    <Content Include="assets\img\flags\fk.png" />
+    <Content Include="assets\img\flags\fm.png" />
+    <Content Include="assets\img\flags\fo.png" />
+    <Content Include="assets\img\flags\fr.png" />
+    <Content Include="assets\img\flags\ga.png" />
+    <Content Include="assets\img\flags\gb.png" />
+    <Content Include="assets\img\flags\gd.png" />
+    <Content Include="assets\img\flags\ge.png" />
+    <Content Include="assets\img\flags\gf.png" />
+    <Content Include="assets\img\flags\gh.png" />
+    <Content Include="assets\img\flags\gi.png" />
+    <Content Include="assets\img\flags\gl.png" />
+    <Content Include="assets\img\flags\gm.png" />
+    <Content Include="assets\img\flags\gn.png" />
+    <Content Include="assets\img\flags\gp.png" />
+    <Content Include="assets\img\flags\gq.png" />
+    <Content Include="assets\img\flags\gr.png" />
+    <Content Include="assets\img\flags\gs.png" />
+    <Content Include="assets\img\flags\gt.png" />
+    <Content Include="assets\img\flags\gu.png" />
+    <Content Include="assets\img\flags\gw.png" />
+    <Content Include="assets\img\flags\gy.png" />
+    <Content Include="assets\img\flags\hk.png" />
+    <Content Include="assets\img\flags\hm.png" />
+    <Content Include="assets\img\flags\hn.png" />
+    <Content Include="assets\img\flags\hr.png" />
+    <Content Include="assets\img\flags\ht.png" />
+    <Content Include="assets\img\flags\hu.png" />
+    <Content Include="assets\img\flags\id.png" />
+    <Content Include="assets\img\flags\ie.png" />
+    <Content Include="assets\img\flags\il.png" />
+    <Content Include="assets\img\flags\in.png" />
+    <Content Include="assets\img\flags\io.png" />
+    <Content Include="assets\img\flags\iq.png" />
+    <Content Include="assets\img\flags\ir.png" />
+    <Content Include="assets\img\flags\is.png" />
+    <Content Include="assets\img\flags\it.png" />
+    <Content Include="assets\img\flags\jm.png" />
+    <Content Include="assets\img\flags\jo.png" />
+    <Content Include="assets\img\flags\jp.png" />
+    <Content Include="assets\img\flags\ke.png" />
+    <Content Include="assets\img\flags\kg.png" />
+    <Content Include="assets\img\flags\kh.png" />
+    <Content Include="assets\img\flags\ki.png" />
+    <Content Include="assets\img\flags\km.png" />
+    <Content Include="assets\img\flags\kn.png" />
+    <Content Include="assets\img\flags\kp.png" />
+    <Content Include="assets\img\flags\kr.png" />
+    <Content Include="assets\img\flags\kw.png" />
+    <Content Include="assets\img\flags\ky.png" />
+    <Content Include="assets\img\flags\kz.png" />
+    <Content Include="assets\img\flags\la.png" />
+    <Content Include="assets\img\flags\lb.png" />
+    <Content Include="assets\img\flags\lc.png" />
+    <Content Include="assets\img\flags\li.png" />
+    <Content Include="assets\img\flags\lk.png" />
+    <Content Include="assets\img\flags\lr.png" />
+    <Content Include="assets\img\flags\ls.png" />
+    <Content Include="assets\img\flags\lt.png" />
+    <Content Include="assets\img\flags\lu.png" />
+    <Content Include="assets\img\flags\lv.png" />
+    <Content Include="assets\img\flags\ly.png" />
+    <Content Include="assets\img\flags\ma.png" />
+    <Content Include="assets\img\flags\mc.png" />
+    <Content Include="assets\img\flags\md.png" />
+    <Content Include="assets\img\flags\me.png" />
+    <Content Include="assets\img\flags\mg.png" />
+    <Content Include="assets\img\flags\mh.png" />
+    <Content Include="assets\img\flags\mk.png" />
+    <Content Include="assets\img\flags\ml.png" />
+    <Content Include="assets\img\flags\mm.png" />
+    <Content Include="assets\img\flags\mn.png" />
+    <Content Include="assets\img\flags\mo.png" />
+    <Content Include="assets\img\flags\mp.png" />
+    <Content Include="assets\img\flags\mq.png" />
+    <Content Include="assets\img\flags\mr.png" />
+    <Content Include="assets\img\flags\ms.png" />
+    <Content Include="assets\img\flags\mt.png" />
+    <Content Include="assets\img\flags\mu.png" />
+    <Content Include="assets\img\flags\mv.png" />
+    <Content Include="assets\img\flags\mw.png" />
+    <Content Include="assets\img\flags\mx.png" />
+    <Content Include="assets\img\flags\my.png" />
+    <Content Include="assets\img\flags\mz.png" />
+    <Content Include="assets\img\flags\na.png" />
+    <Content Include="assets\img\flags\nc.png" />
+    <Content Include="assets\img\flags\ne.png" />
+    <Content Include="assets\img\flags\nf.png" />
+    <Content Include="assets\img\flags\ng.png" />
+    <Content Include="assets\img\flags\ni.png" />
+    <Content Include="assets\img\flags\nl.png" />
+    <Content Include="assets\img\flags\no.png" />
+    <Content Include="assets\img\flags\np.png" />
+    <Content Include="assets\img\flags\nr.png" />
+    <Content Include="assets\img\flags\nu.png" />
+    <Content Include="assets\img\flags\nz.png" />
+    <Content Include="assets\img\flags\om.png" />
+    <Content Include="assets\img\flags\pa.png" />
+    <Content Include="assets\img\flags\pe.png" />
+    <Content Include="assets\img\flags\pf.png" />
+    <Content Include="assets\img\flags\pg.png" />
+    <Content Include="assets\img\flags\ph.png" />
+    <Content Include="assets\img\flags\pk.png" />
+    <Content Include="assets\img\flags\pl.png" />
+    <Content Include="assets\img\flags\pm.png" />
+    <Content Include="assets\img\flags\pn.png" />
+    <Content Include="assets\img\flags\pr.png" />
+    <Content Include="assets\img\flags\ps.png" />
+    <Content Include="assets\img\flags\pt.png" />
+    <Content Include="assets\img\flags\pw.png" />
+    <Content Include="assets\img\flags\py.png" />
+    <Content Include="assets\img\flags\qa.png" />
+    <Content Include="assets\img\flags\re.png" />
+    <Content Include="assets\img\flags\readme.txt" />
+    <Content Include="assets\img\flags\ro.png" />
+    <Content Include="assets\img\flags\rs.png" />
+    <Content Include="assets\img\flags\ru.png" />
+    <Content Include="assets\img\flags\rw.png" />
+    <Content Include="assets\img\flags\sa.png" />
+    <Content Include="assets\img\flags\sb.png" />
+    <Content Include="assets\img\flags\sc.png" />
+    <Content Include="assets\img\flags\scotland.png" />
+    <Content Include="assets\img\flags\sd.png" />
+    <Content Include="assets\img\flags\se.png" />
+    <Content Include="assets\img\flags\sg.png" />
+    <Content Include="assets\img\flags\sh.png" />
+    <Content Include="assets\img\flags\si.png" />
+    <Content Include="assets\img\flags\sj.png" />
+    <Content Include="assets\img\flags\sk.png" />
+    <Content Include="assets\img\flags\sl.png" />
+    <Content Include="assets\img\flags\sm.png" />
+    <Content Include="assets\img\flags\sn.png" />
+    <Content Include="assets\img\flags\so.png" />
+    <Content Include="assets\img\flags\sr.png" />
+    <Content Include="assets\img\flags\st.png" />
+    <Content Include="assets\img\flags\sv.png" />
+    <Content Include="assets\img\flags\sy.png" />
+    <Content Include="assets\img\flags\sz.png" />
+    <Content Include="assets\img\flags\tc.png" />
+    <Content Include="assets\img\flags\td.png" />
+    <Content Include="assets\img\flags\tf.png" />
+    <Content Include="assets\img\flags\tg.png" />
+    <Content Include="assets\img\flags\th.png" />
+    <Content Include="assets\img\flags\tj.png" />
+    <Content Include="assets\img\flags\tk.png" />
+    <Content Include="assets\img\flags\tl.png" />
+    <Content Include="assets\img\flags\tm.png" />
+    <Content Include="assets\img\flags\tn.png" />
+    <Content Include="assets\img\flags\to.png" />
+    <Content Include="assets\img\flags\tr.png" />
+    <Content Include="assets\img\flags\tt.png" />
+    <Content Include="assets\img\flags\tv.png" />
+    <Content Include="assets\img\flags\tw.png" />
+    <Content Include="assets\img\flags\tz.png" />
+    <Content Include="assets\img\flags\ua.png" />
+    <Content Include="assets\img\flags\ug.png" />
+    <Content Include="assets\img\flags\um.png" />
+    <Content Include="assets\img\flags\us.png" />
+    <Content Include="assets\img\flags\uy.png" />
+    <Content Include="assets\img\flags\uz.png" />
+    <Content Include="assets\img\flags\va.png" />
+    <Content Include="assets\img\flags\vc.png" />
+    <Content Include="assets\img\flags\ve.png" />
+    <Content Include="assets\img\flags\vg.png" />
+    <Content Include="assets\img\flags\vi.png" />
+    <Content Include="assets\img\flags\vn.png" />
+    <Content Include="assets\img\flags\vu.png" />
+    <Content Include="assets\img\flags\wales.png" />
+    <Content Include="assets\img\flags\wf.png" />
+    <Content Include="assets\img\flags\ws.png" />
+    <Content Include="assets\img\flags\ye.png" />
+    <Content Include="assets\img\flags\yt.png" />
+    <Content Include="assets\img\flags\za.png" />
+    <Content Include="assets\img\flags\zm.png" />
+    <Content Include="assets\img\flags\zw.png" />
+    <Content Include="assets\img\icon.ico" />
+    <Content Include="assets\img\icon.png" />
+    <Content Include="assets\img\icon.svg" />
+    <Content Include="assets\img\img-shadow.png" />
+    <Content Include="assets\img\jm_denis.jpg" />
+    <Content Include="assets\img\logo.png" />
+    <Content Include="assets\img\logo.svg" />
+    <Content Include="assets\img\logo2.svg" />
+    <Content Include="assets\img\logoalternatif.svg" />
+    <Content Include="assets\img\logoproduct.svg" />
+    <Content Include="assets\img\logoproduct2.svg" />
+    <Content Include="assets\img\logoproduct3.svg" />
+    <Content Include="assets\img\logo_bookstore.png" />
+    <Content Include="assets\img\mlane.jpg" />
+    <Content Include="assets\img\productimg\product1.jpeg" />
+    <Content Include="assets\img\productimg\product2.jpeg" />
+    <Content Include="assets\img\productimg\product3.jpeg" />
+    <Content Include="assets\img\productimg\product4.jpeg" />
+    <Content Include="assets\img\productimg\product5.jpeg" />
+    <Content Include="assets\img\productimg\product6.jpeg" />
+    <Content Include="assets\img\productimg\product7.jpeg" />
+    <Content Include="assets\img\productimg\product8.jpeg" />
+    <Content Include="assets\img\productimg\product9.jpeg" />
+    <Content Include="assets\img\profile.jpg" />
+    <Content Include="assets\img\profile2.jpg" />
+    <Content Include="assets\img\sauro.jpg" />
+    <Content Include="assets\img\talha.jpg" />
+    <Content Include="assets\img\visa.svg" />
+    <Content Include="assets\js\atlantis.js" />
+    <Content Include="assets\js\atlantis.min.js" />
+    <Content Include="assets\js\atlantis2.js" />
+    <Content Include="assets\js\core\bootstrap.min.js" />
+    <Content Include="assets\js\core\jquery.3.2.1.min.js" />
+    <Content Include="assets\js\core\popper.min.js" />
+    <Content Include="assets\js\demo.js" />
+    <Content Include="assets\js\plugin\bootstrap-notify\bootstrap-notify.min.js" />
+    <Content Include="assets\js\plugin\chart-circle\circles.min.js" />
+    <Content Include="assets\js\plugin\chart.js\chart.min.js" />
+    <Content Include="assets\js\plugin\datatables\datatables.min.js" />
+    <Content Include="assets\js\plugin\jquery-scrollbar\jquery.scrollbar.min.js" />
+    <Content Include="assets\js\plugin\jquery-ui-1.12.1.custom\jquery-ui.min.js" />
+    <Content Include="assets\js\plugin\jquery-ui-touch-punch\jquery.ui.touch-punch.min.js" />
+    <Content Include="assets\js\plugin\jquery.sparkline\jquery.sparkline.min.js" />
+    <Content Include="assets\js\plugin\jqvmap\jquery.vmap.min.js" />
+    <Content Include="assets\js\plugin\jqvmap\maps\continents\jquery.vmap.africa.js" />
+    <Content Include="assets\js\plugin\jqvmap\maps\continents\jquery.vmap.asia.js" />
+    <Content Include="assets\js\plugin\jqvmap\maps\continents\jquery.vmap.australia.js" />
+    <Content Include="assets\js\plugin\jqvmap\maps\continents\jquery.vmap.europe.js" />
+    <Content Include="assets\js\plugin\jqvmap\maps\continents\jquery.vmap.north-america.js" />
+    <Content Include="assets\js\plugin\jqvmap\maps\continents\jquery.vmap.south-america.js" />
+    <Content Include="assets\js\plugin\jqvmap\maps\jquery.vmap.algeria.js" />
+    <Content Include="assets\js\plugin\jqvmap\maps\jquery.vmap.argentina.js" />
+    <Content Include="assets\js\plugin\jqvmap\maps\jquery.vmap.brazil.js" />
+    <Content Include="assets\js\plugin\jqvmap\maps\jquery.vmap.canada.js" />
+    <Content Include="assets\js\plugin\jqvmap\maps\jquery.vmap.croatia.js" />
+    <Content Include="assets\js\plugin\jqvmap\maps\jquery.vmap.europe.js" />
+    <Content Include="assets\js\plugin\jqvmap\maps\jquery.vmap.france.js" />
+    <Content Include="assets\js\plugin\jqvmap\maps\jquery.vmap.germany.js" />
+    <Content Include="assets\js\plugin\jqvmap\maps\jquery.vmap.greece.js" />
+    <Content Include="assets\js\plugin\jqvmap\maps\jquery.vmap.indonesia.js" />
+    <Content Include="assets\js\plugin\jqvmap\maps\jquery.vmap.iran.js" />
+    <Content Include="assets\js\plugin\jqvmap\maps\jquery.vmap.iraq.js" />
+    <Content Include="assets\js\plugin\jqvmap\maps\jquery.vmap.new_regions_france.js" />
+    <Content Include="assets\js\plugin\jqvmap\maps\jquery.vmap.russia.js" />
+    <Content Include="assets\js\plugin\jqvmap\maps\jquery.vmap.serbia.js" />
+    <Content Include="assets\js\plugin\jqvmap\maps\jquery.vmap.tunisia.js" />
+    <Content Include="assets\js\plugin\jqvmap\maps\jquery.vmap.turkey.js" />
+    <Content Include="assets\js\plugin\jqvmap\maps\jquery.vmap.ukraine.js" />
+    <Content Include="assets\js\plugin\jqvmap\maps\jquery.vmap.usa.counties.js" />
+    <Content Include="assets\js\plugin\jqvmap\maps\jquery.vmap.usa.districts.js" />
+    <Content Include="assets\js\plugin\jqvmap\maps\jquery.vmap.usa.js" />
+    <Content Include="assets\js\plugin\jqvmap\maps\jquery.vmap.world.js" />
+    <Content Include="assets\js\plugin\sweetalert\sweetalert.min.js" />
+    <Content Include="assets\js\plugin\webfont\webfont.min.js" />
+    <Content Include="assets\js\setting-demo.js" />
+    <Content Include="assets\js\setting-demo2.js" />
+    <Content Include="Asset\css\bootstrap.min.css" />
+    <Content Include="Asset\css\elegant-icons.css" />
+    <Content Include="Asset\css\font-awesome.min.css" />
+    <Content Include="Asset\css\jquery-ui.min.css" />
+    <Content Include="Asset\css\nice-select.css" />
+    <Content Include="Asset\css\owl.carousel.min.css" />
+    <Content Include="Asset\css\slicknav.min.css" />
+    <Content Include="Asset\css\style.css" />
+    <Content Include="Asset\fonts\ElegantIcons.svg" />
+    <Content Include="Asset\fonts\fontawesome-webfont.svg" />
+    <Content Include="Asset\img\banner\banner-3.jpg" />
+    <Content Include="Asset\img\banner\banner.png" />
+    <Content Include="Asset\img\banner\blog-1.jpg" />
+    <Content Include="Asset\img\banner\blog-2.jpg" />
+    <Content Include="Asset\img\banner\blog-3.jpg" />
+    <Content Include="Asset\img\cart\cart-1.jpg" />
+    <Content Include="Asset\img\cart\cart-2.jpg" />
+    <Content Include="Asset\img\cart\cart-3.jpg" />
+    <Content Include="Asset\img\categories\qc-1.jpg" />
+    <Content Include="Asset\img\categories\qc-2.jpg" />
+    <Content Include="Asset\img\categories\qc-3.jpg" />
+    <Content Include="Asset\img\categories\qc-4.jpg" />
+    <Content Include="Asset\img\categories\qc-5.jpg" />
+    <Content Include="Asset\img\hero\banner-1.png" />
+    <Content Include="Asset\img\hero\logo.png" />
+    <Content Include="Asset\img\product\11\01.jpg" />
+    <Content Include="Asset\img\product\11\02.jpg" />
+    <Content Include="Asset\img\product\11\03.jpg" />
+    <Content Include="Asset\img\product\11\04.jpg" />
+    <Content Include="Asset\img\product\11\05.jpg" />
+    <Content Include="Asset\img\product\12\01.jpg" />
+    <Content Include="Asset\img\product\12\02.jpg" />
+    <Content Include="Asset\img\product\12\03.jpg" />
+    <Content Include="Asset\img\product\12\04.jpg" />
+    <Content Include="Asset\img\product\12\05.jpg" />
+    <Content Include="Asset\img\product\13\01.jpg" />
+    <Content Include="Asset\img\product\13\02.jpg" />
+    <Content Include="Asset\img\product\13\03.jpg" />
+    <Content Include="Asset\img\product\13\04.jpg" />
+    <Content Include="Asset\img\product\13\05.jpg" />
+    <Content Include="Asset\img\product\14\01.jpg" />
+    <Content Include="Asset\img\product\14\02.jpg" />
+    <Content Include="Asset\img\product\14\03.jpg" />
+    <Content Include="Asset\img\product\14\04.jpg" />
+    <Content Include="Asset\img\product\14\05.jpg" />
+    <Content Include="Asset\img\product\15\01.jpg" />
+    <Content Include="Asset\img\product\15\02.jpg" />
+    <Content Include="Asset\img\product\15\03.jpg" />
+    <Content Include="Asset\img\product\15\04.jpg" />
+    <Content Include="Asset\img\product\15\05.jpg" />
+    <Content Include="Asset\img\product\16\01.jpg" />
+    <Content Include="Asset\img\product\16\02.jpg" />
+    <Content Include="Asset\img\product\16\03.jpg" />
+    <Content Include="Asset\img\product\16\04.jpg" />
+    <Content Include="Asset\img\product\16\05.jpg" />
+    <Content Include="Asset\img\product\17\01.jpg" />
+    <Content Include="Asset\img\product\17\02.jpg" />
+    <Content Include="Asset\img\product\17\03.jpg" />
+    <Content Include="Asset\img\product\17\04.jpg" />
+    <Content Include="Asset\img\product\17\05.jpg" />
+    <Content Include="Asset\img\product\18\01.jpg" />
+    <Content Include="Asset\img\product\18\02.jpg" />
+    <Content Include="Asset\img\product\18\03.jpg" />
+    <Content Include="Asset\img\product\18\04.jpg" />
+    <Content Include="Asset\img\product\18\05.jpg" />
+    <Content Include="Asset\img\product\19\01.jpg" />
+    <Content Include="Asset\img\product\19\02.jpg" />
+    <Content Include="Asset\img\product\19\03.jpg" />
+    <Content Include="Asset\img\product\19\04.jpg" />
+    <Content Include="Asset\img\product\19\05.jpg" />
+    <Content Include="Asset\img\product\1\01.jpg" />
+    <Content Include="Asset\img\product\1\02.jpg" />
+    <Content Include="Asset\img\product\1\03.jpg" />
+    <Content Include="Asset\img\product\1\04.jpg" />
+    <Content Include="Asset\img\product\1\05.jpg" />
+    <Content Include="Asset\img\product\20\01.jpg" />
+    <Content Include="Asset\img\product\20\02.jpg" />
+    <Content Include="Asset\img\product\20\03.jpg" />
+    <Content Include="Asset\img\product\20\04.jpg" />
+    <Content Include="Asset\img\product\20\05.jpg" />
+    <Content Include="Asset\img\product\21\01.jpg" />
+    <Content Include="Asset\img\product\21\02.jpg" />
+    <Content Include="Asset\img\product\21\03.jpg" />
+    <Content Include="Asset\img\product\21\04.jpg" />
+    <Content Include="Asset\img\product\21\05.jpg" />
+    <Content Include="Asset\img\product\22\01.jpg" />
+    <Content Include="Asset\img\product\22\02.jpg" />
+    <Content Include="Asset\img\product\22\03.jpg" />
+    <Content Include="Asset\img\product\22\04.jpg" />
+    <Content Include="Asset\img\product\22\05.jpg" />
+    <Content Include="Asset\img\product\23\01.jpg" />
+    <Content Include="Asset\img\product\23\02.jpg" />
+    <Content Include="Asset\img\product\23\03.jpg" />
+    <Content Include="Asset\img\product\23\04.jpg" />
+    <Content Include="Asset\img\product\23\05.jpg" />
+    <Content Include="Asset\img\product\24\01.jpg" />
+    <Content Include="Asset\img\product\24\02.jpg" />
+    <Content Include="Asset\img\product\24\03.jpg" />
+    <Content Include="Asset\img\product\24\04.jpg" />
+    <Content Include="Asset\img\product\24\05.jpg" />
+    <Content Include="Asset\img\product\25\01.jpg" />
+    <Content Include="Asset\img\product\25\02.jpg" />
+    <Content Include="Asset\img\product\25\03.jpg" />
+    <Content Include="Asset\img\product\25\04.jpg" />
+    <Content Include="Asset\img\product\25\05.jpg" />
+    <Content Include="Asset\img\product\26\01.jpg" />
+    <Content Include="Asset\img\product\26\02.jpg" />
+    <Content Include="Asset\img\product\26\03.jpg" />
+    <Content Include="Asset\img\product\26\04.jpg" />
+    <Content Include="Asset\img\product\26\05.jpg" />
+    <Content Include="Asset\img\product\27\01.jpg" />
+    <Content Include="Asset\img\product\27\02.jpg" />
+    <Content Include="Asset\img\product\27\03.jpg" />
+    <Content Include="Asset\img\product\27\04.jpg" />
+    <Content Include="Asset\img\product\27\05.jpg" />
+    <Content Include="Asset\img\product\28\01.jpg" />
+    <Content Include="Asset\img\product\28\02.jpg" />
+    <Content Include="Asset\img\product\28\03.jpg" />
+    <Content Include="Asset\img\product\28\04.jpg" />
+    <Content Include="Asset\img\product\28\05.jpg" />
+    <Content Include="Asset\img\product\29\01.jpg" />
+    <Content Include="Asset\img\product\29\02.jpg" />
+    <Content Include="Asset\img\product\29\03.jpg" />
+    <Content Include="Asset\img\product\29\04.jpg" />
+    <Content Include="Asset\img\product\29\05.jpg" />
+    <Content Include="Asset\img\product\2\01.jpg" />
+    <Content Include="Asset\img\product\2\02.jpg" />
+    <Content Include="Asset\img\product\2\03.jpg" />
+    <Content Include="Asset\img\product\2\04.jpg" />
+    <Content Include="Asset\img\product\2\05.jpg" />
+    <Content Include="Asset\img\product\30\01.jpg" />
+    <Content Include="Asset\img\product\30\02.jpg" />
+    <Content Include="Asset\img\product\30\03.jpg" />
+    <Content Include="Asset\img\product\30\04.jpg" />
+    <Content Include="Asset\img\product\30\05.jpg" />
+    <Content Include="Asset\img\product\31\01.jpg" />
+    <Content Include="Asset\img\product\31\02.jpg" />
+    <Content Include="Asset\img\product\31\03.jpg" />
+    <Content Include="Asset\img\product\31\04.jpg" />
+    <Content Include="Asset\img\product\31\05.jpg" />
+    <Content Include="Asset\img\product\32\01.jpg" />
+    <Content Include="Asset\img\product\32\02.jpg" />
+    <Content Include="Asset\img\product\32\03.jpg" />
+    <Content Include="Asset\img\product\32\04.jpg" />
+    <Content Include="Asset\img\product\32\05.jpg" />
+    <Content Include="Asset\img\product\33\01.jpg" />
+    <Content Include="Asset\img\product\33\02.jpg" />
+    <Content Include="Asset\img\product\33\03.jpg" />
+    <Content Include="Asset\img\product\33\04.jpg" />
+    <Content Include="Asset\img\product\33\05.jpg" />
+    <Content Include="Asset\img\product\34\01.jpg" />
+    <Content Include="Asset\img\product\34\02.jpg" />
+    <Content Include="Asset\img\product\34\03.jpg" />
+    <Content Include="Asset\img\product\34\04.jpg" />
+    <Content Include="Asset\img\product\34\05.jpg" />
+    <Content Include="Asset\img\product\35\01.jpg" />
+    <Content Include="Asset\img\product\35\02.jpg" />
+    <Content Include="Asset\img\product\35\03.jpg" />
+    <Content Include="Asset\img\product\35\04.jpg" />
+    <Content Include="Asset\img\product\35\05.jpg" />
+    <Content Include="Asset\img\product\36\01.jpg" />
+    <Content Include="Asset\img\product\36\02.jpg" />
+    <Content Include="Asset\img\product\36\03.jpg" />
+    <Content Include="Asset\img\product\36\04.jpg" />
+    <Content Include="Asset\img\product\36\05.jpg" />
+    <Content Include="Asset\img\product\37\01.jpg" />
+    <Content Include="Asset\img\product\37\02.jpg" />
+    <Content Include="Asset\img\product\37\03.jpg" />
+    <Content Include="Asset\img\product\37\04.jpg" />
+    <Content Include="Asset\img\product\37\05.jpg" />
+    <Content Include="Asset\img\product\38\01.jpg" />
+    <Content Include="Asset\img\product\38\02.jpg" />
+    <Content Include="Asset\img\product\38\03.jpg" />
+    <Content Include="Asset\img\product\38\04.jpg" />
+    <Content Include="Asset\img\product\38\05.jpg" />
+    <Content Include="Asset\img\product\39\01.jpg" />
+    <Content Include="Asset\img\product\39\02.jpg" />
+    <Content Include="Asset\img\product\39\03.jpg" />
+    <Content Include="Asset\img\product\39\04.jpg" />
+    <Content Include="Asset\img\product\39\05.jpg" />
+    <Content Include="Asset\img\product\3\01.jpg" />
+    <Content Include="Asset\img\product\3\02.jpg" />
+    <Content Include="Asset\img\product\3\03.jpg" />
+    <Content Include="Asset\img\product\3\04.jpg" />
+    <Content Include="Asset\img\product\3\05.jpg" />
+    <Content Include="Asset\img\product\40\01.jpg" />
+    <Content Include="Asset\img\product\40\02.jpg" />
+    <Content Include="Asset\img\product\40\03.jpg" />
+    <Content Include="Asset\img\product\40\04.jpg" />
+    <Content Include="Asset\img\product\40\05.jpg" />
+    <Content Include="Asset\img\product\41\01.jpg" />
+    <Content Include="Asset\img\product\41\02.jpg" />
+    <Content Include="Asset\img\product\41\03.jpg" />
+    <Content Include="Asset\img\product\41\04.jpg" />
+    <Content Include="Asset\img\product\41\05.jpg" />
+    <Content Include="Asset\img\product\42\01.jpg" />
+    <Content Include="Asset\img\product\42\02.jpg" />
+    <Content Include="Asset\img\product\42\03.jpg" />
+    <Content Include="Asset\img\product\42\04.jpg" />
+    <Content Include="Asset\img\product\42\05.jpg" />
+    <Content Include="Asset\img\product\43\01.jpg" />
+    <Content Include="Asset\img\product\43\02.jpg" />
+    <Content Include="Asset\img\product\43\03.jpg" />
+    <Content Include="Asset\img\product\43\04.jpg" />
+    <Content Include="Asset\img\product\43\05.jpg" />
+    <Content Include="Asset\img\product\44\01.jpg" />
+    <Content Include="Asset\img\product\44\02.jpg" />
+    <Content Include="Asset\img\product\44\03.jpg" />
+    <Content Include="Asset\img\product\44\04.jpg" />
+    <Content Include="Asset\img\product\44\05.jpg" />
+    <Content Include="Asset\img\product\45\01.jpg" />
+    <Content Include="Asset\img\product\45\02.jpg" />
+    <Content Include="Asset\img\product\45\03.jpg" />
+    <Content Include="Asset\img\product\45\04.jpg" />
+    <Content Include="Asset\img\product\45\05.jpg" />
+    <Content Include="Asset\img\product\46\01.jpg" />
+    <Content Include="Asset\img\product\46\02.jpg" />
+    <Content Include="Asset\img\product\46\03.jpg" />
+    <Content Include="Asset\img\product\46\04.jpg" />
+    <Content Include="Asset\img\product\46\05.jpg" />
+    <Content Include="Asset\img\product\47\01.jpg" />
+    <Content Include="Asset\img\product\47\02.jpg" />
+    <Content Include="Asset\img\product\47\03.jpg" />
+    <Content Include="Asset\img\product\47\04.jpg" />
+    <Content Include="Asset\img\product\47\05.jpg" />
+    <Content Include="Asset\img\product\48\01.jpg" />
+    <Content Include="Asset\img\product\48\02.jpg" />
+    <Content Include="Asset\img\product\48\03.jpg" />
+    <Content Include="Asset\img\product\48\04.jpg" />
+    <Content Include="Asset\img\product\48\05.jpg" />
+    <Content Include="Asset\img\product\49\01.jpg" />
+    <Content Include="Asset\img\product\49\02.jpg" />
+    <Content Include="Asset\img\product\49\03.jpg" />
+    <Content Include="Asset\img\product\49\04.jpg" />
+    <Content Include="Asset\img\product\49\05.jpg" />
+    <Content Include="Asset\img\product\4\01.jpg" />
+    <Content Include="Asset\img\product\4\02.jpg" />
+    <Content Include="Asset\img\product\4\03.jpg" />
+    <Content Include="Asset\img\product\4\04.jpg" />
+    <Content Include="Asset\img\product\4\05.jpg" />
+    <Content Include="Asset\img\product\50\01.jpg" />
+    <Content Include="Asset\img\product\50\02.jpg" />
+    <Content Include="Asset\img\product\50\03.jpg" />
+    <Content Include="Asset\img\product\50\04.jpg" />
+    <Content Include="Asset\img\product\50\05.jpg" />
+    <Content Include="Asset\img\product\51\01.jpg" />
+    <Content Include="Asset\img\product\51\02.jpg" />
+    <Content Include="Asset\img\product\51\03.jpg" />
+    <Content Include="Asset\img\product\51\04.jpg" />
+    <Content Include="Asset\img\product\51\05.jpg" />
+    <Content Include="Asset\img\product\52\01.jpg" />
+    <Content Include="Asset\img\product\52\02.jpg" />
+    <Content Include="Asset\img\product\52\03.jpg" />
+    <Content Include="Asset\img\product\52\04.jpg" />
+    <Content Include="Asset\img\product\52\05.jpg" />
+    <Content Include="Asset\img\product\53\01.jpg" />
+    <Content Include="Asset\img\product\53\02.jpg" />
+    <Content Include="Asset\img\product\53\03.jpg" />
+    <Content Include="Asset\img\product\53\04.jpg" />
+    <Content Include="Asset\img\product\53\05.jpg" />
+    <Content Include="Asset\img\product\54\01.jpg" />
+    <Content Include="Asset\img\product\54\02.jpg" />
+    <Content Include="Asset\img\product\54\03.jpg" />
+    <Content Include="Asset\img\product\54\04.jpg" />
+    <Content Include="Asset\img\product\54\05.jpg" />
+    <Content Include="Asset\img\product\55\01.jpg" />
+    <Content Include="Asset\img\product\55\02.jpg" />
+    <Content Include="Asset\img\product\55\03.jpg" />
+    <Content Include="Asset\img\product\55\04.jpg" />
+    <Content Include="Asset\img\product\55\05.jpg" />
+    <Content Include="Asset\img\product\56\01.jpg" />
+    <Content Include="Asset\img\product\56\02.jpg" />
+    <Content Include="Asset\img\product\56\03.jpg" />
+    <Content Include="Asset\img\product\56\04.jpg" />
+    <Content Include="Asset\img\product\56\05.jpg" />
+    <Content Include="Asset\img\product\57\01.jpg" />
+    <Content Include="Asset\img\product\57\02.jpg" />
+    <Content Include="Asset\img\product\57\03.jpg" />
+    <Content Include="Asset\img\product\57\04.jpg" />
+    <Content Include="Asset\img\product\57\05.jpg" />
+    <Content Include="Asset\img\product\58\01.jpg" />
+    <Content Include="Asset\img\product\58\02.jpg" />
+    <Content Include="Asset\img\product\58\03.jpg" />
+    <Content Include="Asset\img\product\58\04.jpg" />
+    <Content Include="Asset\img\product\58\05.jpg" />
+    <Content Include="Asset\img\product\59\01.jpg" />
+    <Content Include="Asset\img\product\59\02.jpg" />
+    <Content Include="Asset\img\product\59\03.jpg" />
+    <Content Include="Asset\img\product\59\04.jpg" />
+    <Content Include="Asset\img\product\59\05.jpg" />
+    <Content Include="Asset\img\product\5\01.jpg" />
+    <Content Include="Asset\img\product\5\02.jpg" />
+    <Content Include="Asset\img\product\5\03.jpg" />
+    <Content Include="Asset\img\product\5\04.jpg" />
+    <Content Include="Asset\img\product\5\05.jpg" />
+    <Content Include="Asset\img\product\60\01.jpg" />
+    <Content Include="Asset\img\product\60\02.jpg" />
+    <Content Include="Asset\img\product\60\03.jpg" />
+    <Content Include="Asset\img\product\60\04.jpg" />
+    <Content Include="Asset\img\product\60\05.jpg" />
+    <Content Include="Asset\img\product\61\02.jpg" />
+    <Content Include="Asset\img\product\62\02.jpg" />
+    <Content Include="Asset\img\product\63\02.jpg" />
+    <Content Include="Asset\img\product\6\01.jpg" />
+    <Content Include="Asset\img\product\6\02.jpg" />
+    <Content Include="Asset\img\product\6\03.jpg" />
+    <Content Include="Asset\img\product\6\04.jpg" />
+    <Content Include="Asset\img\product\6\05.jpg" />
+    <Content Include="Asset\img\product\7\01.jpg" />
+    <Content Include="Asset\img\product\7\02.jpg" />
+    <Content Include="Asset\img\product\7\03.jpg" />
+    <Content Include="Asset\img\product\7\04.jpg" />
+    <Content Include="Asset\img\product\7\05.jpg" />
+    <Content Include="Asset\img\product\8\01.jpg" />
+    <Content Include="Asset\img\product\8\02.jpg" />
+    <Content Include="Asset\img\product\8\03.jpg" />
+    <Content Include="Asset\img\product\8\04.jpg" />
+    <Content Include="Asset\img\product\8\05.jpg" />
+    <Content Include="Asset\img\product\9\01.jpg" />
+    <Content Include="Asset\img\product\9\02.jpg" />
+    <Content Include="Asset\img\product\9\03.jpg" />
+    <Content Include="Asset\img\product\9\04.jpg" />
+    <Content Include="Asset\img\product\9\05.jpg" />
+    <Content Include="Asset\img\product\10\01.jpg" />
+    <Content Include="Asset\img\product\10\02.jpg" />
+    <Content Include="Asset\img\product\10\03.jpg" />
+    <Content Include="Asset\img\product\10\04.jpg" />
+    <Content Include="Asset\img\product\10\05.jpg" />
+    <Content Include="Asset\js\bootstrap.min.js" />
+    <Content Include="Asset\js\jquery-3.3.1.min.js" />
+    <Content Include="Asset\js\jquery-ui.min.js" />
+    <Content Include="Asset\js\jquery.nice-select.min.js" />
+    <Content Include="Asset\js\jquery.slicknav.js" />
+    <Content Include="Asset\js\main.js" />
+    <Content Include="Asset\js\mixitup.min.js" />
+    <Content Include="Asset\js\owl.carousel.min.js" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\PagedList.css" />
+    <Content Include="favicon.ico" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="Content\Site.css" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Asset\fonts\ElegantIcons.eot" />
+    <Content Include="Asset\fonts\ElegantIcons.ttf" />
+    <Content Include="Asset\fonts\ElegantIcons.woff" />
+    <Content Include="Asset\fonts\fontawesome-webfont.eot" />
+    <Content Include="Asset\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Asset\fonts\fontawesome-webfont.woff" />
+    <Content Include="Asset\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Asset\fonts\FontAwesome.otf" />
+    <Content Include="Asset\sass\style.scss" />
+    <Content Include="Asset\sass\_base.scss" />
+    <Content Include="Asset\sass\_blog-details.scss" />
+    <Content Include="Asset\sass\_blog-sidebar.scss" />
+    <Content Include="Asset\sass\_blog.scss" />
+    <Content Include="Asset\sass\_breadcrumb.scss" />
+    <Content Include="Asset\sass\_checkout.scss" />
+    <Content Include="Asset\sass\_contact.scss" />
+    <Content Include="Asset\sass\_footer.scss" />
+    <Content Include="Asset\sass\_header.scss" />
+    <Content Include="Asset\sass\_hero.scss" />
+    <Content Include="Asset\sass\_home-page.scss" />
+    <Content Include="Asset\sass\_mixins.scss" />
+    <Content Include="Asset\sass\_responsive.scss" />
+    <Content Include="Asset\sass\_shop-details.scss" />
+    <Content Include="Asset\sass\_shop-grid.scss" />
+    <Content Include="Asset\sass\_shoping-cart.scss" />
+    <Content Include="Asset\sass\_sidebar.scss" />
+    <Content Include="Asset\sass\_variable.scss" />
+    <Content Include="Asset\Source\bootstrap-4.4.1-dist.zip" />
+    <Content Include="Asset\Source\font-awesome-4.7.0.zip" />
+    <Content Include="Asset\Source\jquery-nice-select-1.1.0.zip" />
+    <Content Include="Asset\Source\jquery-ui-1.12.1.zip" />
+    <Content Include="Asset\Source\OwlCarousel2-2.3.4.zip" />
+    <Content Include="Asset\Source\sass.zip" />
+    <Content Include="Asset\Source\SlickNav-master.zip" />
+    <Content Include="assets\css\atlantis.css.map" />
+    <Content Include="assets\fonts\flaticon\Flaticon.eot" />
+    <Content Include="assets\fonts\flaticon\Flaticon.ttf" />
+    <Content Include="assets\fonts\flaticon\Flaticon.woff" />
+    <Content Include="assets\fonts\flaticon\_flaticon.scss" />
+    <Content Include="assets\fonts\fontawesome\fa-brands-400.eot" />
+    <Content Include="assets\fonts\fontawesome\fa-brands-400.ttf" />
+    <Content Include="assets\fonts\fontawesome\fa-brands-400.woff" />
+    <Content Include="assets\fonts\fontawesome\fa-brands-400.woff2" />
+    <Content Include="assets\fonts\fontawesome\fa-regular-400.eot" />
+    <Content Include="assets\fonts\fontawesome\fa-regular-400.ttf" />
+    <Content Include="assets\fonts\fontawesome\fa-regular-400.woff" />
+    <Content Include="assets\fonts\fontawesome\fa-regular-400.woff2" />
+    <Content Include="assets\fonts\fontawesome\fa-solid-900.eot" />
+    <Content Include="assets\fonts\fontawesome\fa-solid-900.ttf" />
+    <Content Include="assets\fonts\fontawesome\fa-solid-900.woff" />
+    <Content Include="assets\fonts\fontawesome\fa-solid-900.woff2" />
+    <Content Include="assets\fonts\simple-line-icons\Simple-Line-Icons.eot" />
+    <Content Include="assets\fonts\simple-line-icons\Simple-Line-Icons.ttf" />
+    <Content Include="assets\fonts\simple-line-icons\Simple-Line-Icons.woff" />
+    <Content Include="assets\fonts\simple-line-icons\Simple-Line-Icons.woff2" />
+    <Content Include="assets\fonts\summernote\summernote.eot" />
+    <Content Include="assets\fonts\summernote\summernote.ttf" />
+    <Content Include="assets\fonts\summernote\summernote.woff" />
+    <Content Include="assets\img\img-shadow.gvdesign" />
+    <Content Include="assets\sass\atlantis.scss" />
+    <Content Include="assets\sass\atlantis\components\_activityfeed.scss" />
+    <Content Include="assets\sass\atlantis\components\_alerts.scss" />
+    <Content Include="assets\sass\atlantis\components\_avatars.scss" />
+    <Content Include="assets\sass\atlantis\components\_badges.scss" />
+    <Content Include="assets\sass\atlantis\components\_breadcrumbs.scss" />
+    <Content Include="assets\sass\atlantis\components\_buttons.scss" />
+    <Content Include="assets\sass\atlantis\components\_cards.scss" />
+    <Content Include="assets\sass\atlantis\components\_charts.scss" />
+    <Content Include="assets\sass\atlantis\components\_colorinputs.scss" />
+    <Content Include="assets\sass\atlantis\components\_dropdowns.scss" />
+    <Content Include="assets\sass\atlantis\components\_gutters.scss" />
+    <Content Include="assets\sass\atlantis\components\_imagecheck.scss" />
+    <Content Include="assets\sass\atlantis\components\_inputs.scss" />
+    <Content Include="assets\sass\atlantis\components\_listgroup.scss" />
+    <Content Include="assets\sass\atlantis\components\_loader.scss" />
+    <Content Include="assets\sass\atlantis\components\_maps.scss" />
+    <Content Include="assets\sass\atlantis\components\_modals.scss" />
+    <Content Include="assets\sass\atlantis\components\_navbars.scss" />
+    <Content Include="assets\sass\atlantis\components\_navsearch.scss" />
+    <Content Include="assets\sass\atlantis\components\_navtabs.scss" />
+    <Content Include="assets\sass\atlantis\components\_paginations.scss" />
+    <Content Include="assets\sass\atlantis\components\_popovers.scss" />
+    <Content Include="assets\sass\atlantis\components\_progress.scss" />
+    <Content Include="assets\sass\atlantis\components\_selectgroup.scss" />
+    <Content Include="assets\sass\atlantis\components\_sliders.scss" />
+    <Content Include="assets\sass\atlantis\components\_stamps.scss" />
+    <Content Include="assets\sass\atlantis\components\_tables.scss" />
+    <Content Include="assets\sass\atlantis\components\_timeline.scss" />
+    <Content Include="assets\sass\atlantis\plugins\_animate.scss" />
+    <Content Include="assets\sass\atlantis\plugins\_datatables.scss" />
+    <Content Include="assets\sass\atlantis\plugins\_jqueryscrollbar.scss" />
+    <Content Include="assets\sass\atlantis\plugins\_jqueryui.scss" />
+    <Content Include="assets\sass\atlantis\plugins\_sweetalert.scss" />
+    <Content Include="assets\sass\atlantis\_background.scss" />
+    <Content Include="assets\sass\atlantis\_components.scss" />
+    <Content Include="assets\sass\atlantis\_flaticon.scss" />
+    <Content Include="assets\sass\atlantis\_font-awesome.scss" />
+    <Content Include="assets\sass\atlantis\_layouts-colors.scss" />
+    <Content Include="assets\sass\atlantis\_layouts.scss" />
+    <Content Include="assets\sass\atlantis\_opacity.scss" />
+    <Content Include="assets\sass\atlantis\_outlinefocus.scss" />
+    <Content Include="assets\sass\atlantis\_plugins.scss" />
+    <Content Include="assets\sass\atlantis\_responsive-horizontal.scss" />
+    <Content Include="assets\sass\atlantis\_responsive.scss" />
+    <Content Include="assets\sass\atlantis\_typography.scss" />
+    <Content Include="assets\sass\atlantis\_variables.scss" />
+    <Content Include="Models\QL_BachHoa.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>QL_BachHoa.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\jquery-1.10.2.js" />
+    <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\respond.js" />
+    <Content Include="Scripts\respond.min.js" />
+    <Content Include="Scripts\_references.js" />
+    <Content Include="Content\Template\send1.html" />
+    <Content Include="Content\Template\send2.html" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Home\About.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Scripts\jquery-1.10.2.min.map" />
+    <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Shared\_MainLayout.cshtml" />
+    <Content Include="Views\Home\shop.cshtml" />
+    <Content Include="Views\Home\search.cshtml" />
+    <Content Include="Views\Home\LoaiSP.cshtml" />
+    <Content Include="Views\Shared\_Layout_admin.cshtml" />
+    <Content Include="Views\Home\Contact.cshtml" />
+    <Content Include="Views\Home\HuyDonHang.cshtml" />
+    <Content Include="Views\Home\XemChiTiet.cshtml" />
+    <Content Include="Views\Home\DaGiao.cshtml" />
+    <Content Include="Views\Home\ThemYeuThich.cshtml" />
+    <Content Include="Views\Home\xoaYeuThich.cshtml" />
+    <Content Include="Views\Home\yeuthich.cshtml" />
+    <Content Include="Views\Home\LocTheoGia.cshtml" />
+    <Content Include="Views\Home\cart.cshtml" />
+    <Content Include="Views\Home\checkout.cshtml" />
+    <Content Include="Views\Home\details.cshtml" />
+    <Content Include="Views\Home\GioHangPartial.cshtml" />
+    <Content Include="Views\Home\ThanhToanNganHang.cshtml" />
+    <Content Include="Views\Home\VnpayReturn.cshtml" />
+    <Content Include="Views\Home\LuuHoaDon.cshtml" />
+    <Content Include="Views\Home\updateKhachHang.cshtml" />
+    <Content Include="Views\Home\updateKH3.cshtml" />
+    <Content Include="Views\Shared\_HeaderNavBar.cshtml" />
+    <Content Include="Views\Admin\Trang_chu.cshtml" />
+    <Content Include="Views\Admin\TimKiemSP.cshtml" />
+    <Content Include="Views\Admin\SanPham.cshtml" />
+    <Content Include="Views\Admin\View_SP.cshtml" />
+    <Content Include="Views\Admin\Don_hang.cshtml" />
+    <Content Include="Views\Admin\ChiTiet.cshtml" />
+    <Content Include="Views\Admin\Update_TTDH.cshtml" />
+    <Content Include="Views\Admin\Huy_DH.cshtml" />
+    <Content Include="Views\Admin\Thong_Ke.cshtml" />
+    <Content Include="Views\Admin\UD_ThongKe.cshtml" />
+    <Content Include="Views\Admin\Update_DHDaGiao.cshtml" />
+    <Content Include="Views\TaiKhoan\DangKy.cshtml" />
+    <Content Include="Views\TaiKhoan\DangNhap.cshtml" />
+    <Content Include="Views\TaiKhoan\EditProfile.cshtml" />
+    <Content Include="Views\TaiKhoan\maOTP.cshtml" />
+    <Content Include="Views\TaiKhoan\Profile.cshtml" />
+    <Content Include="Views\Home\XemChiTietDT.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="packages.config" />
+    <None Include="Project_Readme.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Models\QL_BachHoa.dbml.layout">
+      <DependentUpon>QL_BachHoa.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>5050</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:5050/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>

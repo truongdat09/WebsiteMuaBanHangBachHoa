@@ -1,0 +1,212 @@
+﻿@using PagedList.Mvc;
+@using PagedList;
+@model IPagedList<MiniF4Store.Models.SANPHAM>
+@*@model IEnumerable<MiniF4Store.Models.View_SP>*@
+
+@{
+    ViewBag.Title = "TimKiemSP";
+    Layout = "~/Views/Shared/_Layout_admin.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.title </title>
+
+    <script src="assets/js/plugin/webfont/webfont.min.js"></script>
+    <script>
+        WebFont.load({
+            google: { "families": ["Lato:300,400,700,900"] },
+            custom: { "families": ["Flaticon", "Font Awesome 5 Solid", "Font Awesome 5 Regular", "Font Awesome 5 Brands", "simple-line-icons"], urls: ['assets/css/fonts.min.css'] },
+            active: function () {
+                sessionStorage.fonts = true;
+            }
+        });
+    </script>
+    <style>
+        .pagination a {
+            float: left;
+            padding: 8px 16px;
+            text-decoration: none;
+            transition: background-color .3s;
+        }
+
+            .pagination a.active {
+                font-weight: bold;
+                color: crimson;
+                border-radius: 5px;
+            }
+
+            .pagination a:hover:not(.active) {
+                background-color: #ddd;
+                border-radius: 5px;
+            }
+    </style>
+
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/atlantis.min.css">
+
+    <!-- CSS Just for demo purpose, don't include it in your project -->
+    <link rel="stylesheet" href="assets/css/demo.css">
+
+</head>
+<body>
+    <div>
+
+        <div class="page-inner">
+            <div class="page-header">
+                <h4 class="page-title">DANH SÁCH SẢN PHẨM</h4>
+                <ul class="breadcrumbs">
+                    <li class="separator">
+                        <i class="flaticon-right-arrow"></i>
+                    </li>
+                </ul>
+            </div>
+            <!--  -->
+            <div class="col-md-12">
+                <div class="card">
+                    @*<div class="card-header">
+                            <div class="d-flex align-items-center">
+                                <h4 class="card-title">Thêm mới</h4>
+                                <button class="btn btn-primary btn-round ml-auto" data-toggle="modal" data-target="#CauHoi_Modal">
+                                    <i class="fa fa-plus"></i>
+                                    <a href="admin_themSanPham.php" style="color: white">Thêm mới</a>
+                                </button>
+                                <form action="exportExcel.php" method="post">
+                                    <button name="btn_export" class="btn btn-warning link btn-round ml-auto">
+                                        Export Excel
+                                    </button>
+                                </form>
+                            </div>
+                        </div>*@
+                </div>
+                <!-- Thong bao -->
+                <script type="text/javascript">
+                    setTimeout(function () {
+                        var msg = document.getElementById("words")
+                        msg.parentNode.removeChild(msg)
+                    }, 2500)
+                </script>
+
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <div class="editfontth">
+                        </div><div id="basic-datatables_wrapper" class="dataTables_wrapper container-fluid dt-bootstrap4 no-footer">
+                            <div class="row">
+                                <div class="col-6"></div>
+                                <div class="col-6 text-right">
+                                    @using (Html.BeginForm("TimKiemSP", "Admin", FormMethod.Get, new { @class = "form-inline" }))
+                                    {
+                                        <div class="form-group">
+                                            <label>Tìm kiếm: </label>
+                                            <input type="Text" class="form-control mx-sm-4" value="@ViewBag.Keyword" name="searchString" placeholder="Nhập tên sản phẩm">
+                                            <input type="submit" class="btn btn-outline-info" value="Tìm kiếm">
+                                        </div><hr />
+                                    }
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <table id="basic-datatables" class="display table-striped table-hover dataTable no-footer" role="grid" aria-describedby="basic-datatables_info">
+                                        <thead>
+                                            <tr class="record" role="row">
+                                                @*<th class="sorting_asc" tabindex="0" aria-controls="basic-datatables" rowspan="1" colspan="1" aria-sort="ascending" style="width: 50px;">Mã nhóm hàng</th>*@
+                                                <th class="sorting" tabindex="0" aria-controls="basic-datatables" rowspan="1" colspan="1" style="width: 50px;">Mã sản phẩm</th>
+                                                <th class="sorting" tabindex="0" aria-controls="basic-datatables" rowspan="1" colspan="1" style="width: 200px;">Tên sản phẩm</th>
+                                                <th class="sorting" tabindex="0" aria-controls="basic-datatables" rowspan="1" colspan="1" style="width: 200px;">Khối lượng</th>
+                                                <th class="sorting" tabindex="0" aria-controls="basic-datatables" rowspan="1" colspan="1" style="width: 200px;">Giá</th>
+                                                <th class="sorting" tabindex="0" aria-controls="basic-datatables" rowspan="1" colspan="1" style="width: 200px;">Hình</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            @foreach (var item in Model)
+                                            {
+
+                                                <tr role="row" class="odd">
+                                                    @*<td class="sorting_1">@item.sanpham.MANH</td>*@
+                                                    <td>@item.MASP</td>
+
+                                                    <td>@item.TENSP</td>
+                                                    <td>@item.KHOILUONG</td>
+                                                    <td>@item.GIABAN</td>
+                                                    <td style="text-align: center;"><img src="../Asset/img/product/@item.MASP/02.jpg" width="40%"></td>
+
+                                                </tr>
+
+                                            }
+
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            @*<div class="row">
+                                <div class="col-sm-12 col-md-5">
+                                        <div class="dataTables_info" id="basic-datatables_info" role="status" aria-live="polite">Showing 1 to 10 of 100 entries</div>
+                                </div>
+                                <div class="col-sm-12 col-md-7">
+                                  <div class="dataTables_paginate paging_simple_numbers" id="basic-datatables_paginate">
+                                    <ul class="pagination">
+                                      <li class="paginate_button page-item previous disabled" id="basic-datatables_previous">
+                                        <a href="#" aria-controls="basic-datatables" data-dt-idx="0" tabindex="0" class="page-link">Previous</a>
+                                      </li>
+                                      <li class="paginate_button page-item active">
+                                        <a href="#" aria-controls="basic-datatables" data-dt-idx="1" tabindex="0" class="page-link">1</a>
+                                      </li>
+                                      <li class="paginate_button page-item ">
+                                        <a href="#" aria-controls="basic-datatables" data-dt-idx="2" tabindex="0" class="page-link">2</a>
+                                      </li>
+                                      <li class="paginate_button page-item ">
+                                        <a href="#" aria-controls="basic-datatables" data-dt-idx="3" tabindex="0" class="page-link">3</a>
+                                      </li>
+                                      <li class="paginate_button page-item ">
+                                        <a href="#" aria-controls="basic-datatables" data-dt-idx="4" tabindex="0" class="page-link">4</a>
+                                      </li>
+                                      <li class="paginate_button page-item "><a href="#" aria-controls="basic-datatables" data-dt-idx="5" tabindex="0" class="page-link">5</a></li><li class="paginate_button page-item disabled" id="basic-datatables_ellipsis"><a href="#" aria-controls="basic-datatables" data-dt-idx="6" tabindex="0" class="page-link">…</a></li><li class="paginate_button page-item "><a href="#" aria-controls="basic-datatables" data-dt-idx="7" tabindex="0" class="page-link">10</a></li><li class="paginate_button page-item next" id="basic-datatables_next"><a href="#" aria-controls="basic-datatables" data-dt-idx="8" tabindex="0" class="page-link">Next</a></li></ul></div></div></div>*@
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <center>
+        <div class="row">
+            <div class="col-sm-12 col-md-5">
+                @*<div class="dataTables_info" id="basic-datatables_info" role="status" aria-live="polite">Showing 1 to 10 of 100 entries</div>*@
+            </div>
+            <div class="col-sm-12 col-md-7">
+                <div class="dataTables_paginate paging_simple_numbers" id="basic-datatables_paginate">
+                    <ul class="pagination">
+                        @*<li class="paginate_button page-item previous disabled" id="basic-datatables_previous">
+                                <a href="#" aria-controls="basic-datatables" data-dt-idx="0" tabindex="0" class="page-link">Previous</a>
+                            </li>*@
+                        <li class="paginate_button page-item ">
+                            <a>
+                                @Html.PagedListPager(Model, page => Url.Action("SanPham",
+new { page, pageSize = 10 }))
+                            </a>
+
+
+                        </li>
+                        @*<li class="paginate_button page-item next" id="basic-datatables_next"><a href="#" aria-controls="basic-datatables" data-dt-idx="8" tabindex="0" class="page-link">Next</a></li>*@
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </center>
+
+</body>
+
+</html>
+
+
+
+
+

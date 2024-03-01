@@ -1,0 +1,184 @@
+﻿@model IEnumerable<MiniF4Store.Models.SANPHAM>
+@{
+    
+    ViewBag.Title = "Home";
+    string temp = "sdt_temp";
+    var u = Session["use"] as MiniF4Store.Models.KHACHHANG;
+    
+      
+}
+<section class="hero">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="hero__item set-bg" data-setbg="../Asset/img/hero/banner-1.png">
+                    
+                </div>
+               
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Categories Section Begin -->
+<section class="categories">
+    <div class="container">
+        <div class="row">
+            <div class="categories__slider owl-carousel">
+                <div class="col-lg-3">
+                    <div class="categories__item set-bg" data-setbg="../Asset/img/categories/qc-1.jpg">
+                       
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="categories__item set-bg" data-setbg="../Asset/img/categories/qc-2.jpg">
+                        
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="categories__item set-bg" data-setbg="../Asset/img/categories/qc-3.jpg">
+                        
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="categories__item set-bg" data-setbg="../Asset/img/categories/qc-4.jpg">
+                        
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="categories__item set-bg" data-setbg="../Asset/img/categories/qc-5.jpg">
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Categories Section End -->
+<!-- Featured Section Begin -->
+<section class="featured spad">
+    <div class="container">
+        <div class="col-lg-12 col-md-6">
+            <div class="product__discount">
+                <div class="section-title product__discount__title">
+                    <h2>Bán chạy</h2>
+                </div>
+             <div class="row">
+                <div class="product__discount__slider owl-carousel">
+                    
+                @foreach (var item in Model)
+                {
+                    <div class="col-lg-4">
+                        <div class="product__discount__item">
+                            <div class="product__discount__item__pic set-bg"
+                                 data-setbg="../Asset/img/product/@item.MASP/02.jpg">
+                                <div class="product__discount__percent">@item.LUOTBAN +</div>
+                                <ul class="product__item__pic__hover">
+                                    <li><a href="@Url.Action("ThemYeuThich", "Home", new { @ma = item.MASP, @strURL = Request.Url.ToString() }) "><i class="fa fa-heart"></i></a></li>
+                                    @*<li><a href="@Url.Action("ThemGioHang", "Home", new { @ma = item.MASP, @strURL = Request.Url.ToString() }) "><i class=" fa fa-shopping-cart"></i></a></li>*@
+                                    @if (u != null)
+                                    {
+                                        <li><a href="@Url.Action("ThemGioHang", "Home", new { ma = item.MASP, @sdt = u.SDT_KH, @strURL = Request.Url.ToString() })"><i class=" fa fa-shopping-cart"></i></a></li>
+                                    }
+                                    else
+                                    {
+                                        <li><a href="/TaiKhoan/DangNhap"><i class=" fa fa-shopping-cart"></i></a></li>
+                                    }
+                                    
+                                </ul>
+                            </div>
+                            <div class="product__discount__item__text">
+                                <h5><a href="@Url.Action("details", "Home", new { @ma = item.MASP })">@item.TENSP</a></h5>
+                                <div class="product__item__price">@item.GIABAN đ<span>@item.GIABAN</span></div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+   
+</div>
+
+    </div>
+</section>
+<!-- Featured Section End -->
+<!-- Banner Begin -->
+<div class="banner">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6">
+                <div class="banner__pic">
+                    <img src="../Asset/img/banner/banner.png" alt="">
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6">
+                <div class="banner__pic">
+                    <img src="../Asset/img/banner/banner.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Banner End -->
+<!-- Blog Section Begin -->
+<section class="from-blog spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-title from-blog__title">
+                    <h2>Có thể bạn chưa biết</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="blog__item">
+                    <div class="blog__item__pic">
+                        <img src="../Asset/img/banner/blog-1.jpg" alt="">
+                    </div>
+                    <div class="blog__item__text">
+                        <ul>
+                            <li><i class="fa fa-calendar-o"></i> May 4,2019</li>
+                            <li><i class="fa fa-comment-o"></i> 5</li>
+                        </ul>
+                        <h5><a href="#">Lợi ích khi uống sữa mỗi ngày</a></h5>
+                        <p>Sữa cung cấp protein, canxi, vitamin D. Canxi cần thiết để xây dựng,
+                         duy trì xương chắc khỏe, vitamin D giúp cơ thể hấp thụ canxi từ thực phẩm.
+                         Vì vậy, sữa là thực phẩm giúp cải thiện mật độ xương, giảm nguy cơ gãy xương ở người lớn tuổi.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="blog__item">
+                    <div class="blog__item__pic">
+                        <img src="../Asset/img/banner/blog-2.jpg" alt="">
+                    </div>
+                    <div class="blog__item__text">
+                        <ul>
+                            <li><i class="fa fa-calendar-o"></i> May 4,2019</li>
+                            <li><i class="fa fa-comment-o"></i> 5</li>
+                        </ul>
+                        <h5><a href="#">Lợi ích nào bạn sẽ nhận được khi uống nước ngọt có ga?</a></h5>
+                        <p>Ga hay là khí carbonic (CO2) trong nước ngọt có ga, được nhiều nghiên cứu khoa học chứng minh là thành phần đem lại nhiều lợi ích cho hệ tiêu hóa. Nó giúp giảm bớt cảm giác buồn nôn, đau bụng, hỗ trợ điều trị táo bón. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="blog__item">
+                    <div class="blog__item__pic">
+                        <img src="../Asset/img/banner/blog-3.jpg" alt="">
+                    </div>
+                    <div class="blog__item__text">
+                        <ul>
+                            <li><i class="fa fa-calendar-o"></i> May 4,2019</li>
+                            <li><i class="fa fa-comment-o"></i> 5</li>
+                        </ul>
+                        <h5><a href="#">Nên gội đầu mấy lần 1 tuần là tốt nhất?</a></h5>
+                        <p>Nếu da đầu của bạn thuộc loại bình thường, không quá dầu hoặc quá khô thì chỉ cần gội từ 1 - 2 lần mỗi tuần. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Blog Section End -->

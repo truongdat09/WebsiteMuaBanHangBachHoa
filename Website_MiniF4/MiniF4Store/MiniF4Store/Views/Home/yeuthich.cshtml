@@ -1,0 +1,68 @@
+﻿@model IEnumerable<MiniF4Store.Models.YeuThich>
+@{
+    ViewBag.Title = "yeuthich";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+<section class="breadcrumb-section set-bg" data-setbg="../Asset/img/hero/banner-1.png">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="breadcrumb__text">
+                    <h2>DANH SÁCH SẢN PHẨM YÊU THÍCH</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Breadcrumb Section End -->
+<!-- Shoping Cart Section Begin -->
+<section class="shoping-cart spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="shoping__cart__table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th class="shoping__product">Tên mặt hàng</th>
+                                <th>Giá</th>
+                                <th>Số lượng</th>
+
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td class="shoping__cart__item">
+                                        <img width="80px" src="../Asset/img/product/@item.MASP/02.jpg" />
+                                        <h5>@Html.DisplayFor(modelItem => item.TENSP)</h5>
+                                    </td>
+                                    <td class="shoping__cart__price">
+                                        <h5>@Html.DisplayFor(modelItem => item.GIABAN) đ</h5>
+                                    </td>
+                                    <td class="shoping__cart__price">
+                                        <h5>@Html.DisplayFor(modelItem => item.SOLUONG)</h5>
+                                    </td>
+
+
+                                    <td><a href="@Url.Action("details", new { @ma = item.MASP })"><p>Xem chi tiết</p></a></td>
+                                    <td class="shoping__cart__item__close">
+                                        <a href="@Url.Action("xoaYeuThich", new { @MaSP = item.MASP})">
+                                            <span class="icon_close"></span>
+                                        </a>
+                                    </td>
+                                </tr>
+                            }
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-- Shoping Cart Section End -->

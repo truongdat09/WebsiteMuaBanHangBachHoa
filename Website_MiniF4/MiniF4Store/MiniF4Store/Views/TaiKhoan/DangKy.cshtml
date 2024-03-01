@@ -1,0 +1,129 @@
+﻿@model MiniF4Store.Models.DangKyModel
+
+@{
+    ViewBag.Title = "DangKy";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+<h2 style="text-align:center">ĐĂNG KÝ</h2>
+<section class="container">
+    @using (Html.BeginForm("DangKy", "TaiKhoan", FormMethod.Post))
+    {
+        @Html.AntiForgeryToken()
+        @ViewBag.kq
+        <div class="form-horizontal">
+            <hr />   
+            <h4>Đăng Ký Thông Tin Tài Khoản</h4> 
+            <br />        
+            @Html.ValidationSummary(true)
+            <div class="form-group">
+                <label for="Email" style="color: red;">*</label>
+                <i class="fa fa-user"></i>@Html.LabelFor(model => model.Email, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-12">
+                    @Html.TextBoxFor(model => model.Email, new { id = "Email", placeholder = "Nhập Email của bạn...", @class = "form-control" })
+                    <p style="color:red;">@Html.ValidationMessageFor(model => model.Email)</p>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="Email" style="color: red;">*</label>
+                <i class="fa fa-lock"></i>@Html.LabelFor(model => model.Password, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-12">
+                    @Html.PasswordFor(model => model.Password, new { id = "password", placeholder = "Nhập mật khẩu...", @class = "form-control" })
+                    <p style="color:red;">@Html.ValidationMessageFor(model => model.Password)</p>
+                </div>
+            </div>
+            &nbsp;&nbsp;<input type="checkbox" id="showPassword"> Hiện mật khẩu
+            <br />
+            <br />
+            <div class="form-group">
+                <label for="Email" style="color: red;">*</label>
+                <i class="fa fa-lock"></i>@Html.LabelFor(model => model.ConfirmPassword, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-12">
+                    @Html.PasswordFor(model => model.ConfirmPassword, new {id="repass", placeholder = "Xác nhận lại mật khẩu...", @class = "form-control" })
+                    <p style="color:red;">@Html.ValidationMessageFor(model => model.ConfirmPassword)</p>
+                </div>
+            </div>
+            &nbsp;&nbsp;<input type="checkbox" id="repassword"> Hiện mật khẩu
+            <br />
+            <br />
+            <div class="form-group">
+                <label for="Email" style="color: red;">*</label>
+                <i class="fa fa-newspaper-o"></i>@Html.LabelFor(model => model.Name, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-12">
+                    @Html.TextBoxFor(model => model.Name, new { id = "Name", placeholder = "Nhập họ tên...", @class = "form-control" })
+                    <p style="color:red;">@Html.ValidationMessageFor(model => model.Name)</p>
+                </div>
+            </div>
+
+            <div class="form-group">
+                &nbsp;<i class="fa fa-address-book-o"></i>@Html.LabelFor(model => model.Address, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-12">
+                    @Html.TextBoxFor(model => model.Address, new { id = "Address", placeholder = "Nhập địa chỉ...", @class = "form-control" })
+                    <p style="color:red;">@Html.ValidationMessageFor(model => model.Address)</p>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="Email" style="color: red;">*</label>
+                <i class="fa fa-phone"></i>&nbsp;@Html.LabelFor(model => model.PhoneNumber, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-12">
+                    @Html.TextBoxFor(model => model.PhoneNumber, new { id = "PhoneNumber", placeholder = "Nhập số điện thoại...", @class = "form-control" })
+                    <p style="color:red;">@Html.ValidationMessageFor(model => model.PhoneNumber)</p>
+                </div>
+            </div>
+            <hr />
+            <h4>Đăng Ký Thông Tin Nhận Hàng</h4>
+            <br />
+            <div class="form-group">
+                <label for="Email" style="color: red;">*</label>
+                <i class="fa fa-newspaper-o"></i>&nbsp;@Html.LabelFor(model => model.TEN_NHANHANG, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-12">
+                    @Html.TextBoxFor(model => model.TEN_NHANHANG, new {placeholder = "Nhập họ tên người nhận hàng...", @class = "form-control" })
+                    <p style="color:red;">@Html.ValidationMessageFor(model => model.TEN_NHANHANG)</p>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="Email" style="color: red;">*</label>
+                <i class="fa fa-phone"></i>&nbsp;@Html.LabelFor(model => model.SDT_NHANHANG, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-12">
+                    @Html.TextBoxFor(model => model.SDT_NHANHANG, new {placeholder = "Nhập số điện thoại nhận hàng...", @class = "form-control" })
+                    <p style="color:red;">@Html.ValidationMessageFor(model => model.SDT_NHANHANG)</p>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="Email" style="color: red;">*</label>
+                &nbsp;<i class="fa fa-address-book-o"></i>@Html.LabelFor(model => model.DIACHI_NHANHANG, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-12">
+                    @Html.TextBoxFor(model => model.DIACHI_NHANHANG, new { placeholder = "Nhập địa chỉ nhận hàng...", @class = "form-control" })
+                    <p style="color:red;">@Html.ValidationMessageFor(model => model.DIACHI_NHANHANG)</p>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input id="a" type="submit" value="Đăng ký" class="site-btn" />
+                </div>
+            </div>
+        </div>
+    }
+    <a style="color: #80ac3c;" href="/TaiKhoan/DangNhap">[Bạn đã có tài khoản?] Đăng nhập ngay</a>
+    
+    <br />
+    <hr />
+    <br />
+</section>
+<script>
+    var kqMessage = '@ViewBag.Message';
+    if (kqMessage) {
+        alert(kqMessage);
+    }
+    var passwordField = document.getElementById("password");
+    var showPasswordCheckbox = document.getElementById("showPassword");
+    showPasswordCheckbox.addEventListener("change", function () {
+        passwordField.type = this.checked ? "text" : "password";
+    });
+    var passwordField2 = document.getElementById("repass");
+    var showPasswordCheckbox2 = document.getElementById("repassword");
+    showPasswordCheckbox2.addEventListener("change", function () {
+        passwordField2.type = this.checked ? "text" : "password";
+    });
+</script>

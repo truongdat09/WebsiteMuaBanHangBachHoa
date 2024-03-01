@@ -1,0 +1,163 @@
+﻿@using PagedList.Mvc;
+@using PagedList;
+@model IPagedList<MiniF4Store.Models.SANPHAM>
+@{
+    ViewBag.Title = "shop";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+    var u = Session["use"] as MiniF4Store.Models.KHACHHANG;
+}
+<style>
+
+    .pagination a {
+        float: left;
+        padding: 8px 16px;
+        text-decoration: none;
+        transition: background-color .3s;
+    }
+
+    .pagination a.active {
+        font-weight: bold;
+        color: crimson;
+        border-radius: 5px;
+    }
+
+    .pagination a:hover:not(.active) {
+        background-color: #ddd;
+        border-radius: 5px;
+    }
+</style>
+
+<!-- Breadcrumb Section Begin -->
+<section class="breadcrumb-section set-bg" data-setbg="../Asset/img/hero/banner-1.png">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="breadcrumb__text">
+                    <h2>MiniF4 |Store</h2>
+                    <div class="breadcrumb__option">
+                        @Html.ActionLink("Home", "Index", "Home")
+                        <span>Shop</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Breadcrumb Section End -->
+<!-- Product Section Begin -->
+<section class="product spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-5">
+                <div class="sidebar">
+
+                    @*<div class="sidebar__item">
+                        <h4>Giá</h4>
+                        <div class="price-range-wrap">
+                            <div class="price-range ui-slider ui-corner-all ui-slider-horizontal ui-widget ui-widget-content"
+                                 data-min="0" data-max="500">
+                                <div class="ui-slider-range ui-corner-all ui-widget-header"></div>
+                                <span tabindex="0" class="ui-slider-handle ui-corner-all ui-state-default"></span>
+                                <span tabindex="0" class="ui-slider-handle ui-corner-all ui-state-default"></span>
+                            </div>
+                            <div class="range-slider">
+                                <div class="price-input">
+                                    <input type="text" id="minamount">
+                                    <input type="text" id="maxamount">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                     Lọc theo giá 
+                    <button type="button" class="btn btn-primary">
+                        <a href="@Url.Action("LocTheoGia", "Home", new { @min = 0, max = 50000 })"><p style="color:white">Lọc</p></a>
+                    </button>*@
+                   
+
+                    <div class="sidebar__item">
+                        <div class="latest-product__text">
+                            <h4>Bán chạy</h4>
+                            <div class="latest-product__slider owl-carousel">
+                                @foreach (var item in Model)
+                                {
+                                    if (@item.LUOTBAN > 70)
+                                    {
+                                        <div class="latest-prdouct__slider__item">
+                                            <a href="#" class="latest-product__item">
+                                                <div class="latest-product__item__pic">
+                                                    <img src="../Asset/img/product/@item.MASP/02.jpg" alt="">
+                                                </div>
+                                                <div class="latest-product__item__text">
+                                                    @if (u != null)
+                                                    {
+                                                         <h6><a href="@Url.Action("details", "Home", new { @ma = item.MASP })">@item.TENSP</a></h6>
+                                                         <span>@item.GIABAN đ</span>
+                                                    }
+                                                    else
+                                                    {
+                                                         <h6><a href="/TaiKhoan/DangNhap">@item.TENSP</a></h6>
+                                                          <span>@item.GIABAN đ</span>
+                                                    }
+                                                   
+                                                </div>
+                                            </a>
+
+                                        </div>
+                                    }
+
+                                }
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-9 col-md-7">
+               
+                <div class="filter__item">
+                    <div class="row">
+                        <div class="col-lg-9 col-md-7">
+                            @*<div class="filter__sort">
+                                <span>Sắp xếp</span>
+                                <select>
+                                    <option class="action" value="1">Tăng dần</option>
+                                    <option value="2">Giảm dần</option>
+                                </select>
+                            </div>*@
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="row">
+
+                        @foreach (var item in Model)
+                        {
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="product__item">
+                                    <div class="featured__item__pic set-bg" data-setbg="../Asset/img/product/@item.MASP/02.jpg">
+                                        <ul class="featured__item__pic__hover">
+                                            <li><a href="@Url.Action("details", "Home", new { @ma = item.MASP })"><i class="fa fa-heart"></i></a></li>
+                                            <li><a href="@Url.Action("ThemGioHang", "Home", new { @ma = item.MASP })"><i class="fa fa-shopping-cart"></i></a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="featured__item__text">
+                                        <h6><a href="@Url.Action("details", "Home", new { @ma = item.MASP })">@item.TENSP</a></h6>
+                                        <h5>@item.GIABAN đ</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                        
+
+                    </div>
+                <div class="pagination">
+                    <a>@Html.PagedListPager(Model, page => Url.Action("shop",
+new { page, pageSize = 9 }))
+                    </a>
+
+                </div>
+                </div>
+            </div>
+        </div>
+</section>
+<!-- Product Section End -->

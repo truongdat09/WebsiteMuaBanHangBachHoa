@@ -1,0 +1,40 @@
+﻿@model IEnumerable<MiniF4Store.Models.SANPHAM>
+    @{
+        ViewBag.Title = "LocTheoGia";
+        Layout = "~/Views/Shared/_MainLayout.cshtml";
+    }
+@if (Model != null && Model.Count() > 0)
+{
+    <div class="row featured__filter">
+        @foreach (var item in Model)
+        {
+
+            <div class="col-lg-3 col-md-4 col-sm-6 mix">
+                <div class="featured__item">
+
+                    <div class="featured__item__pic set-bg" data-setbg="../Asset/img/product/@item.MASP/02.jpg">
+                        <ul class="featured__item__pic__hover">
+                            <li><a href="@Url.Action("ThemYeuThich", "Home", new { @ma = item.MASP, @strURL = Request.Url.ToString() }) "><i class="fa fa-heart"></i></a></li>
+                            <li><a href="@Url.Action("ThemGioHang", "Home", new { @ma = item.MASP, @strURL = Request.Url.ToString() })"><i class="fa fa-shopping-cart"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="featured__item__text">
+                        <h6><a href="@Url.Action("details", "Home", new { @ma = item.MASP })">@item.TENSP</a></h6>
+                        <h5>@item.GIABAN</h5>
+                    </div>
+                </div>
+
+
+            </div>
+        }
+
+
+
+    </div>
+}
+else
+{
+    <h3>Có đâu mà tìm =))</h3>
+}
+
+

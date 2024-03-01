@@ -1,0 +1,135 @@
+﻿@model MiniF4Store.Models.DangNhapModel
+
+@{
+    ViewBag.Title = "DangNhap";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+<style>
+    .custom-dialog {
+        position: fixed;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        border:1px solid black;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        padding: 30px; /* Tăng giá trị padding để làm cho hộp thoại lớn hơn */
+        z-index: 1000;
+        max-width: 600px; /* Tăng giá trị max-width để làm cho hộp thoại lớn hơn */
+        text-align: center;}
+    .custom-dialog p {
+        font-size: 18px;
+        margin-bottom: 10px;
+        color:black;}
+    .custom-dialog-close {
+        background: #333;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        cursor: pointer;}
+    .custom-dialog-close:hover {
+        background: #555;}
+</style>
+<h2 style="text-align:center">Đăng nhập tài khoản</h2>
+@if (ViewBag.thanhcong != null)
+{
+    if (ViewBag.thanhcong == true)
+    {
+        <div class="alert alert-success">@ViewBag.thongbao</div>
+    }
+}
+@if (ViewBag.ktra != null)
+{
+    if (ViewBag.ktra == true)
+    {
+        <div class="alert alert-success">@ViewBag.thanhcongnhe</div>
+    }
+}
+<section class="container">
+    @using (Html.BeginForm("DangNhap", "TaiKhoan", FormMethod.Post))
+    {
+        @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <hr />
+        @Html.ValidationSummary(true)
+
+        <div class="form-group">
+            <label for="Email" style="color: red;">*</label>
+            <i class="fa fa-user"></i>@Html.LabelFor(model => model.userMail, new { @class = "control-label col-md-2" })
+            <div class="col-md-12">
+                <p style="color:red;">@ViewData["Loi1"]</p>
+                @Html.TextBoxFor(model => model.userMail, new { placeholder = "Nhập tài khoản...", @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.userMail)
+            </div>
+            <p style="color:red;">@ViewBag.FailEmail</p>
+        </div>
+
+        <div class="form-group">
+            <label for="Email" style="color: red;">*</label>
+            <i class="fa fa-lock"></i>@Html.LabelFor(model => model.password, new { @class = "control-label col-md-2" })
+            <div class="col-md-12">
+                <p style="color:red">@ViewData["Loi2"]</p>
+                @Html.PasswordFor(model => model.password, new { id = "password", placeholder = "Nhập mật khẩu...", @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.password)
+            </div>
+            <p style="color:red;">@ViewBag.FailPass</p>
+        </div>
+        <input type="checkbox" id="showPassword"> Hiện mật khẩu        
+        <br />
+        <br />
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="đăng nhập" class="site-btn" />
+            </div>
+        </div>
+    </div>
+    }
+    <a style="color: #80ac3c;" href="/TaiKhoan/DangKy">[Bạn chưa có tài khoản?] Đăng ký ngay</a>
+    <br />
+    <hr />
+    <br />
+</section>
+<script>
+    var flashing = false;
+    function showDialog(message) {
+    var dialog = document.createElement("div");
+    dialog.className = "custom-dialog";
+    var messageElement = document.createElement("p");
+    messageElement.textContent = message;
+    var closeButton = document.createElement("button");
+    closeButton.textContent = "Đóng";
+    closeButton.className = "custom-dialog-close";
+    closeButton.addEventListener("click", function () {
+        document.body.removeChild(dialog);
+    });
+    dialog.appendChild(messageElement);
+    dialog.appendChild(closeButton);
+    document.body.appendChild(dialog);
+    flashing = true;
+    var backgroundColors = ["white", "#80ac3c"];
+    var colorIndex = 0;
+    function flashBackground() {
+        if (flashing) {
+            dialog.style.background = backgroundColors[colorIndex];
+            colorIndex = 1 - colorIndex;
+            setTimeout(flashBackground, 200);
+        }
+    }
+    flashBackground();
+    setTimeout(function() {
+        flashing = false;
+        document.body.removeChild(dialog);
+    }, 10000);
+    }
+    var passwordField = document.getElementById("password");
+    var showPasswordCheckbox = document.getElementById("showPassword");
+    showPasswordCheckbox.addEventListener("change", function () {
+        passwordField.type = this.checked ? "text" : "password";
+    });
+var kqMessage = '@ViewBag.Fail';
+if (kqMessage) {
+    showDialog(kqMessage);
+}
+</script>
